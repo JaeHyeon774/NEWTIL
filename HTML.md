@@ -68,9 +68,22 @@
 
 ---
 
-<h2 text-align:center> form요소의 중요속성 </h2>
+* Font
 
+  * font-size는 **px(19px), pt(12pt), cm(13cm), %(100%)**등의 단위로 지정하거나 xx-small, x-small, **medium(기본값)**, large, x-large, xx-large 로 사용할 수 있음. *( **()** 안의 값은 기본값.)*
 
+* 테그에 id 혹은 class 명을 지정하여 그 id 혹은 class에만 CSS를 적용할 수 있다.*(.class명, #id명)*
+
+  ```html
+  <style>
+  	p#p01 {	color: blue;	}
+      p.error {	color:red;	}
+  </style>
+  <body>
+      <p id="p01">I am different.</p>
+      <p class="error">I am different too.</p>
+  </body>
+  ```
 
 
 
