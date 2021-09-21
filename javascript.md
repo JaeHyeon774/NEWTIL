@@ -5,7 +5,7 @@
 * JavaScript
   * HTML과 Server Script(Back-end) 사이에서 접속자의 마우스 클릭, 키보드 입력등 이벤트 처리를 주로 담당.
     * 출력(HTML+CSS) <---> 동작/이벤트(Javascript) <---> 데이터베이스 접속 처리(백앤드)
-  * **<body>**에 **<script>**태그를 사용하여 javascript 작성 or  **<head>**태그사이에 **<script src = "~~.js">**태그를 사용하여 javascript 작성!
+  * `<body>`에` <script>`태그를 사용하여 javascript 작성 or  `<head>`태그사이에 `<script src = "~~.js">`태그를 사용하여 javascript 작성!
 
 * 변수 선언
 
