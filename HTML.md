@@ -19,18 +19,18 @@
 
 * Headings
 
-  * **<h1>** ~ **<h6>**까지 있음.
+  * `<h1>` ~ `<h6>`까지 있음.
   * h1에 가장 중요한것을 작성 숫자가 작을 수록 중요도는 DOWN 크기 또한 DOWN
 
 * Paragraph
 
-  * **<p>**은 문단을 나타니며, 브라우저는 문단의 앞, 뒤에 자동으로 빈줄을 추가한다.
+  * `<p>`은 문단을 나타니며, 브라우저는 문단의 앞, 뒤에 자동으로 빈줄을 추가한다.
 
 * Styling
 
   * 테그의 **<>**안에 `style="property:value"` 형식으로 작성
 
-  * **<p style="color : cyan">p테그 안의 글씨 색을 cyan 으로 설정</p>**
+  * `<p style="color : cyan">`p테그 안의 글씨 색을 cyan 으로 설정`</p>`
 
   * <p style="color : cyan">p테그 안의 글씨 색을 cyan 으로 설정</p>
 
