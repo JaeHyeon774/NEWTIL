@@ -62,7 +62,22 @@
       </head>
       ```
 
-      
+* TABLE
+
+| Tag     | Description |
+| ------- | ----------- |
+| <table> |             |
+|         |             |
+|         |             |
+|         |             |
+|         |             |
+|         |             |
+|         |             |
+|         |             |
+|         |             |
+|         |             |
+
+
 
 <h2 style = color:peru>CSS</h2>
 
@@ -85,7 +100,20 @@
   </body>
   ```
 
+* link & image
 
+  * a태그 안에 가고자 하는 html을 작성하고 a태그를 클릭하면 작성해놨던 html로 이동.
+
+  * image는 img태그 안에 이미지이름을 작성하고 alt에는 이미지가 출력되지 않았을때 나올 문구를 작성한다. style또한 지정이 가능!
+
+    ```html
+    <!--link.html-->
+    <a href="ex.01.html" target="_blank">HTML Images</a>
+    <!--image.html-->
+    <img src="pic_mountain.jpg" alt="Mountain View" style="width:304px;height:288px">
+    ```
+
+    
 
 ## emmet
 
