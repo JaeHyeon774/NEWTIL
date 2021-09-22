@@ -64,20 +64,41 @@
 
 * TABLE
 
-|   Tag    | Description                                                  |
-| :------: | ------------------------------------------------------------ |
-|  table   | Defines a table                                              |
-|    th    | Defines a header cell in a table                             |
-|    tr    | Defines a row in a table                                     |
-|    td    | Defines a cell in a table                                    |
-| caption  | Defines a table caption                                      |
-| colgroup | Specifies a group of one or more columns in a table for formatting |
-|   col    | Specifies column properties for each column within a colgroup element |
-|  thead   | Groups the header content in a table                         |
-|  tbody   | Groups the body content in a table                           |
-|  tfoot   | Groups the footer content in a table                         |
+|     Tag      | Description                                                  |
+| :----------: | ------------------------------------------------------------ |
+|  `<table>`   | 테이블을 정의                                                |
+|    `<th>`    | 테이블의 헤더를 정의                                         |
+|    `<tr>`    | 테이블의 행을 정의                                           |
+|    `<td>`    | 테이블의 열을 정의                                           |
+| `<caption>`  | 테이블의 캡션을 정의 (테이블에 대한 설명)                    |
+| `<colgroup>` | 서식 지정을 위해 하나 이상의 열을 그룹으로 묶을 때 사용<br />`<colgroup span="2" style="background-color: lightpink"></colgroup>` |
+|   `<col>`    | colgroup요소에 속하는 각 열(column)의 속성을 정의할때 사용<br />`<colgroup><br /><col style="background-color: lightgreen"><br /><col span="2" style="background-color: yellow"><br /></colgroup>` |
+|  `<thead>`   | Groups the header content in a table                         |
+|  `<tbody>`   | Groups the body content in a table                           |
+|  `<tfoot>`   | Groups the footer content in a table                         |
 
-​	
+* **[테이블 공부](http://tcpschool.com/html-tags/colgroup)**
+
+* 테이블에 border 속성 적용
+
+  ```html
+  <table border="1" style="width:100%">
+      <!--테이블 내용 작성-->
+  </table>
+  ```
+
+  * Style로 border 속성 적용
+
+  ```html
+  <style>
+      table, th, td {
+          border : 1px solid black;
+          width : 100%;
+      }
+  </style>
+  ```
+
+  
 
 <h2 style = color:peru>CSS</h2>
 
