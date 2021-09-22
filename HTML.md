@@ -72,7 +72,7 @@
 |    `<td>`    | 테이블의 열을 정의                                           |
 | `<caption>`  | 테이블의 캡션을 정의 (테이블에 대한 설명)                    |
 | `<colgroup>` | 서식 지정을 위해 하나 이상의 열을 그룹으로 묶을 때 사용<br />`<colgroup span="2" style="background-color: lightpink"></colgroup>` |
-|   `<col>`    | colgroup요소에 속하는 각 열(column)의 속성을 정의할때 사용<br />`<colgroup><br /><col style="background-color: lightgreen"><br /><col span="2" style="background-color: yellow"><br /></colgroup>` |
+|   `<col>`    | colgroup요소에 속하는 각 열(column)의 속성을 정의할때 사용<br />`<colgroup>`<br />`<col style="background-color: lightgreen">`<br />`<col span="2" style="background-color: yellow">`<br />`</colgroup>` |
 |  `<thead>`   | Groups the header content in a table                         |
 |  `<tbody>`   | Groups the body content in a table                           |
 |  `<tfoot>`   | Groups the footer content in a table                         |
