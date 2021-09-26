@@ -267,7 +267,59 @@
 
 *자바스크립트는 '-' 를 식별자에 사용할 수 없으므로 -로 연결된 단어의 첫 글자를 대문자로 작성하다.*
 
+* 속성 조작
 
+|              메서드              | 설명      |
+| :------------------------------: | :-------- |
+| setAttribute(속성 이름, 속성 값) | 속성 지정 |
+|     getAttribute(속성 이름)      | 속성 추출 |
+
+* 속성 조작 종류
+
+  * 이미지 조작
+
+    * img(이미지)태그는 src(주소?)속성, width(너비)속성, height(높이)속성을 가지고 있다.
+
+    ```javascript
+    window.onload = function () {
+    	let image = document.getElementById('image');
+        image.src = 'hhtps://placehold.it/300x200';
+        image.width = 300;
+        image.height = 200;
+    };
+    ```
+
+  * body 태그 속성 조작
+
+    * body 태그에서 data-custom 속성을 지정한 후 속성을 다시 추출해서 출력한다.
+
+    ```javascript
+    window.onload = function () {
+        document.body.setAttribute('data-custom', 'value');
+        let dataCustom = document.body.getAttribute('data-custom');
+        alert(dataCustom);
+    };
+    ```
+
+* 시간 표시
+
+  ```javascript
+  <head>
+      <script>
+      	window.onload = function () {
+      		let clock = document.getElementById('clock');
+      
+      		setInterval(function () { let now = new Date();
+                           clock.innerHTML = now.toString();}, 1000);
+  		}
+      </script>
+  </head>
+  <body>
+      <h1 id='clock'></h1>
+  </body>
+  ```
+
+  
 
 ## Event 처리
 
