@@ -110,13 +110,59 @@
 ---
 
 * 객체는 자료형 여러개를 한 번에 저장한다.
+
 * 자바스크립트에서 거의 모든것이 객체이다.
+
 * 배열도 객체의 타입으로 인식할 만큼 객체와 유사하다.
+
 * 다른점이 있다면 배열은 인덱스와 요소가 있고, 객체는 이름과 값이 있다.
+
 * 이름의 키를 사용하여 객체의 값에 접근한다.
+
 * 객체는 배열처럼 하나 이상의 값을 가질 수 있다.
 
+* **배열은 요소에 접근할 때 인덱스를 사용**하지만, **객체는 키를 사용**하여 접근한다.
 
+* 객체 생성 예
+
+  ```JAVASCRIPT
+  let pruoduct = {
+      제품명 : '7D 건조 망고',
+      유형 : '당절임',
+      성분 : '망고, 설탕, 메타중아산황나트륨, 치자황색소',
+      원산지 : '필리핀'
+  };
+  ```
+
+* 객체 속성 접근 예-1
+
+  ```javascript
+  product['제품명']
+  product['유형']
+  product['성분']
+  product['원산지']
+  ```
+
+* 객체 속성 접근 예-2
+
+  ```javascript
+  product.제품명
+  product.유형
+  product.성분
+  product.원산지
+  ```
+
+* for in 반복문을 사용하여 객체 요소를 하나씩 살펴 볼 수 있다.
+
+  * `for (let 키 in 객체 { 문장 })`
+
+  ```javascript
+  for(let i in product){
+      document.write(`${i} : ${product[i]}<br>`);
+  }
+  ```
+
+  
 
 ## 속성과 메소드
 
@@ -126,6 +172,8 @@
 * 객채의 속성중 자료의 처리하는 속성을 메소드라고 부른다.
 * 메소드 내에서 자신의 속성을 출력하고 싶을 때는 this 키워드를 사용한다.
 
+
+
 ## 프로토타입
 
 ---
@@ -133,12 +181,74 @@
 * 생성자 함수로 생성된 객체가 공통으로 가지는 공간이다.
 * 
 
-## DOM
+## DOM(Document Object Model), 문서 객체 모델
 
 ---
 
-* DOM은 구조화된 nodes와 property와 method를 갖고 있는 objects로 문서를 표현한다.
-* 
+* 문서 객체 모델을 조작할 수 있다. 즉 태그를 조작할 수 있다.
+
+* 웹페이지의 실행 순서*(HTML코드를 위쪽에서 아래로 읽는다.)*
+
+  ```javascript
+  <script>
+      document.querySelector('h1').style.backgroundColor = 'red';
+  </script>
+  <body>
+      <h1>Process - 1</h1>
+  </body>
+  ```
+
+  * 위에서 부터 읽어오기 때문에 오류가 발생한다. 아직 h1태그가 존재하지 않기 때문에 null에서 style 속성을 읽을 수 없다는 에러 메시지가 뜬다.
+
+  ```javascript
+  <body>
+      <h1>Process - 1</h1>
+      <script>
+          document.querySelector('h1').style.backgroundColor = 'red';
+      </script>
+  </body>
+  ```
+
+  * 스크립트를 아래로 내리면 에러가 사라지지만 HTML 페이지가 방대하기 때문에 유지 보수가 힘들다.
+
+  ```javascript
+  <script>
+      window.onload = function () {
+      document.querySelector('h').style.backgroundColor = 'red';
+  }
+  </script>
+  <body>
+      <h1>Process - 1</h1>
+  </body>
+  ```
+
+  * 이벤트를 이용하면 head에 javascript를 작성하여도 에러가 발생하지 않는다.
+
+* **문서 객체 선택**
+  * HTML태그를 javascript에서 문서 객체로 변환하는 것을 의미한다.
+
+|      구분       | 메서드                                    | 설명                       |
+| :-------------: | ----------------------------------------- | -------------------------- |
+|  **1개 선택**   | `document.getElementById(아이디)`         | 아이디로 1개 선택          |
+|                 | `document.querySelector(선택자)`          | 선택자로 1개 선택          |
+| **여러개 선택** | `document.getElementsByName(이름)`        | name 속성으로 여러개 선택  |
+|                 | `document.getElementsByClassName(클래스)` | class 속성으로 여러개 선택 |
+|                 | ` document.querySelectorAll(선택자)`      | 선택자로 여러개 선택       |
+
+## SPA(Single Page Application)
+
+---
+
+* 웹 페이지에서 틀만 있고 아무런 내용이 존재 하지 않는 페이지들은 처음에 틀만 받아오고 다른 것들은 javascript 사용자의 요청에 따라 웹 페이지의 내용을 바꾼다.
+* 웹페이지를 여러번 요청하지 않아도 되서 서버의 부담이 줄어든다.
+* 사용자가 웹 페이지를 이동할 때 새로 웹페이지를 읽어들이며 발생하는 깜빡임도 없어진다.
+
+| 속성        | 설명                                                       |
+| ----------- | ---------------------------------------------------------- |
+| textContent | 문서 객체 내부 글자를 순수 텍스트 형식으로 가져오도록 변경 |
+| innerHTML   | 문서 객체 내부 글자의 HTML태그를 반영해 가져오도록 변경    |
+
+
 
 ## Event 처리
 
