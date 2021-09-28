@@ -381,7 +381,33 @@
   <!--javascript 생략 불가능-->
   ```
 
-  
+
+## promise 
+
+---
+
+* 비동기 작업이 맞이할 미래의 완료 또는 실패와 그 결과 값을 나타냄.
+
+```javascript
+function successCallback(result){
+    console.log("Audio file read at URL : " + result);
+}
+
+function failureCallback(error){
+    console.log("Error generationg audio file : " + error);
+}
+
+createAudioFileAsync(audioSettings, successCallback, failureCallback);
+```
+
+## async, await
+
+* async function 선언은 AsyncFunction 객체를 반환하는 하나의 비동기 함수를 정의한다.
+
+* 암시적으로 promise를 사용한 결과를 반환해준다.
+* 비동기 함수를 사용하는 코드의 구문과 구조가 동기 함수를 사용하는 것 처럼 보인다.
+* async는 await식이 포함 될 수 있다.
+* 
 
 ## javascript 실행순서(A->C->B)
 
