@@ -407,7 +407,18 @@ createAudioFileAsync(audioSettings, successCallback, failureCallback);
 * 암시적으로 promise를 사용한 결과를 반환해준다.
 * 비동기 함수를 사용하는 코드의 구문과 구조가 동기 함수를 사용하는 것 처럼 보인다.
 * async는 await식이 포함 될 수 있다.
-* 
+
+## jQuery
+
+* 개발 속도가 향상된다. 다만 성능이 좋아 지지는 않음.
+
+* Ajax를 지원함.
+
+* [참고사이트](https://api.jquery.com/)
+
+  
+
+  17364
 
 ## javascript 실행순서(A->C->B)
 
