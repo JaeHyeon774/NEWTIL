@@ -30,3 +30,17 @@
 | public service (ServletRequest req, ServletResponse resp)    | 클라이언트의 request를 protected service()에게 전달한다.     |
 
 `public service() -> protected service() -> request 종류에 따른 doXXX() 메서드 호출`
+
+* **Servlet 생명주기 메소드** *(호출코드없이 알아서 호출됨)*
+
+`클라이언트 서블릿 요청 -> init(최초 한번 호출) -> service, doGet, doPost(반복적 호출) -> destroy()`
+
+| 메소드                          | 설명                                                 |
+| ------------------------------- | ---------------------------------------------------- |
+| void inti()                     | 서블릿의 객체가 생성 될 때 호출 되는 메소드          |
+| void destroy()                  | 서블릿의 객체가 메모리에서 사라질 때 호출되는 메소드 |
+| void service(request, response) | 서블릿의 요청이 있을 때 호출되는 메소드              |
+| void doGet(request, response)   | html에서 form의 메소드가 get일 때 호출되는 메소드    |
+| void doPost(request, response)  | html에서 form의 메소드가 post일 때 호출되는 메소드   |
+
+객체가 알아서 생성된다.(tomcat에 의해서)
