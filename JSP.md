@@ -62,3 +62,82 @@
   * HTML -> <!-- -->
   * JAVA -> /* */
   * JSP -> <%-- --%>
+
+## 내장 객체(내장 변수) 기능
+
+---
+
+* JSP가 서블릿으로 변환될 때 컨테이너가 자동으로 생성시키는 서블릿 멤버 변수
+
+| 내장 객체   | 서블릿             | 스코프                                                      |
+| ----------- | ------------------ | ----------------------------------------------------------- |
+| page        | this               | 한 번의 요청에 대해 하나의 JSP 페이지를 공유                |
+| raquest     | HttpServletRequest | 한 번의 요청에 대해 같은 요청을 공유하는  JSP 페이지를 공유 |
+| session     | HttpSession        | 같은 브라우저에서 공유                                      |
+| application | ServletContext     | 같은 애플리케이션에서 공유                                  |
+
+* ### session 데이터 바인딩 하기
+
+```JSP
+<%
+HttpSession session = request.getSession() //세션 객체를 가져옴
+session.setAttribute("name", "이순신"); <% //key : name, value : 이순신
+String name = (String)session.getAttribute("name"); //세션 객체에 바인딩된 name 값을 가져옴 
+%>
+```
+
+* ### application 데이터 바인딩하기
+
+```JSP
+<% 
+//appTest1.jsp
+session.setAttribte("name","이순신");
+application.settAttribute("address","서울시 성북구");
+//appTest1.jsp
+String name = (String)session.getAttribute("name");
+String address = (String)application.getAttribute("address");
+%>
+<%
+	//application의 경우는 크롬과 익스플로럴 둘다 적용되지만 session은 같은 브러우저에서만 적용된다.
+%>
+```
+
+* ### request 데이터 바인딩하기
+
+```jsp
+<% 
+//request1.jsp
+request.setAttribute("name","이순신");
+request.setAttribute("address", "인천시 부평구");
+
+RequestDispatcher dispatch = request.getRequestDispatcher("request2.jsp"); 
+//request 객체를 다른 JSP로 포워딩 한다.
+dispatch.forward(request,response);
+
+//request2.jsp
+String name = (String)requset.getAttribute("name");
+String address = (String)request.getAttribute("address");
+%>
+```
+
+
+
+## JSP welcome 파일 지정하기
+
+---
+
+* web.xml에 welcome 파일을 등록하면 페이지 요청시 제일 먼저 등록한 welcome 파일부터 차례로 찾아 홈페이지로 보여줌.
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee" 
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+	<welcome-file-list>
+        <welcome-file>/test02/main.jsp</welcome-file>
+        <welcome-file>/test02/add.jsp</welcome-file>
+        <welcome-file>/test02/add.html</welcome-file>
+    </welcome-file-list>
+</web-app>
+```
+
