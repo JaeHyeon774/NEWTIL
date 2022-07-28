@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T02:11:17.708Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="gs9N_ud5inFsqlx0XD6O" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T02:20:42.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ueTg17D6diRpHf89cdK8" version="20.2.2" type="github">
   <diagram id="YzX6T4dwVACwv7w3dcy2" name="페이지-1">
-    <mxGraphModel dx="1952" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1596" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -217,8 +217,30 @@
             <mxPoint x="720" y="2570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-60" value="&lt;font size=&quot;1&quot;&gt;rtsp_provider_ = std::make_shared&amp;lt;RtspProvider&amp;gt;()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="321" y="2550" width="319" height="20" as="geometry" />
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-61" value="" style="endArrow=classic;html=1;rounded=0;fontSize=9;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="2570" as="sourcePoint" />
+            <mxPoint x="720" y="2570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="2540" />
+              <mxPoint x="840" y="2600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-62" value="&lt;font size=&quot;1&quot;&gt;rtsp_provider_ = std::make_shared&amp;lt;RtspProvider&amp;gt;()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="331" y="2560" width="319" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-63" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;1&quot;&gt;if(!rtsp_provider_)&lt;/font&gt;&lt;span style=&quot;font-size: x-small; background-color: initial;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; rtsp_provider_ = std::make_shared&amp;lt;RtspProvider&amp;gt;();&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return rtsp_provider_-&amp;gt;Initialize(...,&amp;nbsp; tloLog);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/font&gt;&lt;span style=&quot;font-size: x-small; background-color: initial;&quot;&gt;return true;&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=9;position2=0.44;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="2460" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-64" value="" style="endArrow=classic;html=1;rounded=0;fontSize=9;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-480" y="2690" as="sourcePoint" />
+            <mxPoint x="240" y="2690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-65" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;monospace&quot; color=&quot;#ba0000&quot;&gt;&lt;span style=&quot;font-size: 0px;&quot;&gt;sdfdfsf&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="2670" width="400" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
