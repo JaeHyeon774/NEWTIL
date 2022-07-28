@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T04:43:21.647Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="smgJFJ8Jk26bWQSkl0Y3" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T04:46:48.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="slD4xPZsG0c9hCNlpJFA" version="20.2.2" type="github">
   <diagram id="YzX6T4dwVACwv7w3dcy2" name="페이지-1">
     <mxGraphModel dx="1558" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -259,7 +259,7 @@
         <mxCell id="MLaOYbV_vJyrFUcq2OVr-73" value="JobHolder" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1159" y="2279" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MLaOYbV_vJyrFUcq2OVr-73">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;" edge="1" parent="1" source="MLaOYbV_vJyrFUcq2OVr-96">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1198.5" y="3489" as="targetPoint" />
             <mxPoint x="1179" y="2359" as="sourcePoint" />
@@ -297,6 +297,33 @@
         </mxCell>
         <mxCell id="MLaOYbV_vJyrFUcq2OVr-93" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;rtsp_server_-&amp;gt;Initialize&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1230" y="2570" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-96" value="&lt;b&gt;key_ = &quot;RtspServer&quot;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1148.5" y="2500" width="101" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MLaOYbV_vJyrFUcq2OVr-73" target="MLaOYbV_vJyrFUcq2OVr-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1198.5" y="3489" as="targetPoint" />
+            <mxPoint x="1199" y="2319" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-98" value="StorageSearcher" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="2280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MLaOYbV_vJyrFUcq2OVr-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1679.5000000000005" y="3490.0000000000005" as="targetPoint" />
+            <mxPoint x="1660" y="2360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-100" value="" style="endArrow=classic;html=1;rounded=0;fontSize=9;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1440" y="2580" as="sourcePoint" />
+            <mxPoint x="1680" y="2580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-101" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;searcher_&lt;/b&gt; = new StorageSearcher&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="2570" width="200" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
