@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T05:18:36.011Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="tkOlAFQwVA-jJKK4-2nS" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T05:25:54.844Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="wkCKZzHzjwwLAXXUDErh" version="20.2.2" type="github">
   <diagram id="YzX6T4dwVACwv7w3dcy2" name="페이지-1">
-    <mxGraphModel dx="2983" dy="3058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2290" dy="2682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -393,8 +393,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-113" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;thread_&lt;/font&gt; &lt;/b&gt;= std::thread(std::bind(&amp;amp;TimerQueue::threadProc, this));&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="760" y="-789" width="320" height="20" as="geometry" />
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-113" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;TimerQueue::start()&lt;br&gt;thread_&lt;/font&gt; &lt;/b&gt;= std::thread(std::bind(&amp;amp;TimerQueue::threadProc, this));&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="760" y="-789" width="320" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
