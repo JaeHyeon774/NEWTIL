@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T02:51:24.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="laxRmeJN9OIPIfRrFfEV" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T04:40:11.747Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="5kfgXXhmomugK5r7vM2t" version="20.2.2" type="github">
   <diagram id="YzX6T4dwVACwv7w3dcy2" name="페이지-1">
-    <mxGraphModel dx="1871" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1871" dy="566" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -256,7 +256,7 @@
             <mxPoint x="960" y="2570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-73" value="RtspProvider" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-73" value="JobHolder" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1159" y="2279" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MLaOYbV_vJyrFUcq2OVr-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MLaOYbV_vJyrFUcq2OVr-73">
@@ -274,8 +274,8 @@
         <mxCell id="MLaOYbV_vJyrFUcq2OVr-77" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;b&gt;rtsp_server_&lt;/b&gt; = std::make_shared&amp;lt;RtspServer&amp;gt;(logger);&lt;/div&gt;&lt;div&gt;if(!rtsp_server_-&amp;gt;Initialize(...,&amp;nbsp; tloLog))&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return false;&lt;/div&gt;&lt;div&gt;}&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; return true;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=9;position2=0.38;fillColor=#dae8fc;strokeColor=#6c8ebf;size=50;position=0.5;" vertex="1" parent="1">
           <mxGeometry x="680" y="2385" width="261" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-78" value="&lt;font size=&quot;1&quot;&gt;searcher_ = new StorageSearcher&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="2560" width="160" height="20" as="geometry" />
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-85" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;JobHolder(&quot;RtspServer&quot;)&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="999" y="2550" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
