@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T02:41:20.994Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="1cfI9G3RoS3Apgh79tal" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T02:43:34.484Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="nGKyzPih-6LcFK5f50EQ" version="20.2.2" type="github">
   <diagram id="YzX6T4dwVACwv7w3dcy2" name="페이지-1">
     <mxGraphModel dx="1596" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -271,8 +271,8 @@
             <mxPoint x="1200" y="2570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-77" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;rtsp_server_ = std::make_shared&amp;lt;RtspServer&amp;gt;(logger);&lt;/div&gt;&lt;div&gt;if(!rtsp_server_-&amp;gt;Initialize(...,&amp;nbsp; tloLog))&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return false;&lt;/div&gt;&lt;div&gt;}&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; return true;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=9;position2=0.63;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="919" y="2470" width="261" height="100" as="geometry" />
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-77" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;rtsp_server_ = std::make_shared&amp;lt;RtspServer&amp;gt;(logger);&lt;/div&gt;&lt;div&gt;if(!rtsp_server_-&amp;gt;Initialize(...,&amp;nbsp; tloLog))&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return false;&lt;/div&gt;&lt;div&gt;}&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; return true;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=9;position2=0.38;fillColor=#dae8fc;strokeColor=#6c8ebf;size=50;position=0.5;" vertex="1" parent="1">
+          <mxGeometry x="680" y="2385" width="261" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
