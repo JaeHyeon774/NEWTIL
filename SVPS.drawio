@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T05:10:46.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="5njl0L3oZfKzNHwl2feI" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T05:17:59.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="oD_WSJfkHqyxDCQo9qsb" version="20.2.2" type="github">
   <diagram id="YzX6T4dwVACwv7w3dcy2" name="페이지-1">
-    <mxGraphModel dx="2514" dy="2804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2385" dy="2734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -291,7 +291,8 @@
             <mxPoint x="81" y="-869" as="sourcePoint" />
             <mxPoint x="561" y="-859" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="81" y="-859" />
+              <mxPoint x="90" y="-869" />
+              <mxPoint x="90" y="-859" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -359,17 +360,38 @@
         <mxCell id="MLaOYbV_vJyrFUcq2OVr-103" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;read_thread_pool_ &lt;/font&gt;&lt;/b&gt;= ThreadPoolManager::GetInstance()-&amp;gt;CreateThreadPool&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="621" y="-829" width="360" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-108" value="&lt;font size=&quot;1&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;timer_ &lt;/b&gt;&lt;/font&gt;= std::make_shared&amp;lt;TimerQueue&amp;gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="621" y="-809" width="199" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="MLaOYbV_vJyrFUcq2OVr-109" value="TimeQueue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1242" y="-1159" width="80" height="40" as="geometry" />
+          <mxGeometry x="1239" y="-1159" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MLaOYbV_vJyrFUcq2OVr-109">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="MLaOYbV_vJyrFUcq2OVr-109">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1281.5000000000005" y="51.000000000000455" as="targetPoint" />
-            <mxPoint x="1262" y="-1079" as="sourcePoint" />
+            <mxPoint x="1297.5000000000005" y="51.000000000000455" as="targetPoint" />
+            <mxPoint x="1298" y="-1119" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-111" value="" style="endArrow=classic;html=1;rounded=0;fontSize=9;fontColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="571" y="-820" as="sourcePoint" />
+            <mxPoint x="1279.1173895474137" y="-800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="571" y="-800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-108" value="&lt;font size=&quot;1&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;timer_ &lt;/b&gt;&lt;/font&gt;= std::make_shared&amp;lt;TimerQueue&amp;gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="827" y="-809" width="199" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-114" value="" style="endArrow=classic;html=1;rounded=0;fontSize=9;fontColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="571" y="-800" as="sourcePoint" />
+            <mxPoint x="1280" y="-780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="571" y="-780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-113" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;thread_&lt;/font&gt; &lt;/b&gt;= std::thread(std::bind(&amp;amp;TimerQueue::threadProc, this));&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="760" y="-789" width="320" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
