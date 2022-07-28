@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T02:43:34.484Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="nGKyzPih-6LcFK5f50EQ" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T02:48:22.251Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="iBdsfN9ctaB0SUcmxnaO" version="20.2.2" type="github">
   <diagram id="YzX6T4dwVACwv7w3dcy2" name="페이지-1">
-    <mxGraphModel dx="1596" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1233" dy="220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,7 +157,7 @@
             <mxPoint y="2520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-38" value="result_center_ = new svr::KDBPlayback::KDBPlaybackResultCenter(logger)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-38" value="&lt;b&gt;result_center_&lt;/b&gt; = new svr::KDBPlayback::KDBPlaybackResultCenter(logger)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="-440" y="2510" width="400" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MLaOYbV_vJyrFUcq2OVr-39" value="EventChannel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -175,7 +175,7 @@
             <mxPoint x="240" y="2570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-42" value="&lt;font size=&quot;1&quot;&gt;event_channel_ = std::make_shared&amp;lt;EventChannel&amp;gt;()&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-42" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;event_channel_ &lt;/b&gt;= std::make_shared&amp;lt;EventChannel&amp;gt;()&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="-320" y="2550" width="400" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MLaOYbV_vJyrFUcq2OVr-47" value="TransportFramework" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -193,7 +193,7 @@
             <mxPoint x="480" y="2630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-51" value="&lt;div&gt;&lt;font size=&quot;1&quot;&gt;transport_framework_ = std::make_shared&amp;lt;TransportFramework&amp;gt;(logger)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-51" value="&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;b&gt;transport_framework_&lt;/b&gt; = std::make_shared&amp;lt;TransportFramework&amp;gt;(logger)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="-200" y="2610" width="400" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MLaOYbV_vJyrFUcq2OVr-52" value="&lt;span style=&quot;font-size: x-small;&quot;&gt;event_channel_-&amp;gt;Initialize(playback_config, result_center_, initDB(db_config), logger, x)&lt;/span&gt;&lt;font size=&quot;1&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -217,10 +217,10 @@
             <mxPoint x="720" y="2570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-62" value="&lt;font size=&quot;1&quot;&gt;rtsp_provider_ = std::make_shared&amp;lt;RtspProvider&amp;gt;()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-62" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;rtsp_provider_&lt;/b&gt; = std::make_shared&amp;lt;RtspProvider&amp;gt;()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="331" y="2560" width="319" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-63" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;background-color: initial;&quot;&gt;if(!rtsp_provider_)&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-size: x-small;&quot;&gt;{&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; rtsp_provider_ = std::make_shared&amp;lt;RtspProvider&amp;gt;();&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return rtsp_provider_-&amp;gt;Initialize(...,&amp;nbsp; tloLog);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: x-small; background-color: initial;&quot;&gt;return true;&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=9;position2=0.63;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-63" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;background-color: initial;&quot;&gt;if(!rtsp_provider_)&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-size: x-small;&quot;&gt;{&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;rtsp_provider_&lt;/b&gt; = std::make_shared&amp;lt;RtspProvider&amp;gt;();&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return rtsp_provider_-&amp;gt;Initialize(...,&amp;nbsp; tloLog);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: x-small; background-color: initial;&quot;&gt;return true;&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=9;position2=0.63;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="620" y="2470" width="270" height="100" as="geometry" />
         </mxCell>
         <mxCell id="MLaOYbV_vJyrFUcq2OVr-64" value="" style="endArrow=classic;html=1;rounded=0;fontSize=9;" edge="1" parent="1">
@@ -238,7 +238,7 @@
             <mxPoint x="720" y="2690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-68" value="&lt;font size=&quot;1&quot;&gt;rtsp_provider_-&amp;gt;ProcessEvent(mti_evt, arg)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-68" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;rtsp_provider_&lt;/b&gt;-&amp;gt;ProcessEvent(mti_evt, arg)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="360" y="2680" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MLaOYbV_vJyrFUcq2OVr-70" value="RtspServer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -271,8 +271,11 @@
             <mxPoint x="1200" y="2570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-77" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;rtsp_server_ = std::make_shared&amp;lt;RtspServer&amp;gt;(logger);&lt;/div&gt;&lt;div&gt;if(!rtsp_server_-&amp;gt;Initialize(...,&amp;nbsp; tloLog))&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return false;&lt;/div&gt;&lt;div&gt;}&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; return true;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=9;position2=0.38;fillColor=#dae8fc;strokeColor=#6c8ebf;size=50;position=0.5;" vertex="1" parent="1">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-77" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;b&gt;rtsp_server_&lt;/b&gt; = std::make_shared&amp;lt;RtspServer&amp;gt;(logger);&lt;/div&gt;&lt;div&gt;if(!rtsp_server_-&amp;gt;Initialize(...,&amp;nbsp; tloLog))&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return false;&lt;/div&gt;&lt;div&gt;}&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; return true;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=9;position2=0.38;fillColor=#dae8fc;strokeColor=#6c8ebf;size=50;position=0.5;" vertex="1" parent="1">
           <mxGeometry x="680" y="2385" width="261" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-78" value="&lt;font size=&quot;1&quot;&gt;searcher_ = new StorageSearcher&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="2560" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
