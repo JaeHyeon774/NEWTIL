@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T05:04:50.736Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="5aUkEj5S-BBw-gMxAnKD" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T05:09:54.829Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="M92gl9pknxbHQXctO-AR" version="20.2.2" type="github">
   <diagram id="YzX6T4dwVACwv7w3dcy2" name="페이지-1">
-    <mxGraphModel dx="2385" dy="2734" grid="1" gridSize="2" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2158" dy="2611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -358,6 +358,18 @@
         </mxCell>
         <mxCell id="MLaOYbV_vJyrFUcq2OVr-103" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;read_thread_pool_ &lt;/font&gt;&lt;/b&gt;= ThreadPoolManager::GetInstance()-&amp;gt;CreateThreadPool&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="629" y="-813" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-108" value="&lt;font size=&quot;1&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;timer_ &lt;/b&gt;&lt;/font&gt;= std::make_shared&amp;lt;TimerQueue&amp;gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="629" y="-793" width="199" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-109" value="TimeQueue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="-1143" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MLaOYbV_vJyrFUcq2OVr-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1289.5000000000005" y="67.00000000000045" as="targetPoint" />
+            <mxPoint x="1270" y="-1063" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
