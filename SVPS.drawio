@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T04:46:48.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="slD4xPZsG0c9hCNlpJFA" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T05:02:05.324Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="GOXr2o0BHVZ5KEpnJ-RX" version="20.2.2" type="github">
   <diagram id="YzX6T4dwVACwv7w3dcy2" name="페이지-1">
-    <mxGraphModel dx="1558" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2916" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,7 +157,7 @@
             <mxPoint y="2520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-38" value="&lt;b&gt;result_center_&lt;/b&gt; = new svr::KDBPlayback::KDBPlaybackResultCenter(logger)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-38" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;result_center_&lt;/b&gt; &lt;/font&gt;= new svr::KDBPlayback::KDBPlaybackResultCenter(logger)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="-440" y="2510" width="400" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MLaOYbV_vJyrFUcq2OVr-39" value="EventChannel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -175,7 +175,7 @@
             <mxPoint x="240" y="2570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-42" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;event_channel_ &lt;/b&gt;= std::make_shared&amp;lt;EventChannel&amp;gt;()&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-42" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;event_channel_ &lt;/font&gt;&lt;/b&gt;= std::make_shared&amp;lt;EventChannel&amp;gt;()&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="-320" y="2550" width="400" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MLaOYbV_vJyrFUcq2OVr-47" value="TransportFramework" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -193,7 +193,7 @@
             <mxPoint x="480" y="2630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-51" value="&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;b&gt;transport_framework_&lt;/b&gt; = std::make_shared&amp;lt;TransportFramework&amp;gt;(logger)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-51" value="&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;transport_framework_&lt;/b&gt; &lt;/font&gt;= std::make_shared&amp;lt;TransportFramework&amp;gt;(logger)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="-200" y="2610" width="400" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MLaOYbV_vJyrFUcq2OVr-52" value="&lt;span style=&quot;font-size: x-small;&quot;&gt;event_channel_-&amp;gt;Initialize(playback_config, result_center_, initDB(db_config), logger, x)&lt;/span&gt;&lt;font size=&quot;1&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -217,10 +217,10 @@
             <mxPoint x="720" y="2570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-62" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;rtsp_provider_&lt;/b&gt; = std::make_shared&amp;lt;RtspProvider&amp;gt;()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-62" value="&lt;font size=&quot;1&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;rtsp_provider_&lt;/b&gt; &lt;/font&gt;= std::make_shared&amp;lt;RtspProvider&amp;gt;()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="331" y="2560" width="319" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-63" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;background-color: initial;&quot;&gt;if(!rtsp_provider_)&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-size: x-small;&quot;&gt;{&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;rtsp_provider_&lt;/b&gt; = std::make_shared&amp;lt;RtspProvider&amp;gt;();&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return rtsp_provider_-&amp;gt;Initialize(...,&amp;nbsp; tloLog);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: x-small; background-color: initial;&quot;&gt;return true;&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=9;position2=0.63;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-63" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;background-color: initial;&quot;&gt;if(!rtsp_provider_)&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-size: x-small;&quot;&gt;{&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;rtsp_provider_&lt;/b&gt; &lt;/font&gt;= std::make_shared&amp;lt;RtspProvider&amp;gt;();&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return rtsp_provider_-&amp;gt;Initialize(...,&amp;nbsp; tloLog);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: x-small; background-color: initial;&quot;&gt;return true;&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=9;position2=0.63;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="620" y="2470" width="270" height="100" as="geometry" />
         </mxCell>
         <mxCell id="MLaOYbV_vJyrFUcq2OVr-64" value="" style="endArrow=classic;html=1;rounded=0;fontSize=9;" edge="1" parent="1">
@@ -238,7 +238,7 @@
             <mxPoint x="720" y="2690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-68" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;rtsp_provider_&lt;/b&gt;-&amp;gt;ProcessEvent(mti_evt, arg)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-68" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;rtsp_provider_&lt;/font&gt;&lt;/b&gt;-&amp;gt;ProcessEvent(mti_evt, arg)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="360" y="2680" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MLaOYbV_vJyrFUcq2OVr-70" value="RtspServer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -271,10 +271,10 @@
             <mxPoint x="1200" y="2570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-77" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;b&gt;rtsp_server_&lt;/b&gt; = std::make_shared&amp;lt;RtspServer&amp;gt;(logger);&lt;/div&gt;&lt;div&gt;if(!rtsp_server_-&amp;gt;Initialize(...,&amp;nbsp; tloLog))&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return false;&lt;/div&gt;&lt;div&gt;}&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; return true;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=9;position2=0.38;fillColor=#dae8fc;strokeColor=#6c8ebf;size=50;position=0.5;" vertex="1" parent="1">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-77" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;rtsp_server_&lt;/b&gt; &lt;/font&gt;= std::make_shared&amp;lt;RtspServer&amp;gt;(logger);&lt;/div&gt;&lt;div&gt;if(!rtsp_server_-&amp;gt;Initialize(...,&amp;nbsp; tloLog))&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; return false;&lt;/div&gt;&lt;div&gt;}&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; return true;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=9;position2=0.38;fillColor=#dae8fc;strokeColor=#6c8ebf;size=50;position=0.5;" vertex="1" parent="1">
           <mxGeometry x="680" y="2385" width="261" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-85" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;JobHolder(&quot;RtspServer&quot;)&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-85" value="&lt;font size=&quot;1&quot;&gt;JobHolder(&quot;RtspServer&quot;)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="999" y="2550" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MLaOYbV_vJyrFUcq2OVr-88" value="RtspServer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -295,7 +295,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-93" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;rtsp_server_-&amp;gt;Initialize&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-93" value="&lt;font size=&quot;1&quot;&gt;rtsp_server_-&amp;gt;Initialize&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1230" y="2570" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MLaOYbV_vJyrFUcq2OVr-96" value="&lt;b&gt;key_ = &quot;RtspServer&quot;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
@@ -322,8 +322,42 @@
             <mxPoint x="1680" y="2580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLaOYbV_vJyrFUcq2OVr-101" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;searcher_&lt;/b&gt; = new StorageSearcher&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-101" value="&lt;font size=&quot;1&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;searcher_&lt;/b&gt; &lt;/font&gt;= new StorageSearcher&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1460" y="2570" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-104" value="TheadPoolManager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="2279" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MLaOYbV_vJyrFUcq2OVr-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1919.5000000000005" y="3489.0000000000005" as="targetPoint" />
+            <mxPoint x="1900" y="2359" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-106" value="" style="endArrow=classic;html=1;rounded=0;fontSize=9;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1440" y="2580" as="sourcePoint" />
+            <mxPoint x="1920" y="2600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1450" y="2580" />
+              <mxPoint x="1450" y="2600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-107" value="" style="endArrow=classic;html=1;rounded=0;fontSize=9;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1450" y="2600" as="sourcePoint" />
+            <mxPoint x="1920" y="2620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1450" y="2620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-102" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;rtsp_thread_pool_ &lt;/font&gt;&lt;/b&gt;= ThreadPoolManager::GetInstance()-&amp;gt;CreateThreadPool&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="2590" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MLaOYbV_vJyrFUcq2OVr-103" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;read_thread_pool_ &lt;/font&gt;&lt;/b&gt;= ThreadPoolManager::GetInstance()-&amp;gt;CreateThreadPool&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="2610" width="360" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
