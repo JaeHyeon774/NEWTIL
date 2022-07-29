@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T23:58:02.433Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="kTdbByTb5801-lwOiHd9" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-29T01:42:39.600Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-nq5OGmF_eeZmwsA51bh" version="20.2.2" type="github">
   <diagram id="VwBuRcIMg6o2L0P68NVx" name="페이지-1">
-    <mxGraphModel dx="726" dy="856" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="418" dy="226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,8 +131,35 @@
         <mxCell id="YyA1JXK225TJ4eiLF_QA-38" value="&lt;h1&gt;response&lt;/h1&gt;&lt;p&gt;&lt;font size=&quot;1&quot;&gt;{&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: x-small; background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;CAM_ID&quot; : 76,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;COMMAND&quot; : &quot;REQ_TIMELINE&quot;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;resultCode&quot; : 0,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;resultMsg&quot; : &quot;Success&quot;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;video&quot; : [&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; {&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;duration&quot; : 215,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;fromDateTime&quot; : &quot;20220721160000&quot;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;toDateTime&quot; : &quot;20220721160335&quot;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: x-small; background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;]&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: x-small;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="28" y="357" width="328" height="196" as="geometry" />
         </mxCell>
-        <mxCell id="Cf1vtWMtcZaZBnLqMBZ9-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;TmApp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;init()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="154" y="1258" width="160" height="90" as="geometry" />
+        <mxCell id="Cf1vtWMtcZaZBnLqMBZ9-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;TmApp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;init()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;subscribeMTopic()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;onRequestTimeline()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="154" y="1258" width="160" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf1vtWMtcZaZBnLqMBZ9-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;TimeLineLoaderImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;getTimeline()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;free Timeline()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="154" y="1481" width="160" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf1vtWMtcZaZBnLqMBZ9-3" value="&lt;b&gt;main&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf1vtWMtcZaZBnLqMBZ9-4" value="&lt;b&gt;TmApp&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf1vtWMtcZaZBnLqMBZ9-5" value="&lt;b&gt;ThreadPool&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf1vtWMtcZaZBnLqMBZ9-6" value="subscribe MqTopic" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf1vtWMtcZaZBnLqMBZ9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cf1vtWMtcZaZBnLqMBZ9-8" target="Cf1vtWMtcZaZBnLqMBZ9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf1vtWMtcZaZBnLqMBZ9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cf1vtWMtcZaZBnLqMBZ9-8" target="Cf1vtWMtcZaZBnLqMBZ9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf1vtWMtcZaZBnLqMBZ9-8" value="init" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf1vtWMtcZaZBnLqMBZ9-9" value="ThreadPool(maxThread)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1280" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
