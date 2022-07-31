@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T23:35:32.970Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="MVfPQE_sKJLMBnycvqt8" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-31T23:37:01.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="9zYJjLNqMz5BHs9zxM2G" version="20.2.2" type="github">
   <diagram id="YzX6T4dwVACwv7w3dcy2" name="페이지-1">
     <mxGraphModel dx="2086" dy="2514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -592,7 +592,7 @@
         <mxCell id="ytNLfJhuScqtZSzKkveh-65" value="ThePlaybackResultCenter" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1460" y="-2062.5" width="180" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="V4SisY0elc85DeGXT5mV-1" value="&lt;h1&gt;ReadConnection&lt;/h1&gt;&lt;p&gt;ReadRecordJob&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- if(fram_list_-&amp;gt;size &amp;gt; 30) read_interval_ms = 100;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- else read_interval_ms = 0;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="V4SisY0elc85DeGXT5mV-1" value="&lt;h1&gt;ReadConnection&lt;/h1&gt;&lt;p&gt;ReadRecordJob&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- if(fram_list_-&amp;gt;size &amp;gt; 30) read_interval_ms = 100;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- else read_interval_ms = 0;&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- InsertNextReadJob(read_interval_ms)&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1600" y="40" width="320" height="120" as="geometry" />
         </mxCell>
       </root>
