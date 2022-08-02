@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T02:19:41.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="dwmTsL8clrWEHAhr4CfJ" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-02T02:41:50.713Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="pi3eyIUVicifZ_tBKJK_" version="20.2.2" type="github">
   <diagram id="VwBuRcIMg6o2L0P68NVx" name="페이지-1">
-    <mxGraphModel dx="749" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1095" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -245,14 +245,32 @@
         <mxCell id="IHb8_BuPJ2H5o93GnMBS-12" value="백업 리스트 요청일 때" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="359" y="2360" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="IHb8_BuPJ2H5o93GnMBS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IHb8_BuPJ2H5o93GnMBS-13" target="IHb8_BuPJ2H5o93GnMBS-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IHb8_BuPJ2H5o93GnMBS-13" value="백업 진행 요청일 때" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="359" y="2440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IHb8_BuPJ2H5o93GnMBS-25" value="&amp;nbsp;검증 요청 아이디로 결 과 찾아오기&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IHb8_BuPJ2H5o93GnMBS-14" target="IHb8_BuPJ2H5o93GnMBS-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IHb8_BuPJ2H5o93GnMBS-14" value="검증 결과 요청일 때" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="359" y="2520" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="IHb8_BuPJ2H5o93GnMBS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IHb8_BuPJ2H5o93GnMBS-18" target="IHb8_BuPJ2H5o93GnMBS-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IHb8_BuPJ2H5o93GnMBS-18" value="gsoap_svc_handler&lt;br&gt;soap_call___tse__GetRecordingList(soap, grl_url, cam_id_info, grl_req, grl_res);" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="2360" width="119" height="40" as="geometry" />
+          <mxGeometry x="520" y="2360" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IHb8_BuPJ2H5o93GnMBS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IHb8_BuPJ2H5o93GnMBS-20" target="IHb8_BuPJ2H5o93GnMBS-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IHb8_BuPJ2H5o93GnMBS-20" value="grl_res-&amp;gt;RecordingInformaton[]&lt;br&gt;.startTime/ endTime/ rtspurll&lt;br&gt;crm_sd_backup_list_insert" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="2440" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IHb8_BuPJ2H5o93GnMBS-22" value="검증 결과 Map에 저장 &lt;br&gt;(key =&amp;nbsp; 검증 요청 아이디)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="2360" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
