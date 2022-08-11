@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T06:13:57.039Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="bmhEw7cWRpAvMyDVk3z-" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-11T06:19:43.614Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="N5hd0zSGnCT6q87n4XYg" version="20.2.3" type="github">
   <diagram id="_P-Zi_dOzf9sflb4-BA2" name="페이지-1">
     <mxGraphModel dx="1142" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -505,6 +505,11 @@
         <mxCell id="mVDugHJZV_uuTdiIqoxV-4" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;_crm_mti_read_evt_proc&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="1800" width="280" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="mVDugHJZV_uuTdiIqoxV-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mVDugHJZV_uuTdiIqoxV-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1899.8823529411766" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mVDugHJZV_uuTdiIqoxV-5" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;_crm_mti_write_succ_evt_proc&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="1880" width="280" height="40" as="geometry" />
         </mxCell>
@@ -551,8 +556,33 @@
         <mxCell id="mVDugHJZV_uuTdiIqoxV-24" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;crm_svc_job_proc&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="880" y="1800" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="mVDugHJZV_uuTdiIqoxV-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mVDugHJZV_uuTdiIqoxV-29" target="mVDugHJZV_uuTdiIqoxV-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="1819.8823529411766" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mVDugHJZV_uuTdiIqoxV-36" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;svc_evt로&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;기능 구분&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mVDugHJZV_uuTdiIqoxV-34">
+          <mxGeometry x="-0.2349" relative="1" as="geometry">
+            <mxPoint x="24" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mVDugHJZV_uuTdiIqoxV-29" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;crm_http_msg_check_job&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1200" y="1800" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mVDugHJZV_uuTdiIqoxV-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mVDugHJZV_uuTdiIqoxV-37" target="mVDugHJZV_uuTdiIqoxV-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mVDugHJZV_uuTdiIqoxV-37" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;CRM_EVT_RECV_BACKUP_LIST_REQ&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;crm_make_backup_list&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="1800" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mVDugHJZV_uuTdiIqoxV-38" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;crm_send_ok_res&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="1800" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mVDugHJZV_uuTdiIqoxV-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mVDugHJZV_uuTdiIqoxV-41" target="mVDugHJZV_uuTdiIqoxV-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mVDugHJZV_uuTdiIqoxV-41" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;_crm_mti_write_succ_evt_proc&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;svc_job&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;job_type&lt;/span&gt; = &lt;span style=&quot;color: #569cd6;&quot;&gt;CRM_JOB_TYPE_WRITE_SUCC&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1880" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
