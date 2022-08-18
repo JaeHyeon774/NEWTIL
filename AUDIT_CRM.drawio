@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T14:14:16.684Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="3m3Dz9rCsHZ95UBCnE5E" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T14:14:37.482Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Fm1cGXL_7_y7_CIyIXTX" version="20.2.2" type="github">
   <diagram id="_P-Zi_dOzf9sflb4-BA2" name="페이지-1">
     <mxGraphModel dx="593" dy="313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -736,10 +736,13 @@
         <mxCell id="5HjV-NDKM4qlCuQ8QJD4-4" value="svc_handler&lt;br&gt;throw_svc_job" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1280" y="800" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="5HjV-NDKM4qlCuQ8QJD4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5HjV-NDKM4qlCuQ8QJD4-6" target="5HjV-NDKM4qlCuQ8QJD4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5HjV-NDKM4qlCuQ8QJD4-6" value="svc_handler&lt;br&gt;camera_conn_req_job" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1440" y="800" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5HjV-NDKM4qlCuQ8QJD4-8" value="crm_get_sdb_info &amp;lt; 0&lt;br&gt;crm_throw_gs_svc_job" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5HjV-NDKM4qlCuQ8QJD4-8" value="crm_get_sdb_info &amp;lt; 0&lt;br&gt;crm_throw_gs_svc_job&lt;br&gt;하지만 이렇게 안될 예정." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1640" y="800" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
