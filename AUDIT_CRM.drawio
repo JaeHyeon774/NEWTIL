@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T04:46:09.174Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="DbGUd14pJdSixfvSajV6" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-22T04:50:38.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="LfVij4KmA8IE9M_cg84s" version="20.2.5" type="github">
   <diagram id="_P-Zi_dOzf9sflb4-BA2" name="페이지-1">
     <mxGraphModel dx="716" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -810,6 +810,9 @@
         </mxCell>
         <mxCell id="7cwptag8YNauYbMkk_3J-18" value="svc_job&lt;br&gt;_proc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2360" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7cwptag8YNauYbMkk_3J-20" value="camera_conn&lt;br&gt;_req_job_proc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="680" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
