@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T01:52:08.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="QsbSxWsSlJ8cyRQl9lYD" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T02:25:30.181Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="v9k5ahBtESSczQ0aB3tT" version="20.2.7" type="github">
   <diagram id="_P-Zi_dOzf9sflb4-BA2" name="페이지-1">
     <mxGraphModel dx="1278" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -923,8 +923,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zHc9N8Nu24U0vJrfCZo--5" value="&lt;h1&gt;camera_conn_req_job&lt;/h1&gt;&lt;p&gt;&lt;b&gt;crm_db_chk_cam_rec_info&lt;/b&gt; : cam_rec_period, cam_type&lt;/p&gt;&lt;p&gt;&lt;b&gt;crm_db_get_cam_device_info&lt;/b&gt;&amp;nbsp; : cam_ip_addr, cam_access_id, cam_access_passwd&lt;/p&gt;&lt;p&gt;&lt;b&gt;crm_db_get_cam_storage_path&lt;/b&gt; : storage_path&lt;/p&gt;&lt;p&gt;&lt;b&gt;crm_get_sdb_info &lt;/b&gt;: crm_backup_info_t 구조체에 backup list 받아옴.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="1440" width="520" height="280" as="geometry" />
+        <mxCell id="zHc9N8Nu24U0vJrfCZo--5" value="&lt;h1&gt;camera_conn_req_job&lt;/h1&gt;&lt;p&gt;&lt;b&gt;crm_db_chk_cam_rec_info&lt;/b&gt; : cam_rec_period, cam_type&lt;/p&gt;&lt;p&gt;&lt;b&gt;crm_db_get_cam_device_info&lt;/b&gt;&amp;nbsp; : cam_ip_addr, cam_access_id, cam_access_passwd&lt;/p&gt;&lt;p&gt;&lt;b&gt;crm_db_get_cam_storage_path&lt;/b&gt; : storage_path&lt;/p&gt;&lt;p&gt;&lt;b&gt;crm_get_sdb_info &lt;/b&gt;: crm_backup_info_t 구조체에 backup list 받아옴. 기존에 있는 backup info&amp;nbsp; 사용?&lt;br&gt;cam_ip_addr, cam_login_id, cam_passwd, pre_and_Time, sdb_list 값, cam_port, fail_cnt&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1440" width="560" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
