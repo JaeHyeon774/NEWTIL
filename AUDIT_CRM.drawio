@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T01:06:07.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="R5ZKVEZW79yHUn9AZWL0" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-01T05:01:21.070Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="jlghGP5ituve-Lam-o1a" version="20.2.7" type="github">
   <diagram id="_P-Zi_dOzf9sflb4-BA2" name="audit_crm">
-    <mxGraphModel dx="881" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1022" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -882,63 +882,63 @@
           <mxGeometry x="2920" y="600" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p7v18_PVPNJQgffYl8hh-1" value="&lt;h1&gt;scd_handler&lt;/h1&gt;&lt;p&gt;scd_thr_proc&lt;/p&gt;&lt;p&gt;cam_sdb_req_check&lt;/p&gt;&lt;p&gt;throw_gs_svc_job&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="2970" width="200" height="130" as="geometry" />
+          <mxGeometry x="2479" y="1680" width="200" height="130" as="geometry" />
         </mxCell>
         <mxCell id="efMSMrBcm0yJ38jwhsNk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="efMSMrBcm0yJ38jwhsNk-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="3110" as="sourcePoint" />
+            <mxPoint x="2779" y="1820" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="340" y="3135" />
+              <mxPoint x="2779" y="1845" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="p7v18_PVPNJQgffYl8hh-2" value="&lt;h1&gt;gsoap_svc_handler&lt;/h1&gt;&lt;p&gt;throw_gs_svc_job&lt;/p&gt;&lt;p&gt;gs_svc_job_proc&lt;/p&gt;&lt;p&gt;send_cam_conn_req&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="280" y="2970" width="240" height="120" as="geometry" />
+          <mxGeometry x="2719" y="1680" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="p7v18_PVPNJQgffYl8hh-4" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="150" y="3080" as="sourcePoint" />
-            <mxPoint x="280" y="3030" as="targetPoint" />
+            <mxPoint x="2589" y="1790" as="sourcePoint" />
+            <mxPoint x="2719" y="1740" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="210" y="3080" />
-              <mxPoint x="210" y="3030" />
+              <mxPoint x="2649" y="1790" />
+              <mxPoint x="2649" y="1740" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="p7v18_PVPNJQgffYl8hh-7" value="&lt;h1&gt;svc_handler&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;send_cam_conn_req&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;throw_svc_job&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;svc_job_proc{&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;process_camera_job&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;camera_conn_req_job&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bh1%26gt%3Bsvc_handler%26lt%3B%2Fh1%26gt%3B%26lt%3Bp%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20initial%3B%26quot%3B%26gt%3Bsend_cam_conn_req%26lt%3B%2Fspan%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fp%26gt%3B%26lt%3Bp%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20initial%3B%26quot%3B%26gt%3Bthrow_svc_job%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fp%26gt%3B%26lt%3Bp%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20initial%3B%26quot%3B%26gt%3Bsvc_job_proc%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fp%26gt%3B%26lt%3Bp%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20initial%3B%26quot%3B%26gt%3Bcamera_conn_req_job%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fp%26gt%3B%26lt%3Bp%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20initial%3B%26quot%3B%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fp%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Bspacing%3D5%3BspacingTop%3D-20%3BwhiteSpace%3Dwrap%3Boverflow%3Dhidden%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22560%22%20y%3D%221200%22%20width%3D%22240%22%20height%3D%22160%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="560" y="2970" width="240" height="200" as="geometry" />
+          <mxGeometry x="2999" y="1680" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="p7v18_PVPNJQgffYl8hh-8" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="3080" as="sourcePoint" />
-            <mxPoint x="560" y="3030" as="targetPoint" />
+            <mxPoint x="2849" y="1790" as="sourcePoint" />
+            <mxPoint x="2999" y="1740" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="530" y="3080" />
-              <mxPoint x="530" y="3030" />
+              <mxPoint x="2969" y="1790" />
+              <mxPoint x="2969" y="1740" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zHc9N8Nu24U0vJrfCZo--1" value="&lt;h1&gt;camera_device&lt;/h1&gt;&lt;p&gt;process_camera_job&lt;/p&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bh1%26gt%3Bsvc_handler%26lt%3B%2Fh1%26gt%3B%26lt%3Bp%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20initial%3B%26quot%3B%26gt%3Bsend_cam_conn_req%26lt%3B%2Fspan%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fp%26gt%3B%26lt%3Bp%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20initial%3B%26quot%3B%26gt%3Bthrow_svc_job%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fp%26gt%3B%26lt%3Bp%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20initial%3B%26quot%3B%26gt%3Bsvc_job_proc%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fp%26gt%3B%26lt%3Bp%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20initial%3B%26quot%3B%26gt%3Bcamera_conn_req_job%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fp%26gt%3B%26lt%3Bp%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20initial%3B%26quot%3B%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fp%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Bspacing%3D5%3BspacingTop%3D-20%3BwhiteSpace%3Dwrap%3Boverflow%3Dhidden%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22560%22%20y%3D%221200%22%20width%3D%22240%22%20height%3D%22160%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="840" y="2970" width="240" height="160" as="geometry" />
+          <mxGeometry x="3279" y="1680" width="240" height="160" as="geometry" />
         </mxCell>
         <mxCell id="zHc9N8Nu24U0vJrfCZo--2" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="710" y="3110" as="sourcePoint" />
-            <mxPoint x="840" y="3030" as="targetPoint" />
+            <mxPoint x="3149" y="1820" as="sourcePoint" />
+            <mxPoint x="3279" y="1740" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="810" y="3110" />
-              <mxPoint x="810" y="3030" />
+              <mxPoint x="3249" y="1820" />
+              <mxPoint x="3249" y="1740" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zHc9N8Nu24U0vJrfCZo--5" value="&lt;h1&gt;camera_conn_req_job&lt;/h1&gt;&lt;p&gt;&lt;b&gt;crm_db_chk_cam_rec_info&lt;/b&gt; : cam_rec_period, cam_type&lt;/p&gt;&lt;p&gt;&lt;b&gt;crm_db_get_cam_device_info&lt;/b&gt;&amp;nbsp; : cam_ip_addr, cam_access_id, cam_access_passwd&lt;/p&gt;&lt;p&gt;&lt;b&gt;crm_db_get_cam_storage_path&lt;/b&gt; : storage_path&lt;/p&gt;&lt;p&gt;&lt;b&gt;crm_get_sdb_info &lt;/b&gt;: crm_backup_info_t 구조체에 backup list 받아옴. 기존에 있는 backup info&amp;nbsp; 사용?&lt;br&gt;cam_ip_addr, cam_login_id, cam_passwd, pre_and_Time, sdb_list 값, cam_port, fail_cnt&lt;/p&gt;&lt;p&gt;&lt;b&gt;crm_util_pre_end_cur_start_time_check &lt;/b&gt;:&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;b&gt;crm_check_multi_file_exist&lt;/b&gt; : 입력 받은 file path 로 rm_check_file_exist&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;b&gt;crm_db_chk_va_scd_time&lt;/b&gt; :&amp;nbsp; 필요 없지 않을까...?&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;cam_id&lt;/p&gt;&lt;p&gt;rec_svs_id&lt;/p&gt;&lt;p&gt;conn_key&lt;/p&gt;&lt;p&gt;cam_ip_addr&lt;/p&gt;&lt;p&gt;cam_login_id&lt;/p&gt;&lt;p&gt;cam_passwd&lt;/p&gt;&lt;p&gt;backup_list.start_Time&lt;/p&gt;&lt;p&gt;bakcup_list.end_Time&lt;/p&gt;&lt;p&gt;sdb_path&lt;/p&gt;&lt;p&gt;cam_port&lt;/p&gt;&lt;p&gt;reverse_time&lt;/p&gt;&lt;p&gt;fail_cnt&lt;/p&gt;&lt;p&gt;speed_val&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="240" y="3200" width="560" height="720" as="geometry" />
+          <mxGeometry x="2679" y="1910" width="560" height="720" as="geometry" />
         </mxCell>
         <mxCell id="efMSMrBcm0yJ38jwhsNk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1.077;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="efMSMrBcm0yJ38jwhsNk-2" target="p7v18_PVPNJQgffYl8hh-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="efMSMrBcm0yJ38jwhsNk-2" value="gp_scdh의 값을 설정 해줌" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="3120" width="150" height="30" as="geometry" />
+          <mxGeometry x="2589" y="1830" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
