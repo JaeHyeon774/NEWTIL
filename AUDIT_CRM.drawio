@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T01:33:45.133Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="8IhSYjg3v1VuhyWL326k" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-07T05:28:16.483Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Sae-EDvE05xkwMWh2_K4" version="20.2.7" type="github">
   <diagram id="_P-Zi_dOzf9sflb4-BA2" name="audit_crm">
-    <mxGraphModel dx="913" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="650" dy="256" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -960,6 +960,12 @@
         </mxCell>
         <mxCell id="KFi5XfBKzOIQPw9SkbQV-9" value="&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;crm_camera_conn_req_job&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="520" y="3040" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KFi5XfBKzOIQPw9SkbQV-10" value="&lt;h1&gt;backup_info&lt;/h1&gt;&lt;p&gt;Do Backup에서 사용되는 모든 것&lt;/p&gt;&lt;p&gt;free_backup_info&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="2840" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="KFi5XfBKzOIQPw9SkbQV-11" value="&lt;h1&gt;compare_info&lt;/h1&gt;&lt;p&gt;BackupList에서 사용되는 모든 것&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="2840" width="200" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
