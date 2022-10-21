@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-10-21T05:20:07.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.4.2" etag="DRaTrclQ1i8ilG8CkLI7" type="github"><diagram id="HJia9yeKJAP1iVvcOQoG">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-21T05:26:28.471Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="VPWDrmcJF3tsmYePVmwP" version="20.4.2" type="github">
+  <diagram id="HJia9yeKJAP1iVvcOQoG" name="페이지-1">
+    <mxGraphModel dx="772" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XbTbOmQ3Rbi7m6c_Uwy1-2" value="&lt;h1&gt;EM(Export Manager)&lt;/h1&gt;&lt;p&gt;API 서버에서 Export 요청을 받아 녹화 파일을 .avi 형태로 NAS에 저장.&lt;/p&gt;&lt;p&gt;완료시 DB Update(어떻게) 시행.&lt;/p&gt;&lt;p&gt;EM 초기 기동시 Export 하지 못한 작업을 수행 하도록 함(어디서 어떻게)&lt;/p&gt;&lt;p&gt;왜 Export 하지 못했지?&lt;br&gt;&amp;nbsp;- 비정상 종료or 업데이트등으로 인한 프로세스 중단&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="320" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="XbTbOmQ3Rbi7m6c_Uwy1-3" value="API 요청 &lt;br&gt;-&amp;gt; 요청 검사 &lt;br&gt;-&amp;gt; 메시지 정상 여부 응답 &lt;br&gt;-&amp;gt; Export 목록 DB에 insert&amp;nbsp;&lt;br&gt;-&amp;gt; NAS에 avi 파일 생성 &lt;br&gt;-&amp;gt; 완료 정보 DB update" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="160" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
