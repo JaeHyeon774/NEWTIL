@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T00:57:39.834Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.5.1" etag="zY8OxfSTSBV3C60UJngM" type="github"><diagram id="S2AjZCx5n5vBDn0XruNp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-26T01:06:12.838Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="GXvD0Ti8F2X9ILy0GKX3" version="20.5.1" type="github">
+  <diagram id="S2AjZCx5n5vBDn0XruNp" name="페이지-1">
+    <mxGraphModel dx="508" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5jRHaP3YyilnA_dnVc-N-1" value="&lt;h1&gt;Nasmon&lt;/h1&gt;&lt;p&gt;NAS에 있는 특정 파일을 지우는 프로그램.&amp;nbsp;&lt;/p&gt;&lt;p&gt;주기적으로 NAS에 저장된 파일들의 정보를 데이터베이스에서 확인하고 삭제가 필요한 파일들을 선별하여 삭제하는 기능을 수행.&lt;br&gt;&lt;/p&gt;&lt;p&gt;데이터베이스 파티션 정보를 미리 생성하고, 삭제가 필요한 파티션은 삭제하는 기능을 수행.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="5jRHaP3YyilnA_dnVc-N-3" value="&lt;h1&gt;Test 방법&lt;/h1&gt;&lt;p&gt;N&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="240" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
