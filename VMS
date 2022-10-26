@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T05:17:51.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="jJjFmnvwIpjCgHMjJ0KU" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T06:12:28.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="deVdm7p5cSWXX6uZSOlE" version="20.5.1" type="github">
   <diagram id="MT1Ui_fkSKzgvOuquqKe" name="페이지-1">
-    <mxGraphModel dx="1278" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Y6dY8GnkKeZojzZPQzkq-4" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;VMS DM&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;DM = Device manager&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;안산&lt;/div&gt;&lt;div&gt;해안감시 BMT&lt;/div&gt;&lt;div&gt;Supserset&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SmartCQ와 IPC 통신을 하며&lt;br&gt;카메라의 검색, 제거 기능 등을 수행&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="200" height="530" as="geometry" />
+        <mxCell id="Y6dY8GnkKeZojzZPQzkq-4" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;VMS DM&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;DM = Device manager&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;안산&lt;/div&gt;&lt;div&gt;해안감시 BMT&lt;/div&gt;&lt;div&gt;Supserset&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SmartCQ와 IPC 통신을 하며&lt;br&gt;카메라의 검색, 제거 기능 등을 수행&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;카메라 관리 기능을 수행하는 Device Manager는 Manager Server에 최초로 접속한 Device Manager이다.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Comunication Module&lt;/div&gt;&lt;div&gt;&amp;nbsp;- TCP Connector&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Camera Control Module&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Camera Manage Module&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Onvif&lt;br&gt;SDK&lt;br&gt;Serial Communication&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="41" y="40" width="200" height="530" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
