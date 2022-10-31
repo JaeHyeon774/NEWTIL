@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T06:16:02.718Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="jRcfNqi3UTWnTuY_KA-4" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-31T06:21:06.404Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="L6yen7XmlWhydzRwe_UZ" version="20.5.1" type="github">
   <diagram id="HJia9yeKJAP1iVvcOQoG" name="페이지-1">
     <mxGraphModel dx="1278" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -37,10 +37,10 @@
         <mxCell id="b7j55R0uiB86d4h7jm7H-2" value="main&lt;br&gt;&lt;br&gt;-&amp;gt; EmApp::run&lt;br&gt;&lt;br&gt;-&amp;gt; EmApp::load&lt;br&gt;&lt;br&gt;-&amp;gt; EmApp::runExport&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;-&amp;gt;addExport" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="1240" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="b7j55R0uiB86d4h7jm7H-3" value="&lt;h1&gt;ExportAgent&amp;nbsp;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;/p&gt;&lt;p&gt;addExport&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;gt; enqueueJob -&amp;gt; doWork&lt;/span&gt;&lt;/p&gt;&lt;h1&gt;ExportJob&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;doWork&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="b7j55R0uiB86d4h7jm7H-3" value="&lt;h1&gt;ExportAgent&amp;nbsp;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;/p&gt;&lt;p&gt;addExport&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;gt; enqueueJob -&amp;gt; doWork&lt;/span&gt;&lt;/p&gt;&lt;h1&gt;ExportJob&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;doWork(여기가 핵심?)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="1200" width="200" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="b7j55R0uiB86d4h7jm7H-4" value="&lt;h1&gt;ThumbnailAgent&lt;/h1&gt;&lt;p&gt;addSavseThumbnail -&amp;gt; enquequeJob -&amp;gt; doWork&lt;/p&gt;&lt;h1&gt;ThumbnailJob&lt;/h1&gt;&lt;p&gt;doWork -&amp;gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="b7j55R0uiB86d4h7jm7H-4" value="&lt;h1&gt;ThumbnailAgent&lt;/h1&gt;&lt;p&gt;addSavseThumbnail -&amp;gt; enquequeJob -&amp;gt; doWork&lt;/p&gt;&lt;h1&gt;ThumbnailJob&lt;/h1&gt;&lt;p&gt;doWork(여기가 핵심)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="760" y="1200" width="200" height="360" as="geometry" />
         </mxCell>
       </root>
