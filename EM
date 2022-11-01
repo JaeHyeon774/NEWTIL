@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T06:59:21.550Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="dwP2hASORR4LT-ay4oQn" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T07:05:07.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="LogNS1x_pGYqIrKONXcG" version="20.5.1" type="github">
   <diagram id="HJia9yeKJAP1iVvcOQoG" name="페이지-1">
     <mxGraphModel dx="813" dy="331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -49,8 +49,8 @@
         <mxCell id="anV2jZYz1jc1nsq5E2QY-2" value="&lt;h1&gt;GoP(Group of Pictures)&lt;/h1&gt;&lt;p&gt;여러 개의 이미지를 하나로 그룹 화 해서 압축하는 방식&lt;/p&gt;&lt;p&gt;I,B,P프레임이 있음.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="530" width="320" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="anV2jZYz1jc1nsq5E2QY-3" value="&lt;h1&gt;while&lt;/h1&gt;&lt;p&gt;&lt;b&gt;varifyDirectory(tempPath_, temp_file))&lt;/b&gt; //(부모경로, 파일 경로 담아줄 값)&lt;br&gt;-&amp;gt;&lt;b&gt;부모경로/cameraID_ 디렉토리 생성&lt;/b&gt; -&amp;gt; &lt;b&gt;생성 여부 확인&lt;/b&gt; -&amp;gt; &lt;br&gt;t&lt;b&gt;emp_file에 부모경로/cameraID_/fileName_ 값을 넣어줌.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;ExportAVFrameList list;&lt;/b&gt;&lt;br&gt;&lt;b&gt;playback_-&amp;gt;getFrameList( beginTime, 1, &amp;amp;list); &lt;/b&gt;//1은 scale 값 어떤 의미인가?&lt;br&gt;&lt;b&gt;list에 프레임 값을 넣어줌?&lt;/b&gt;&lt;/p&gt;&lt;p&gt;setCodec을 통해 report의 코덱값을 지정.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="1440" width="440" height="370" as="geometry" />
+        <mxCell id="anV2jZYz1jc1nsq5E2QY-3" value="&lt;h1&gt;while&lt;/h1&gt;&lt;p&gt;&lt;b&gt;varifyDirectory(tempPath_, temp_file))&lt;/b&gt; //(부모경로, 파일 경로 담아줄 값)&amp;nbsp;-&amp;gt;&amp;nbsp;&lt;b&gt;부모경로/cameraID_ 디렉토리 생성&lt;/b&gt; -&amp;gt; &lt;b&gt;생성 여부 확인&lt;/b&gt; -&amp;gt; t&lt;b&gt;emp_file에 부모경로/cameraID_/fileName_ 값을 넣어줌.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;ExportAVFrameList list;&lt;/b&gt;&lt;br&gt;&lt;b&gt;playback_-&amp;gt;getFrameList( beginTime, 1, &amp;amp;list); &lt;/b&gt;//1은 scale 값 어떤 의미인가?&lt;br&gt;&lt;b&gt;list에 프레임 값을 넣어줌?&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;setCodec을 통해 report의 코덱값을 지정&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1440" width="640" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
