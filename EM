@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T05:53:31.193Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="7e6wtxmQ6kiA2ka7Dtu8" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T06:08:44.614Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="W7eNyRcAP0g2bVSSHaEu" version="20.5.1" type="github">
   <diagram id="HJia9yeKJAP1iVvcOQoG" name="페이지-1">
-    <mxGraphModel dx="1065" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1065" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,8 +43,11 @@
         <mxCell id="b7j55R0uiB86d4h7jm7H-4" value="&lt;h1&gt;ThumbnailAgent&lt;/h1&gt;&lt;p&gt;addSavseThumbnail -&amp;gt; enquequeJob -&amp;gt; doWork&lt;/p&gt;&lt;h1&gt;ThumbnailJob&lt;/h1&gt;&lt;p&gt;doWork(여기가 핵심) -&amp;gt; saveThumbnail&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="760" y="1200" width="200" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="anV2jZYz1jc1nsq5E2QY-1" value="&lt;h1&gt;GoP(Group of Pictures)&lt;/h1&gt;&lt;p&gt;여러 개의 이미지를 하나로 그룹 화 해서 압축하는 방식&lt;/p&gt;&lt;p&gt;I,B,P프레임이 있음.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="520" width="320" height="120" as="geometry" />
+        <mxCell id="anV2jZYz1jc1nsq5E2QY-1" value="&lt;h1&gt;av_interleaved_write_frame&lt;/h1&gt;&lt;p&gt;int av_interleaved_write_frame(AVForamtContext *s, AVPacket *pkt);&lt;/p&gt;&lt;p&gt;파일에 AVPacket을 쓴다.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1000" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="anV2jZYz1jc1nsq5E2QY-2" value="&lt;h1&gt;GoP(Group of Pictures)&lt;/h1&gt;&lt;p&gt;여러 개의 이미지를 하나로 그룹 화 해서 압축하는 방식&lt;/p&gt;&lt;p&gt;I,B,P프레임이 있음.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="530" width="320" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
