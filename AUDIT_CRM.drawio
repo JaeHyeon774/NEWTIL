@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T05:07:12.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="rnmOD61VlpPxsicM391e" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T05:11:58.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="UYKG4vJIU9_j10DSB51g" version="20.6.0" type="github">
   <diagram id="_P-Zi_dOzf9sflb4-BA2" name="audit_crm">
-    <mxGraphModel dx="865" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="568" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1131,8 +1131,8 @@
         <mxCell id="55ldtlzUHcn-3hxcyMGC-68" value="&lt;b&gt;camera_device&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3410.5" y="3260" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="55ldtlzUHcn-3hxcyMGC-69" value="&lt;b&gt;msg_ti_read&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3168.5" y="3361" width="60" height="30" as="geometry" />
+        <mxCell id="55ldtlzUHcn-3hxcyMGC-69" value="&lt;b&gt;1. msg_ti_read&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3150.25" y="3360" width="96.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="55ldtlzUHcn-3hxcyMGC-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="55ldtlzUHcn-3hxcyMGC-57" target="55ldtlzUHcn-3hxcyMGC-69">
           <mxGeometry relative="1" as="geometry">
@@ -1140,8 +1140,8 @@
             <mxPoint x="3198.5" y="3330" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="55ldtlzUHcn-3hxcyMGC-71" value="&lt;b&gt;crm_write_rec_data/&lt;br&gt;crm_h265_rec_proc&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3410.5" y="3600" width="60" height="30" as="geometry" />
+        <mxCell id="55ldtlzUHcn-3hxcyMGC-71" value="&lt;b&gt;5. crm_write_rec_data/&lt;br&gt;crm_h265_rec_proc&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3372.75" y="3610" width="135.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="55ldtlzUHcn-3hxcyMGC-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;startArrow=none;" edge="1" parent="1" target="55ldtlzUHcn-3hxcyMGC-71" source="55ldtlzUHcn-3hxcyMGC-83">
           <mxGeometry relative="1" as="geometry">
@@ -1149,7 +1149,7 @@
             <mxPoint x="3441" y="3360" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="55ldtlzUHcn-3hxcyMGC-75" value="1. svc_info-&amp;gt;buffer_size&amp;nbsp;+= rtp_data_size" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="55ldtlzUHcn-3hxcyMGC-75" value="2. svc_info-&amp;gt;buffer_size&amp;nbsp;+= rtp_data_size" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="3103.5" y="3432" width="190" height="28" as="geometry" />
         </mxCell>
         <mxCell id="55ldtlzUHcn-3hxcyMGC-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;startArrow=none;" edge="1" parent="1" source="55ldtlzUHcn-3hxcyMGC-69" target="55ldtlzUHcn-3hxcyMGC-75">
@@ -1158,7 +1158,7 @@
             <mxPoint x="3198.5" y="3382" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="55ldtlzUHcn-3hxcyMGC-83" value="2. compare buffer size" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="55ldtlzUHcn-3hxcyMGC-83" value="3. compare buffer size" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="3383.25" y="3520" width="114.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="55ldtlzUHcn-3hxcyMGC-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" target="55ldtlzUHcn-3hxcyMGC-83">
@@ -1167,10 +1167,13 @@
             <mxPoint x="3441" y="3359.9999999999995" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="55ldtlzUHcn-3hxcyMGC-81" value="4. svc_info-&amp;gt;buffer_size -= rtp_data_size" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="3345.5" y="3640" width="190" height="28" as="geometry" />
+        <mxCell id="55ldtlzUHcn-3hxcyMGC-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fontSize=10;endArrow=none;endFill=0;" edge="1" parent="1" source="55ldtlzUHcn-3hxcyMGC-81" target="55ldtlzUHcn-3hxcyMGC-71">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="55ldtlzUHcn-3hxcyMGC-86" value="3. check buffer over time" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="55ldtlzUHcn-3hxcyMGC-81" value="6. svc_info-&amp;gt;buffer_size -= rtp_data_size" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="3345.5" y="3660" width="190" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="55ldtlzUHcn-3hxcyMGC-86" value="4. check buffer over time" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="3383.25" y="3560" width="114.5" height="30" as="geometry" />
         </mxCell>
       </root>
