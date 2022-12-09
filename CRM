@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-12-09T02:02:40.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="m_GokiquFXpiJm2qnEpz" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-09T02:57:14.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="Lwz-hKTJnT0Ki9tK9YVp" type="github">
   <diagram id="k4a73t272gqck2ruswDZ" name="페이지-1">
     <mxGraphModel dx="268" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Lbi9n_LxirAthHtYM-hN-1" value="main&lt;br&gt;init process&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="280" width="60" height="30" as="geometry" />
+        <mxCell id="Lbi9n_LxirAthHtYM-hN-1" value="main&lt;br&gt;init process&lt;br&gt;start schedule&lt;br&gt;get cam list&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
