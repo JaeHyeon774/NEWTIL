@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-07-26T00:48:27.423Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.5" etag="x-rwRtd4KZ7SI7bm2ZHP" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-26T00:58:53.323Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="thWPq5nd3NLksKgdvYj7" version="21.6.5" type="github">
   <diagram name="페이지-1" id="pGx51BhmSvLXZOHYPiVm">
-    <mxGraphModel>
+    <mxGraphModel dx="600" dy="326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8DtWcxZlCmRhJB26I_MC-1" value="rm_write_data_to_file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8DtWcxZlCmRhJB26I_MC-2" value="rm_write_meta_to_file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
