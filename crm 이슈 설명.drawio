@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T01:35:28.213Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.6.6" etag="GmmBIS9EkDIs1f2ZUtD8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-18T02:01:27.604Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="xVu9u0lY71FfFfIQv68N" version="21.6.6" type="github">
   <diagram name="페이지-1" id="19fiuS-3-hlbFKQ8B7aK">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="t8z4HSqLAllJk8bLY568-4" value="sdb_list_cnt = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t8z4HSqLAllJk8bLY568-5" value="sdb_list_cnt = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t8z4HSqLAllJk8bLY568-6" value="수정 전" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t8z4HSqLAllJk8bLY568-7" value="수정 후" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t8z4HSqLAllJk8bLY568-8" value="soap GetRecordingList Success (cam_id=XXX, cam_ip=XXX, list_cnt=11,....)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t8z4HSqLAllJk8bLY568-9" value="soap GetRecordingList Success (cam_id=XXX, cam_ip=XXX, list_cnt=11,....)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t8z4HSqLAllJk8bLY568-10" value="crm_sd_backup_list_insert&lt;br&gt;list_cnt 만큼 sdb_list_cnt ++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t8z4HSqLAllJk8bLY568-11" value="crm_sd_backup_list_insert&lt;br&gt;list_cnt 만큼 sdb_list_cnt ++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="480" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t8z4HSqLAllJk8bLY568-12" value="sdb_list_cnt = 11" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t8z4HSqLAllJk8bLY568-13" value="crm_set_sd_backup_list_cnt&lt;br&gt;list_cnt 만큼 sdb_list_cnt 설정" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="200" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
