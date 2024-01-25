@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T08:18:24.354Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="xKDbnyYL7vR8j-1JiUyi" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T08:30:13.157Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Ld1yx6H9ZMQL6n28Qs31" version="23.0.1" type="github">
   <diagram name="페이지-1" id="ksUeeqzIcCZzvmtFrtLd">
     <mxGraphModel dx="2261" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,6 +108,21 @@
             <mxPoint x="710" y="1190" as="sourcePoint" />
             <mxPoint x="709.5" y="150" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="__dV9BuQpkVUs1_jfIQK-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="200" as="sourcePoint" />
+            <mxPoint x="710" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="__dV9BuQpkVUs1_jfIQK-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="200" as="sourcePoint" />
+            <mxPoint x="710" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-10" value="특정 메소드" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="190" width="76" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
