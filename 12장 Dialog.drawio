@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T07:03:31.779Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="NkAqcrCufiheTb4tIrEL" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T07:11:34.682Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Csm-8F03T2wsVBsu-Qbf" version="23.0.1" type="github">
   <diagram name="페이지-1" id="ksUeeqzIcCZzvmtFrtLd">
-    <mxGraphModel dx="1687" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2390" dy="1297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,7 +68,7 @@
           <mxGeometry x="40" y="1040" width="400" height="130" as="geometry" />
         </mxCell>
         <mxCell id="4LNV4jT3T6giweUdo03J-20" value="&lt;b&gt;Dialog-ID&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;- Call-ID : a84b4c76e66710@pc33.atlanta.com&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;- Local-Tag : a6c85cf&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;- Remote-Tag : 1928301774" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
-          <mxGeometry x="360" y="1200" width="400" height="130" as="geometry" />
+          <mxGeometry x="360" y="1190" width="400" height="130" as="geometry" />
         </mxCell>
         <mxCell id="4LNV4jT3T6giweUdo03J-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1.003;exitY=0.297;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4LNV4jT3T6giweUdo03J-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -86,7 +86,7 @@
           <mxGeometry x="140" y="780" width="410" height="200" as="geometry" />
         </mxCell>
         <mxCell id="4LNV4jT3T6giweUdo03J-24" value="Dialog ID 계산하는 규칙&lt;br&gt;&lt;ul data-pm-slice=&quot;3 3 []&quot; class=&quot;ak-ul&quot;&gt;&lt;li&gt;&lt;p&gt;UAC의 경우 Dialog  ID의 &lt;strong&gt;Call-ID &lt;/strong&gt;값은 메시지의 Call-ID로 설정되고, 원격 태그는 메시지의&lt;strong&gt; &lt;br&gt;To 필드의 태그&lt;/strong&gt;로 설정되며, 로컬 태그는 메시지의 &lt;strong&gt;From 필드의 태그&lt;/strong&gt;로 설정됩니다&lt;br&gt;(이러한 규칙은 Request 및 Response 모두에 적용됩니다). &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;UAS의 경우 Dialog  ID의&lt;strong&gt; Call-ID&lt;/strong&gt; 값은 메시지의 Call-ID로 설정되고, 원격 태그는 메시지의 &lt;br&gt;&lt;strong&gt;From 필드의 태그&lt;/strong&gt;로 설정되며, 로컬 태그는 메시지의 &lt;strong&gt;To 필드의 태그&lt;/strong&gt;로 설정됩니다.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1400" width="720" height="190" as="geometry" />
+          <mxGeometry x="40" y="1340" width="720" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
