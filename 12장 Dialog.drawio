@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T08:35:13.189Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="snirNv1rxgZVN5VThGNV" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T08:40:46.502Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ZZVtZJjVB6DN0_WUfvg8" version="23.0.1" type="github">
   <diagram name="페이지-1" id="ksUeeqzIcCZzvmtFrtLd">
     <mxGraphModel dx="2261" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -140,6 +140,15 @@
         </mxCell>
         <mxCell id="__dV9BuQpkVUs1_jfIQK-16" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;Dialog 생성&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="265" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.606;entryY=0.857;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;startArrow=block;startFill=1;" edge="1" parent="1" target="__dV9BuQpkVUs1_jfIQK-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="290" as="sourcePoint" />
+            <mxPoint x="340" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-20" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;bulletList&amp;quot;,null,&amp;quot;listItem&amp;quot;,null]&quot;&gt;To 태그가 있는 2xx 및 101-199 응답만이&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;INVITE 메서드의 Requset 에 대한 Dialog 를 설정&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="295" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
