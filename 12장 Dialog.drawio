@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T06:49:19.774Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="HZvYssycVESTSUQDjHWi" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T06:57:52.542Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="enyKzKVlGR1tFrZor2yP" version="23.0.1" type="github">
   <diagram name="페이지-1" id="ksUeeqzIcCZzvmtFrtLd">
-    <mxGraphModel dx="552" dy="299" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,13 +22,13 @@
         <mxCell id="4LNV4jT3T6giweUdo03J-9" value="&lt;b&gt;UAS&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="680" y="120" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4LNV4jT3T6giweUdo03J-10" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.096;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4LNV4jT3T6giweUdo03J-19" target="4LNV4jT3T6giweUdo03J-8">
+        <mxCell id="4LNV4jT3T6giweUdo03J-10" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.077;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4LNV4jT3T6giweUdo03J-19" target="4LNV4jT3T6giweUdo03J-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="680" as="sourcePoint" />
             <mxPoint x="390" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4LNV4jT3T6giweUdo03J-11" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.843;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4LNV4jT3T6giweUdo03J-20" target="4LNV4jT3T6giweUdo03J-9">
+        <mxCell id="4LNV4jT3T6giweUdo03J-11" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.868;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4LNV4jT3T6giweUdo03J-20" target="4LNV4jT3T6giweUdo03J-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="709.5" y="680" as="sourcePoint" />
             <mxPoint x="709.5" y="150" as="targetPoint" />
@@ -64,11 +64,11 @@
         <mxCell id="4LNV4jT3T6giweUdo03J-17" value="SIP/2.0 200 OK&lt;br&gt; Via: SIP/2.0/UDP server10.biloxi.com&lt;br&gt; ;branch=z9hG4bKnashds8;received=192.0.2.3&lt;br&gt; Via: SIP/2.0/UDP bigbox3.site3.atlanta.com&lt;br&gt; ;branch=z9hG4bK77ef4c2312983.1;received=192.0.2.2&lt;br&gt; Via: SIP/2.0/UDP pc33.atlanta.com&lt;br&gt; ;branch=z9hG4bK776asdhds ;received=192.0.2.1&lt;br&gt;&lt;b style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt; To&lt;/font&gt;&lt;/b&gt;: Bob ;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;tag=a6c85cf&lt;/b&gt;&lt;/font&gt;&lt;br&gt; From: Alice ;tag=1928301774&lt;br&gt; Call-ID: a84b4c76e66710@pc33.atlanta.com&lt;br&gt; CSeq: 314159 INVITE&lt;br&gt; Contact: &lt;br&gt; Content-Type: application/sdp&lt;br&gt; Content-Length: 131&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
           <mxGeometry x="230" y="440" width="410" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="4LNV4jT3T6giweUdo03J-19" value="Dialog-ID&lt;br&gt;&amp;nbsp;- Call-ID&lt;br&gt;&amp;nbsp;- Local-Tag&lt;br&gt;&amp;nbsp;- Remote-Tag" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1160" width="320" height="200" as="geometry" />
+        <mxCell id="4LNV4jT3T6giweUdo03J-19" value="Dialog-ID&lt;br&gt;&amp;nbsp;- Call-ID : a84b4c76e66710@pc33.atlanta.com&lt;br&gt;&amp;nbsp;- Local-Tag&lt;br&gt;&amp;nbsp;- Remote-Tag" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1040" width="400" height="130" as="geometry" />
         </mxCell>
         <mxCell id="4LNV4jT3T6giweUdo03J-20" value="Dialog-ID&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;- Call-ID&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;- Local-Tag&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;- Remote-Tag&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
-          <mxGeometry x="440" y="1160" width="320" height="200" as="geometry" />
+          <mxGeometry x="360" y="1200" width="400" height="130" as="geometry" />
         </mxCell>
         <mxCell id="4LNV4jT3T6giweUdo03J-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1.003;exitY=0.297;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4LNV4jT3T6giweUdo03J-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -82,8 +82,11 @@
             <mxPoint x="710" y="838" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4LNV4jT3T6giweUdo03J-22" value="ACK sip:Bob@server10.biloxi.com SIP/2.0&lt;br/&gt;Via: SIP/2.0/UDP client.example.com;branch=z9hG4bK776asdhds&lt;br/&gt;Max-Forwards: 70&lt;br/&gt;To: Bob ;tag=a6c85cf&lt;br/&gt;From: Alice ;tag=1928301774&lt;br/&gt;Call-ID: a84b4c76e66710@pc33.atlanta.com&lt;br/&gt;CSeq: 314159 ACK&lt;br/&gt;Contact: &amp;lt;sip:Alice@client.example.com&amp;gt;&lt;br/&gt;Content-Length: 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+        <mxCell id="4LNV4jT3T6giweUdo03J-22" value="ACK sip:Bob@server10.biloxi.com SIP/2.0&lt;br&gt;Via: SIP/2.0/UDP client.example.com;branch=z9hG4bK776asdhds&lt;br&gt;Max-Forwards: 70&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;To&lt;/b&gt;&lt;/font&gt;: Bob ;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;tag=a6c85cf&lt;/font&gt;&lt;/b&gt;&lt;br&gt;From: Alice ;tag=1928301774&lt;br&gt;Call-ID: a84b4c76e66710@pc33.atlanta.com&lt;br&gt;CSeq: 314159 ACK&lt;br&gt;Contact: &amp;lt;sip:Alice@client.example.com&amp;gt;&lt;br&gt;Content-Length: 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
           <mxGeometry x="140" y="780" width="410" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4LNV4jT3T6giweUdo03J-24" value="Dialog ID 계산하는 규칙&lt;br&gt;&lt;ul data-pm-slice=&quot;3 3 []&quot; class=&quot;ak-ul&quot;&gt;&lt;li&gt;&lt;p&gt;UAC의 경우 Dialog  ID의 &lt;strong&gt;Call-ID &lt;/strong&gt;값은 메시지의 Call-ID로 설정되고, 원격 태그는 메시지의&lt;strong&gt; &lt;br&gt;To 필드의 태그&lt;/strong&gt;로 설정되며, 로컬 태그는 메시지의 &lt;strong&gt;From 필드의 태그&lt;/strong&gt;로 설정됩니다&lt;br&gt;(이러한 규칙은 Request 및 Response 모두에 적용됩니다). &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;UAS의 경우 Dialog  ID의&lt;strong&gt; Call-ID&lt;/strong&gt; 값은 메시지의 Call-ID로 설정되고, 원격 태그는 메시지의 &lt;br&gt;&lt;strong&gt;From 필드의 태그&lt;/strong&gt;로 설정되며, 로컬 태그는 메시지의 &lt;strong&gt;To 필드의 태그&lt;/strong&gt;로 설정됩니다.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1400" width="720" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
