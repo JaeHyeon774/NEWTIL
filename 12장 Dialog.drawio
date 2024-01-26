@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T08:44:23.958Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="dEumzObe3q9zjgVdybDM" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-26T02:58:49.279Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="jWQSTOtzL7dKV9-SRhJ3" version="23.0.1" type="github">
   <diagram name="페이지-1" id="ksUeeqzIcCZzvmtFrtLd">
-    <mxGraphModel dx="2261" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2501" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,46 +88,46 @@
         <mxCell id="4LNV4jT3T6giweUdo03J-24" value="Dialog ID 계산하는 규칙&lt;br&gt;&lt;ul data-pm-slice=&quot;3 3 []&quot; class=&quot;ak-ul&quot;&gt;&lt;li&gt;&lt;p&gt;UAC의 경우 Dialog  ID의 &lt;strong&gt;Call-ID &lt;/strong&gt;값은 메시지의 Call-ID로 설정되고, 원격 태그는 메시지의&lt;strong&gt; &lt;br&gt;To 필드의 태그&lt;/strong&gt;로 설정되며, 로컬 태그는 메시지의 &lt;strong&gt;From 필드의 태그&lt;/strong&gt;로 설정됩니다&lt;br&gt;(이러한 규칙은 Request 및 Response 모두에 적용됩니다). &lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;UAS의 경우 Dialog  ID의&lt;strong&gt; Call-ID&lt;/strong&gt; 값은 메시지의 Call-ID로 설정되고, 원격 태그는 메시지의 &lt;br&gt;&lt;strong&gt;From 필드의 태그&lt;/strong&gt;로 설정되며, 로컬 태그는 메시지의 &lt;strong&gt;To 필드의 태그&lt;/strong&gt;로 설정됩니다.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" parent="1" vertex="1">
           <mxGeometry x="-760" y="1340" width="720" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="__dV9BuQpkVUs1_jfIQK-1" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Dialogs&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-1" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Dialogs&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-800" width="400" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="__dV9BuQpkVUs1_jfIQK-4" value="&lt;b&gt;UAC&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-4" value="&lt;b&gt;UAC&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="40" y="120" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="__dV9BuQpkVUs1_jfIQK-5" value="&lt;b&gt;UAS&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-5" value="&lt;b&gt;UAS&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="680" y="120" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="__dV9BuQpkVUs1_jfIQK-6" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="__dV9BuQpkVUs1_jfIQK-4">
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-6" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="__dV9BuQpkVUs1_jfIQK-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="1040" as="sourcePoint" />
             <mxPoint x="390" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="__dV9BuQpkVUs1_jfIQK-7" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="__dV9BuQpkVUs1_jfIQK-5">
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-7" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="__dV9BuQpkVUs1_jfIQK-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="710" y="1040" as="sourcePoint" />
             <mxPoint x="709.5" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="__dV9BuQpkVUs1_jfIQK-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-8" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="200" as="sourcePoint" />
             <mxPoint x="710" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="__dV9BuQpkVUs1_jfIQK-10" value="특정 메소드 요청" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-10" value="특정 메소드 요청" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="190" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="__dV9BuQpkVUs1_jfIQK-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="710" y="230" as="sourcePoint" />
             <mxPoint x="70" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="__dV9BuQpkVUs1_jfIQK-13" value="실패하지 않은 응답" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-13" value="실패하지 않은 응답" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="219" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="__dV9BuQpkVUs1_jfIQK-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="__dV9BuQpkVUs1_jfIQK-14">
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF3333;" parent="1" source="__dV9BuQpkVUs1_jfIQK-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="280" as="targetPoint" />
             <Array as="points">
@@ -135,20 +135,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="__dV9BuQpkVUs1_jfIQK-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="60" y="180" width="660" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="__dV9BuQpkVUs1_jfIQK-16" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;Dialog 생성&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-16" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;Dialog 생성&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="265" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="__dV9BuQpkVUs1_jfIQK-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.606;entryY=0.857;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;startArrow=block;startFill=1;" edge="1" parent="1" target="__dV9BuQpkVUs1_jfIQK-14">
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.606;entryY=0.857;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;startArrow=block;startFill=1;" parent="1" target="__dV9BuQpkVUs1_jfIQK-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="290" as="sourcePoint" />
+            <mxPoint x="460" y="270" as="sourcePoint" />
             <mxPoint x="340" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="__dV9BuQpkVUs1_jfIQK-20" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;bulletList&amp;quot;,null,&amp;quot;listItem&amp;quot;,null]&quot;&gt;To 태그가 있는 2xx 및 101-199 응답만이&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;INVITE 메서드의 Requset 에 대한 Dialog 를 설정&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="414" y="295" width="320" height="30" as="geometry" />
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-20" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;bulletList&amp;quot;,null,&amp;quot;listItem&amp;quot;,null]&quot;&gt;To 태그가 있는 2xx 및 101-199 응답만이&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;특정 메서드의 Requset 에 대한 Dialog 를 설정&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="390" y="270" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
