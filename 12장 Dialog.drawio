@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2024-01-26T08:21:53.281Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="UDg50Hzc5xFKrcQdkvlR" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-29T00:59:56.970Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="aLbRmaBB7oi08FQA0uxv" version="23.0.2" type="github">
   <diagram name="페이지-1" id="ksUeeqzIcCZzvmtFrtLd">
     <mxGraphModel dx="2261" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UO2-w6IYyax2wdj97ACj-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-730" y="840" as="sourcePoint" />
+            <mxPoint x="-90" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UO2-w6IYyax2wdj97ACj-5" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-730" y="200" as="sourcePoint" />
+            <mxPoint x="-90" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UO2-w6IYyax2wdj97ACj-4" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="480" as="sourcePoint" />
+            <mxPoint x="-730" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4LNV4jT3T6giweUdo03J-1" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Creation of&amp;nbsp; a Dialog&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry width="400" height="40" as="geometry" />
         </mxCell>
@@ -34,32 +52,8 @@
             <mxPoint x="-90.5" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4LNV4jT3T6giweUdo03J-12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.997;exitY=0.195;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4LNV4jT3T6giweUdo03J-15" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-287.03999999999996" y="223.26999999999998" as="sourcePoint" />
-            <mxPoint x="-90" y="200" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4LNV4jT3T6giweUdo03J-14" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=-0.003;entryY=0.195;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="4LNV4jT3T6giweUdo03J-15" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-730" y="200" as="sourcePoint" />
-            <mxPoint x="-660" y="221.78999999999996" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="4LNV4jT3T6giweUdo03J-15" value="INVITE sip:bob@biloxi.com SIP/2.0&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Via: SIP/2.0/UDP pc33.atlanta.com;branch=z9hG4bK776asdhds&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Max-Forwards: 70&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;To: Bob&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;From: Alice ;tag=1928301774&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Call-ID: a84b4c76e66710@pc33.atlanta.com&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;CSeq: 314159 INVITE&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Contact:&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Content-Type: application/sdp&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Content-Length: 142&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" parent="1" vertex="1">
           <mxGeometry x="-650" y="160" width="340" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="4LNV4jT3T6giweUdo03J-16" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.002;exitY=0.146;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4LNV4jT3T6giweUdo03J-17" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-90" y="480" as="sourcePoint" />
-            <mxPoint x="-730" y="480" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4LNV4jT3T6giweUdo03J-18" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1.005;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="4LNV4jT3T6giweUdo03J-17" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-90" y="480" as="sourcePoint" />
-            <mxPoint x="-730" y="480" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="4LNV4jT3T6giweUdo03J-17" value="SIP/2.0 200 OK&lt;br&gt; Via: SIP/2.0/UDP server10.biloxi.com&lt;br&gt; ;branch=z9hG4bKnashds8;received=192.0.2.3&lt;br&gt; Via: SIP/2.0/UDP bigbox3.site3.atlanta.com&lt;br&gt; ;branch=z9hG4bK77ef4c2312983.1;received=192.0.2.2&lt;br&gt; Via: SIP/2.0/UDP pc33.atlanta.com&lt;br&gt; ;branch=z9hG4bK776asdhds ;received=192.0.2.1&lt;br&gt;&lt;b style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt; To&lt;/font&gt;&lt;/b&gt;: Bob ;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;tag=a6c85cf&lt;/b&gt;&lt;/font&gt;&lt;br&gt; From: Alice ;tag=1928301774&lt;br&gt; Call-ID: a84b4c76e66710@pc33.atlanta.com&lt;br&gt; CSeq: 314159 INVITE&lt;br&gt; Contact: &lt;br&gt; Content-Type: application/sdp&lt;br&gt; Content-Length: 131&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" parent="1" vertex="1">
           <mxGeometry x="-570" y="440" width="410" height="280" as="geometry" />
@@ -69,18 +63,6 @@
         </mxCell>
         <mxCell id="4LNV4jT3T6giweUdo03J-20" value="&lt;b&gt;Dialog-ID&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;- Call-ID : a84b4c76e66710@pc33.atlanta.com&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;- Local-Tag : a6c85cf&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;- Remote-Tag : 1928301774" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" parent="1" vertex="1">
           <mxGeometry x="-440" y="1190" width="400" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="4LNV4jT3T6giweUdo03J-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1.003;exitY=0.297;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4LNV4jT3T6giweUdo03J-22" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-730" y="838" as="sourcePoint" />
-            <mxPoint x="-90" y="840" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4LNV4jT3T6giweUdo03J-23" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=-0.003;entryY=0.301;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="4LNV4jT3T6giweUdo03J-22" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-730" y="840" as="sourcePoint" />
-            <mxPoint x="-90" y="838" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="4LNV4jT3T6giweUdo03J-22" value="ACK sip:Bob@server10.biloxi.com SIP/2.0&lt;br&gt;Via: SIP/2.0/UDP client.example.com;branch=z9hG4bK776asdhds&lt;br&gt;Max-Forwards: 70&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;To&lt;/b&gt;&lt;/font&gt;: Bob ;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;tag=a6c85cf&lt;/font&gt;&lt;/b&gt;&lt;br&gt;From: Alice ;tag=1928301774&lt;br&gt;Call-ID: a84b4c76e66710@pc33.atlanta.com&lt;br&gt;CSeq: 314159 ACK&lt;br&gt;Contact: &amp;lt;sip:Alice@client.example.com&amp;gt;&lt;br&gt;Content-Length: 0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" parent="1" vertex="1">
           <mxGeometry x="-660" y="780" width="410" height="200" as="geometry" />
@@ -149,6 +131,15 @@
         </mxCell>
         <mxCell id="__dV9BuQpkVUs1_jfIQK-20" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;bulletList&amp;quot;,null,&amp;quot;listItem&amp;quot;,null]&quot;&gt;To 태그가 있는 2xx 및 101-199 응답만이&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;특정 메서드의 Requset 에 대한 Dialog 를 설정&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="390" y="270" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UO2-w6IYyax2wdj97ACj-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="320" as="sourcePoint" />
+            <mxPoint x="750" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UO2-w6IYyax2wdj97ACj-3" value="INVITE sip:alice@example.com SIP/2.0&lt;br&gt;Via: SIP/2.0/UDP client.atlanta.example.com:5060;branch=z9hG4bK74bf9&lt;br&gt;Max-Forwards: 70&lt;br&gt;To: Alice &amp;lt;sip:alice@example.com&amp;gt;&lt;br&gt;From: Bob &amp;lt;sip:bob@example.com&amp;gt;;tag=1928301774&lt;br&gt;Call-ID: a84b4c76e66710&lt;br&gt;CSeq: 314159 INVITE&lt;br&gt;Contact: &amp;lt;sip:bob@client.atlanta.example.com&amp;gt;&lt;br&gt;Route: &amp;lt;sip:proxy1.atlanta.example.com;lr&amp;gt;&lt;br&gt;Route: &amp;lt;sip:proxy2.atlanta.example.com;lr&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="370" width="430" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
