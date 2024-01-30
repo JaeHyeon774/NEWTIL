@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T05:21:50.149Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="PBmse3pUC8zNjjDERG4D" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-30T23:30:39.887Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="eirMxqv4UGwrjmsjRCbG" version="23.0.2" type="github">
   <diagram name="페이지-1" id="ksUeeqzIcCZzvmtFrtLd">
-    <mxGraphModel dx="2261" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -189,47 +189,50 @@
         <mxCell id="UO2-w6IYyax2wdj97ACj-16" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;UAS hehavior&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="655" y="60" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GHZ3NePwrPJdA7_2jVXT-1" value="&lt;b&gt;route-set : &amp;lt;proxy2&amp;gt;, &amp;lt;proxy1&amp;gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GHZ3NePwrPJdA7_2jVXT-1" value="&lt;b&gt;route-set : &amp;lt;proxy2&amp;gt;, &amp;lt;proxy1&amp;gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="1080" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GHZ3NePwrPJdA7_2jVXT-3" value="&lt;b&gt;route-set :&amp;nbsp;&amp;lt;proxy1&amp;gt;,&amp;nbsp;&amp;lt;proxy2&amp;gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GHZ3NePwrPJdA7_2jVXT-3" value="&lt;b&gt;route-set :&amp;nbsp;&amp;lt;proxy1&amp;gt;,&amp;nbsp;&amp;lt;proxy2&amp;gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-20" y="1080" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GHZ3NePwrPJdA7_2jVXT-4" value="&lt;b&gt;UAC&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="GHZ3NePwrPJdA7_2jVXT-4" value="&lt;b&gt;UAC&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="40" y="1169" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GHZ3NePwrPJdA7_2jVXT-5" value="&lt;b&gt;UAS&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="GHZ3NePwrPJdA7_2jVXT-5" value="&lt;b&gt;UAS&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="680" y="1169" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GHZ3NePwrPJdA7_2jVXT-8" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="GHZ3NePwrPJdA7_2jVXT-8" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="69.5" y="2130" as="sourcePoint" />
             <mxPoint x="69.5" y="1190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GHZ3NePwrPJdA7_2jVXT-9" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="GHZ3NePwrPJdA7_2jVXT-9" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="709" y="2129" as="sourcePoint" />
             <mxPoint x="709" y="1189" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GHZ3NePwrPJdA7_2jVXT-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+        <mxCell id="GHZ3NePwrPJdA7_2jVXT-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="710" y="1530" as="sourcePoint" />
             <mxPoint x="70" y="1530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GHZ3NePwrPJdA7_2jVXT-14" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+        <mxCell id="GHZ3NePwrPJdA7_2jVXT-14" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="1230" as="sourcePoint" />
             <mxPoint x="710" y="1230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GHZ3NePwrPJdA7_2jVXT-15" value="INVITE sip:alice@example.com SIP/2.0&lt;br&gt;Via: SIP/2.0/UDP client.atlanta.example.com:5060;branch=z9hG4bK74bf9&lt;br&gt;Max-Forwards: 70&lt;br&gt;To: Alice &amp;lt;sip:alice@example.com&amp;gt;&lt;br&gt;From: Bob &amp;lt;sip:bob@example.com&amp;gt;;tag=1928301774&lt;br&gt;Call-ID: a84b4c76e66710&lt;br&gt;CSeq: 314159 INVITE&lt;br&gt;Contact: &amp;lt;sip:bob@client.atlanta.example.com&amp;gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;Record-route:&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+        <mxCell id="GHZ3NePwrPJdA7_2jVXT-15" value="INVITE sip:alice@example.com SIP/2.0&lt;br&gt;Via: SIP/2.0/UDP client.atlanta.example.com:5060;branch=z9hG4bK74bf9&lt;br&gt;Max-Forwards: 70&lt;br&gt;To: Alice &amp;lt;sip:alice@example.com&amp;gt;&lt;br&gt;From: Bob &amp;lt;sip:bob@example.com&amp;gt;;tag=1928301774&lt;br&gt;Call-ID: a84b4c76e66710&lt;br&gt;CSeq: 314159 INVITE&lt;br&gt;Contact: &amp;lt;sip:bob@client.atlanta.example.com&amp;gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;Record-route:&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" parent="1" vertex="1">
           <mxGeometry x="175" y="1210" width="430" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="GHZ3NePwrPJdA7_2jVXT-16" value="SIP/2.0 200 OK&lt;br&gt;Via: SIP/2.0/UDP server.atlanta.example.com:5060;branch=z9hG4bK74bf9;received=192.0.2.101&lt;br&gt;To: Alice &amp;lt;sip:alice@example.com&amp;gt;;tag=9fxced76sl&lt;br&gt;From: Bob &amp;lt;sip:bob@example.com&amp;gt;;tag=1928301774&lt;br&gt;Call-ID: a84b4c76e66710&lt;br&gt;CSeq: 314159 INVITE&lt;br&gt;Contact: &amp;lt;sip:alice@server.atlanta.example.com&amp;gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;Record-route:&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+        <mxCell id="GHZ3NePwrPJdA7_2jVXT-16" value="SIP/2.0 200 OK&lt;br&gt;Via: SIP/2.0/UDP server.atlanta.example.com:5060;branch=z9hG4bK74bf9;received=192.0.2.101&lt;br&gt;To: Alice &amp;lt;sip:alice@example.com&amp;gt;;tag=9fxced76sl&lt;br&gt;From: Bob &amp;lt;sip:bob@example.com&amp;gt;;tag=1928301774&lt;br&gt;Call-ID: a84b4c76e66710&lt;br&gt;CSeq: 314159 INVITE&lt;br&gt;Contact: &amp;lt;sip:alice@server.atlanta.example.com&amp;gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;Record-route:&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" parent="1" vertex="1">
           <mxGeometry x="100" y="1490" width="580" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="5LkpHPxGnPa8mUmnsMtb-1" value="사전에 존재하는 route-set에 대한 이해 필요! 아직 잘 모르겟음!!" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="1724" width="400" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
