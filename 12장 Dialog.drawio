@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T05:42:03.208Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="kYVUUlF9LpGN18nJtjdD" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T08:11:09.295Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="H1j93T2R9FbXESX3bX8q" version="23.0.2" type="github">
   <diagram name="페이지-1" id="ksUeeqzIcCZzvmtFrtLd">
-    <mxGraphModel dx="2336" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1844" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -139,28 +139,14 @@
         <mxCell id="__dV9BuQpkVUs1_jfIQK-13" value="실패하지 않은 응답" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="219" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="__dV9BuQpkVUs1_jfIQK-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF3333;" parent="1" source="__dV9BuQpkVUs1_jfIQK-14" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="280" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="225" y="280" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="__dV9BuQpkVUs1_jfIQK-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="60" y="180" width="660" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="__dV9BuQpkVUs1_jfIQK-16" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;Dialog 생성&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="280" y="265" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="__dV9BuQpkVUs1_jfIQK-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.606;entryY=0.857;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;startArrow=block;startFill=1;" parent="1" target="__dV9BuQpkVUs1_jfIQK-14" edge="1">
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;endFill=0;startArrow=block;startFill=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="270" as="sourcePoint" />
-            <mxPoint x="340" y="470" as="targetPoint" />
+            <mxPoint x="460" y="240" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="__dV9BuQpkVUs1_jfIQK-20" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;bulletList&amp;quot;,null,&amp;quot;listItem&amp;quot;,null]&quot;&gt;To 태그가 있는 2xx 및 101-199 응답만이&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;특정 메서드의 Requset 에 대한 Dialog 를 설정&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="390" y="270" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UO2-w6IYyax2wdj97ACj-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -426,6 +412,22 @@
         </mxCell>
         <mxCell id="5LkpHPxGnPa8mUmnsMtb-58" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;METHOD&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;sip:user@remoteua&lt;/b&gt;&lt;/b&gt;&lt;/b&gt;&amp;nbsp;SIP/2.0&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;Route:&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1430" y="1265" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5LkpHPxGnPa8mUmnsMtb-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="__dV9BuQpkVUs1_jfIQK-14" target="__dV9BuQpkVUs1_jfIQK-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="235" />
+              <mxPoint x="760" y="280" />
+            </Array>
+            <mxPoint x="720" y="235" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-16" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;Dialog 생성&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="720" y="265" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-20" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;bulletList&amp;quot;,null,&amp;quot;listItem&amp;quot;,null]&quot;&gt;&lt;b&gt;To 태그가 있는 2xx 및 101-199 응답만이&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;특정 메서드의 Requset 에 대한 Dialog 를 설정&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="320" y="270" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
