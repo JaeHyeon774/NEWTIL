@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T00:40:57.411Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="GV98VhZs6v9epymBu8qS" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T01:03:09.828Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="02AMSh1nchZF3Q45Np3y" version="23.0.2" type="github">
   <diagram name="페이지-1" id="ksUeeqzIcCZzvmtFrtLd">
     <mxGraphModel dx="2261" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -250,6 +250,18 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1530" y="1189" as="sourcePoint" />
             <mxPoint x="1529.5" y="149" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5LkpHPxGnPa8mUmnsMtb-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="200" as="sourcePoint" />
+            <mxPoint x="1530" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5LkpHPxGnPa8mUmnsMtb-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1530" y="340" as="sourcePoint" />
+            <mxPoint x="890" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
