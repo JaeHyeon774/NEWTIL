@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T02:33:20.532Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="CeJNtR1LRbQasLl3XC26" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T02:57:32.803Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="nl5wf77JDrTkWojv70QG" version="23.0.2" type="github">
   <diagram name="페이지-1" id="ksUeeqzIcCZzvmtFrtLd">
     <mxGraphModel dx="2261" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -326,7 +326,13 @@
           <mxGeometry x="1380" y="720" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5LkpHPxGnPa8mUmnsMtb-37" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;expand&amp;quot;,{&amp;quot;title&amp;quot;:&amp;quot;Generating the Request&amp;quot;,&amp;quot;__expanded&amp;quot;:true},&amp;quot;bulletList&amp;quot;,null,&amp;quot;listItem&amp;quot;,null,&amp;quot;bulletList&amp;quot;,null,&amp;quot;listItem&amp;quot;,null]&quot;&gt;&lt;b&gt;METHOD&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;sip:user@remoteua SIP/2.0&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Route: &amp;lt;sip:proxy1&amp;gt;,&amp;lt;sip:proxy2&amp;gt;,&amp;lt;sip:proxy3;lr&amp;gt;,&amp;lt;sip:proxy4&amp;gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="920" y="770" width="400" height="50" as="geometry" />
+          <mxGeometry x="920" y="770" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5LkpHPxGnPa8mUmnsMtb-38" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;METHOD sip::proxy1 SIP/2.0&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;Route: &amp;lt;sip:proxy2&amp;gt;,&amp;lt;sip:proxy3;lr&amp;gt;,&amp;lt;sip:proxy4&amp;gt;, &amp;lt;sip:user@remoteua&amp;gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="920" y="855" width="430" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5LkpHPxGnPa8mUmnsMtb-39" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;METHOD sip::proxy2 SIP/2.0&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;Route: &amp;lt;sip:proxy3;lr&amp;gt;,&amp;lt;sip:proxy4&amp;gt;, &amp;lt;sip:user@remoteua&amp;gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="920" y="940" width="350" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
