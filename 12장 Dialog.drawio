@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T04:15:26.532Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-7BCN24aF0YKQjcQuNZO" version="23.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-01T06:10:16.988Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="H9kskEUNfNMoqxkQbveO" version="23.1.0" type="github">
   <diagram name="페이지-1" id="ksUeeqzIcCZzvmtFrtLd">
     <mxGraphModel dx="2022" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -251,29 +251,29 @@
           <mxGeometry x="1170" y="235" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5LkpHPxGnPa8mUmnsMtb-15" value="INVITE sip:alice@example.com SIP/2.0&lt;br&gt;Via: SIP/2.0/UDP client.atlanta.example.com:5060;branch=z9hG4bK74bf9&lt;br&gt;Max-Forwards: 70&lt;br&gt;To: Alice &amp;lt;sip:alice@example.com&amp;gt;&lt;br&gt;From: Bob &amp;lt;sip:bob@example.com&amp;gt;;tag=1928301774&lt;br&gt;Call-ID: a84b4c76e66710&lt;br&gt;CSeq: 314159 INVITE&lt;br&gt;Contact: &amp;lt;sip:bob@client.atlanta.example.com&amp;gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;Route: &lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;&amp;lt;sip:proxy2.atlanta.example.com;lr&amp;gt;,&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;br&gt;&amp;lt;sip:proxy1.atlanta.example.com;lr&amp;gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" parent="1" vertex="1">
-          <mxGeometry x="987.5" y="400" width="430" height="220" as="geometry" />
+          <mxGeometry x="1000" y="460" width="430" height="220" as="geometry" />
         </mxCell>
         <mxCell id="5LkpHPxGnPa8mUmnsMtb-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#FF3333;" parent="1" source="5LkpHPxGnPa8mUmnsMtb-16" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1132.5" y="370" as="targetPoint" />
+            <mxPoint x="1145" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5LkpHPxGnPa8mUmnsMtb-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;strokeColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="1042.5" y="400" width="180" height="30" as="geometry" />
+          <mxGeometry x="1055" y="460" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5LkpHPxGnPa8mUmnsMtb-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF3333;" parent="1" source="5LkpHPxGnPa8mUmnsMtb-17" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1188" y="650" as="targetPoint" />
+            <mxPoint x="1200.5" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5LkpHPxGnPa8mUmnsMtb-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;strokeColor=#FF3333;" parent="1" vertex="1">
-          <mxGeometry x="982.5" y="550" width="410" height="70" as="geometry" />
+          <mxGeometry x="995" y="610" width="410" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="5LkpHPxGnPa8mUmnsMtb-21" value="&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;&lt;b&gt;수정 가능&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1102.5" y="340" width="60" height="30" as="geometry" />
+        <mxCell id="5LkpHPxGnPa8mUmnsMtb-21" value="&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;&lt;b&gt;re-INVITE 일 때&amp;nbsp;수정&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1077.5" y="400" width="135" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5LkpHPxGnPa8mUmnsMtb-22" value="&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;&lt;b&gt;수정 불가&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1157.5" y="650" width="60" height="30" as="geometry" />
+          <mxGeometry x="1170" y="710" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5LkpHPxGnPa8mUmnsMtb-28" value="&lt;b&gt;UAs&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="860" y="870" width="60" height="20" as="geometry" />
