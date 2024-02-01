@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T01:58:54.828Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="YeQXa2SqCq-p-MQnRQnH" version="23.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-01T02:39:31.734Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="zbf5LadnFfTiTCsFWpqO" version="23.1.0" type="github">
   <diagram name="페이지-1" id="ksUeeqzIcCZzvmtFrtLd">
     <mxGraphModel dx="2261" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -241,13 +241,13 @@
             <mxPoint x="890" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5LkpHPxGnPa8mUmnsMtb-8" value="&lt;b&gt;client -&amp;gt; INVITE -&amp;gt; server&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="5LkpHPxGnPa8mUmnsMtb-8" value="&lt;b&gt;UAC -&amp;gt; INVITE -&amp;gt; UAS&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1120" y="190" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5LkpHPxGnPa8mUmnsMtb-11" value="&lt;b&gt;server &amp;lt;- Bye &amp;lt;- client&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="5LkpHPxGnPa8mUmnsMtb-11" value="&lt;b&gt;UAS &amp;lt;- BYE &amp;lt;- UAC&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1120" y="300" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5LkpHPxGnPa8mUmnsMtb-14" value="&lt;b&gt;.&lt;br&gt;.&lt;br&gt;.&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="5LkpHPxGnPa8mUmnsMtb-14" value="&lt;b style=&quot;font-size: 19px;&quot;&gt;.&lt;br&gt;.&lt;br&gt;.&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1170" y="235" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5LkpHPxGnPa8mUmnsMtb-15" value="INVITE sip:alice@example.com SIP/2.0&lt;br&gt;Via: SIP/2.0/UDP client.atlanta.example.com:5060;branch=z9hG4bK74bf9&lt;br&gt;Max-Forwards: 70&lt;br&gt;To: Alice &amp;lt;sip:alice@example.com&amp;gt;&lt;br&gt;From: Bob &amp;lt;sip:bob@example.com&amp;gt;;tag=1928301774&lt;br&gt;Call-ID: a84b4c76e66710&lt;br&gt;CSeq: 314159 INVITE&lt;br&gt;Contact: &amp;lt;sip:bob@client.atlanta.example.com&amp;gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;Route: &lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;&amp;lt;sip:proxy2.atlanta.example.com;lr&amp;gt;,&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;br&gt;&amp;lt;sip:proxy1.atlanta.example.com;lr&amp;gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" parent="1" vertex="1">
