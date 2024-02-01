@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T07:35:49.622Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="kv_SXRDEuroBnL41f_y6" version="23.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-01T08:28:46.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="4S_n_ZI2pA4Z22FLhKIo" version="23.1.0" type="github">
   <diagram name="페이지-1" id="ksUeeqzIcCZzvmtFrtLd">
     <mxGraphModel dx="2022" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -208,8 +208,8 @@
         <mxCell id="GHZ3NePwrPJdA7_2jVXT-16" value="SIP/2.0 200 OK&lt;br&gt;Via: SIP/2.0/UDP server.atlanta.example.com:5060;branch=z9hG4bK74bf9;received=192.0.2.101&lt;br&gt;To: Alice &amp;lt;sip:alice@example.com&amp;gt;;tag=9fxced76sl&lt;br&gt;From: Bob &amp;lt;sip:bob@example.com&amp;gt;;tag=1928301774&lt;br&gt;Call-ID: a84b4c76e66710&lt;br&gt;CSeq: 314159 INVITE&lt;br&gt;Contact: &amp;lt;sip:alice@server.atlanta.example.com&amp;gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;Record-route:&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" parent="1" vertex="1">
           <mxGeometry x="100" y="1490" width="580" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="5LkpHPxGnPa8mUmnsMtb-1" value="&lt;b&gt;사전에 존재하는 route-set에 대한 이해 필요! 아직 잘 모르겟음!!&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="214" y="1724" width="400" height="60" as="geometry" />
+        <mxCell id="5LkpHPxGnPa8mUmnsMtb-1" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;To 필드 URI : Dialog 상태의 원격 URI&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;From 필드 URI : Dialog 상태의&amp;nbsp; 로컬 URI&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;To의 Tag : Dialog 원격 태그&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;From 의 Tag : Dialog 로컬 태크&lt;/div&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="272" y="1710" width="236" height="86" as="geometry" />
         </mxCell>
         <mxCell id="5LkpHPxGnPa8mUmnsMtb-2" value="&lt;b&gt;UAs&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="860" y="119" width="60" height="20" as="geometry" />
