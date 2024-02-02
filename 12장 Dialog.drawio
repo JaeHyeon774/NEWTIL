@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T08:51:23.111Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="37Y3O3GIRt0LkeLE6B2z" version="23.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T02:05:28.440Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="TaZf6oWxfb6rcHEFYEpS" version="23.1.1" type="github">
   <diagram name="페이지-1" id="ksUeeqzIcCZzvmtFrtLd">
-    <mxGraphModel dx="2261" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1855" dy="355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,14 +10,14 @@
             <mxPoint x="710" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UO2-w6IYyax2wdj97ACj-13" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1" target="UO2-w6IYyax2wdj97ACj-11">
+        <mxCell id="UO2-w6IYyax2wdj97ACj-13" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="UO2-w6IYyax2wdj97ACj-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="499" y="1080" as="sourcePoint" />
             <mxPoint x="499.40999999999997" y="140" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UO2-w6IYyax2wdj97ACj-12" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1" target="UO2-w6IYyax2wdj97ACj-10">
+        <mxCell id="UO2-w6IYyax2wdj97ACj-12" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="UO2-w6IYyax2wdj97ACj-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="1080" as="sourcePoint" />
             <mxPoint x="280" y="140" as="targetPoint" />
@@ -84,7 +84,7 @@
         <mxCell id="4LNV4jT3T6giweUdo03J-15" value="INVITE sip:bob@biloxi.com SIP/2.0&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Via: SIP/2.0/UDP pc33.atlanta.com;branch=z9hG4bK776asdhds&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Max-Forwards: 70&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;To: Bob&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;From: Alice ;tag=1928301774&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Call-ID: a84b4c76e66710@pc33.atlanta.com&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;CSeq: 314159 INVITE&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Contact:&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Content-Type: application/sdp&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;Content-Length: 142&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" parent="1" vertex="1">
           <mxGeometry x="-650" y="160" width="340" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="4LNV4jT3T6giweUdo03J-17" value="SIP/2.0 200 OK&lt;br&gt; Via: SIP/2.0/UDP server10.biloxi.com&lt;br&gt; ;branch=z9hG4bKnashds8;received=192.0.2.3&lt;br&gt; Via: SIP/2.0/UDP bigbox3.site3.atlanta.com&lt;br&gt; ;branch=z9hG4bK77ef4c2312983.1;received=192.0.2.2&lt;br&gt; Via: SIP/2.0/UDP pc33.atlanta.com&lt;br&gt; ;branch=z9hG4bK776asdhds ;received=192.0.2.1&lt;br&gt;&lt;b style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt; To&lt;/font&gt;&lt;/b&gt;: Bob ;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;tag=a6c85cf&lt;/b&gt;&lt;/font&gt;&lt;br&gt; From: Alice ;tag=1928301774&lt;br&gt; Call-ID: a84b4c76e66710@pc33.atlanta.com&lt;br&gt; CSeq: 314159 INVITE&lt;br&gt; Contact: &lt;br&gt; Content-Type: application/sdp&lt;br&gt; Content-Length: 131&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" parent="1" vertex="1">
+        <mxCell id="4LNV4jT3T6giweUdo03J-17" value="SIP/2.0 200 OK&lt;br&gt; Via: SIP/2.0/UDP server10.biloxi.com&lt;br&gt; ;branch=z9hG4bKnashds8;received=192.0.2.3&lt;br&gt; Via: SIP/2.0/UDP bigbox3.site3.atlanta.com&lt;br&gt; ;branch=z9hG4bK77ef4c2312983.1;received=192.0.2.2&lt;br&gt; Via: SIP/2.0/UDP pc33.atlanta.com&lt;br&gt; ;branch=z9hG4bK776asdhds ;received=192.0.2.1&lt;br&gt;&lt;b style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt; To&lt;/font&gt;&lt;/b&gt;: Bob ;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;tag=a6c85cf&lt;/b&gt;&lt;/font&gt;&lt;br&gt; From: Alice ;tag=1928301774&lt;br&gt; Call-ID: a84b4c76e66710@pc33.atlanta.com&lt;br&gt; CSeq: 314159 INVITE&lt;br&gt; Contact: sip:Bob@server10.biloxi.com&lt;br&gt; Content-Type: application/sdp&lt;br&gt; Content-Length: 131&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" parent="1" vertex="1">
           <mxGeometry x="-570" y="440" width="410" height="280" as="geometry" />
         </mxCell>
         <mxCell id="4LNV4jT3T6giweUdo03J-19" value="&lt;b&gt;Dialog-ID&lt;/b&gt;&lt;br&gt;&amp;nbsp;- Call-ID : a84b4c76e66710@pc33.atlanta.com&lt;br&gt;&amp;nbsp;- Local-Tag : 1928301774&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;(&lt;b&gt;From 필드 tag&lt;/b&gt;)&lt;br&gt;&amp;nbsp;- Remote-Tag :&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;a6c85cf&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;(&lt;b&gt;To 필드 tag&lt;/b&gt;)&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" parent="1" vertex="1">
@@ -114,7 +114,7 @@
             <mxPoint x="390" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="__dV9BuQpkVUs1_jfIQK-7" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1" target="__dV9BuQpkVUs1_jfIQK-5">
+        <mxCell id="__dV9BuQpkVUs1_jfIQK-7" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="__dV9BuQpkVUs1_jfIQK-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="710" y="1080" as="sourcePoint" />
             <mxPoint x="710" y="420" as="targetPoint" />
@@ -178,13 +178,13 @@
         <mxCell id="GHZ3NePwrPJdA7_2jVXT-5" value="&lt;b&gt;UAS&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="680" y="1169" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GHZ3NePwrPJdA7_2jVXT-8" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1" target="GHZ3NePwrPJdA7_2jVXT-4">
+        <mxCell id="GHZ3NePwrPJdA7_2jVXT-8" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="GHZ3NePwrPJdA7_2jVXT-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="69.5" y="1720" as="sourcePoint" />
             <mxPoint x="50" y="1210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GHZ3NePwrPJdA7_2jVXT-9" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1" target="GHZ3NePwrPJdA7_2jVXT-5">
+        <mxCell id="GHZ3NePwrPJdA7_2jVXT-9" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="GHZ3NePwrPJdA7_2jVXT-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="709" y="1720" as="sourcePoint" />
             <mxPoint x="740" y="840" as="targetPoint" />
@@ -423,19 +423,19 @@
         <mxCell id="__dV9BuQpkVUs1_jfIQK-20" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;bulletList&amp;quot;,null,&amp;quot;listItem&amp;quot;,null]&quot;&gt;&lt;b&gt;To 태그가 있는 2xx 및 101-199 응답만이&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;특정 메서드의 Requset 에 대한 Dialog 를 설정&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="281" y="270" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5dAsV-VBIHcoVvIvB5Zc-1" value="&lt;b&gt;UAC&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="5dAsV-VBIHcoVvIvB5Zc-1" value="&lt;b&gt;UAC&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="40" y="135" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5dAsV-VBIHcoVvIvB5Zc-2" value="&lt;b&gt;UAS&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="5dAsV-VBIHcoVvIvB5Zc-2" value="&lt;b&gt;UAS&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="680" y="135" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5dAsV-VBIHcoVvIvB5Zc-3" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="5dAsV-VBIHcoVvIvB5Zc-1">
+        <mxCell id="5dAsV-VBIHcoVvIvB5Zc-3" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="5dAsV-VBIHcoVvIvB5Zc-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="280" as="sourcePoint" />
             <mxPoint x="390" y="55" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5dAsV-VBIHcoVvIvB5Zc-4" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="5dAsV-VBIHcoVvIvB5Zc-2">
+        <mxCell id="5dAsV-VBIHcoVvIvB5Zc-4" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="5dAsV-VBIHcoVvIvB5Zc-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="710" y="280" as="sourcePoint" />
             <mxPoint x="710" y="225" as="targetPoint" />
