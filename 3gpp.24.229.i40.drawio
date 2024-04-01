@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T23:53:15.277Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.1" etag="lcp7r3GaMHxX4DkqNnKF" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T23:56:28.915Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="njXY2bNCtNx4mZAQ9A_j" version="24.2.1" type="github">
   <diagram name="페이지-1" id="yByTBNLGPOL0VSUT-d2I">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iQ_baN4OKRyEZQyM4Yl5-1" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;&lt;b&gt;UE&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ_baN4OKRyEZQyM4Yl5-3" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;&lt;b&gt;P&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ_baN4OKRyEZQyM4Yl5-4" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;&lt;b&gt;I&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ_baN4OKRyEZQyM4Yl5-5" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;&lt;b&gt;I&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
