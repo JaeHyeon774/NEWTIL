@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-25T23:15:23.743Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="IqByqw74Pq4J1AT-CDPV" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-25T23:17:15.055Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ja9xNylrvF1Bn8N1PC_1" version="24.6.2" type="github">
   <diagram name="페이지-1" id="EQ6efKA7WiJejvNS8g7J">
     <mxGraphModel dx="1434" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,12 +30,12 @@
         <mxCell id="nvce8nYGoO_pX4KJUv21-7" value="Inner Module Receive Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="240" y="240" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="nvce8nYGoO_pX4KJUv21-18" value="MPREGRX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="nvce8nYGoO_pX4KJUv21-8" target="nvce8nYGoO_pX4KJUv21-6">
+        <mxCell id="nvce8nYGoO_pX4KJUv21-18" value="MPREGRX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="nvce8nYGoO_pX4KJUv21-8" target="nvce8nYGoO_pX4KJUv21-6">
           <mxGeometry x="-0.3333" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nvce8nYGoO_pX4KJUv21-19" value="MRXCX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="nvce8nYGoO_pX4KJUv21-8" target="nvce8nYGoO_pX4KJUv21-6">
+        <mxCell id="nvce8nYGoO_pX4KJUv21-19" value="MRXCX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="nvce8nYGoO_pX4KJUv21-8" target="nvce8nYGoO_pX4KJUv21-6">
           <mxGeometry x="-0.3333" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -43,7 +43,7 @@
         <mxCell id="nvce8nYGoO_pX4KJUv21-8" value="Outer Module Receive Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="240" y="420" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="nvce8nYGoO_pX4KJUv21-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CCCC;" edge="1" parent="1" source="nvce8nYGoO_pX4KJUv21-10" target="nvce8nYGoO_pX4KJUv21-6">
+        <mxCell id="nvce8nYGoO_pX4KJUv21-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="nvce8nYGoO_pX4KJUv21-10" target="nvce8nYGoO_pX4KJUv21-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-10" value="UE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -74,6 +74,11 @@
             <mxGeometry x="590" y="347" width="60" height="60" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="nvce8nYGoO_pX4KJUv21-22" value="MIPSECX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="nvce8nYGoO_pX4KJUv21-7" target="nvce8nYGoO_pX4KJUv21-6">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
