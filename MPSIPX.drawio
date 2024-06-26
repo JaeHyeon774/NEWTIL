@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-25T23:17:15.055Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ja9xNylrvF1Bn8N1PC_1" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-26T00:19:41.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="obHV7x0CeB6qKV28tvri" version="24.6.2" type="github">
   <diagram name="페이지-1" id="EQ6efKA7WiJejvNS8g7J">
-    <mxGraphModel dx="1434" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,11 +19,20 @@
         <mxCell id="nvce8nYGoO_pX4KJUv21-5" value="DetectSroute Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="240" y="200" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="nvce8nYGoO_pX4KJUv21-21" value="MRXCX&lt;div&gt;Update&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nvce8nYGoO_pX4KJUv21-6" target="nvce8nYGoO_pX4KJUv21-20">
-          <mxGeometry x="0.7654" y="-17" relative="1" as="geometry">
-            <mxPoint x="17" y="-17" as="offset" />
-          </mxGeometry>
-        </mxCell>
+        <UserObject label="MRXCX&lt;div&gt;Update&lt;/div&gt;" tooltip="&quot;update &quot;PCSCF_REGI_INFO_DB_NAME&quot; set &quot; \&#xa;PCSCF_REGI_INFO_DB_QOS_SESSION_ID&quot;=?&quot;PCSCF_REGI_INFO_DB_QOS_SESSION_ID \&#xa;&quot; where &quot; PCSCF_REGI_INFO_DB_KEY&quot;=?&quot;PCSCF_REGI_INFO_DB_KEY&#xa;" id="nvce8nYGoO_pX4KJUv21-21">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="nvce8nYGoO_pX4KJUv21-6" target="nvce8nYGoO_pX4KJUv21-20">
+            <mxGeometry x="0.6901" y="-17" relative="1" as="geometry">
+              <mxPoint x="17" y="-17" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="MPREGRX&lt;br&gt;Select" tooltip="&quot;select &quot;PCSCF_REGI_INFO_DB_IMPD&quot; from &quot;PCSCF_REGI_INFO_DB_NAME \&#xa;&quot; where &quot;PCSCF_REGI_INFO_DB_KEY&quot;=?&quot;PCSCF_REGI_INFO_DB_KEY" id="nvce8nYGoO_pX4KJUv21-38">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.7;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="nvce8nYGoO_pX4KJUv21-6" target="nvce8nYGoO_pX4KJUv21-20">
+            <mxGeometry x="-0.0041" y="-17" relative="1" as="geometry">
+              <mxPoint x="-17" y="18" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
         <mxCell id="nvce8nYGoO_pX4KJUv21-6" value="TU Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="240" y="310" width="230" height="70" as="geometry" />
         </mxCell>
@@ -69,13 +78,54 @@
         <mxCell id="nvce8nYGoO_pX4KJUv21-14" value="MRXCX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="40" y="430" width="80" height="30" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: keep-all;&quot;&gt;&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: keep-all;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: Rockwell;&quot;&gt;DB&lt;/span&gt;&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: keep-all;&quot;&gt;&lt;span style=&quot;font-size: 7pt; font-family: Rockwell;&quot;&gt;DB_PCSCF_REGI_INFO&lt;/span&gt;&lt;/p&gt;" tooltip="&quot;update &quot;PCSCF_REGI_INFO_DB_NAME&quot; set &quot; \&#xa;PCSCF_REGI_INFO_DB_QOS_SESSION_ID&quot;=?&quot;PCSCF_REGI_INFO_DB_QOS_SESSION_ID \&#xa;&quot; where &quot; PCSCF_REGI_INFO_DB_KEY&quot;=?&quot;PCSCF_REGI_INFO_DB_KEY&#xa;" id="nvce8nYGoO_pX4KJUv21-20">
+        <UserObject label="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: keep-all;&quot;&gt;&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: keep-all;&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: Rockwell;&quot;&gt;DB&lt;/span&gt;&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: keep-all;&quot;&gt;&lt;span style=&quot;font-size: 7pt; font-family: Rockwell;&quot;&gt;DB_PCSCF_REGI_INFO&lt;/span&gt;&lt;/p&gt;" tooltip="" id="nvce8nYGoO_pX4KJUv21-20">
           <mxCell style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="590" y="347" width="60" height="60" as="geometry" />
+            <mxGeometry x="590" y="320" width="60" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="nvce8nYGoO_pX4KJUv21-22" value="MIPSECX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="nvce8nYGoO_pX4KJUv21-7" target="nvce8nYGoO_pX4KJUv21-6">
           <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nvce8nYGoO_pX4KJUv21-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="720" width="300" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="nvce8nYGoO_pX4KJUv21-24" value="MPREGRX PROCESS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="710" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nvce8nYGoO_pX4KJUv21-25" value="Main Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="740" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nvce8nYGoO_pX4KJUv21-26" value="ATIpc Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="770" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nvce8nYGoO_pX4KJUv21-27" value="ExpireCheck Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="800" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nvce8nYGoO_pX4KJUv21-28" value="Logic Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="920" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nvce8nYGoO_pX4KJUv21-29" value="Send Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="870" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nvce8nYGoO_pX4KJUv21-32" value="Recv Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1020" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nvce8nYGoO_pX4KJUv21-34" value="BindingCount Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="830" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nvce8nYGoO_pX4KJUv21-36" value="Thread IPC" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1">
+          <mxGeometry y="-10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="140" as="sourcePoint" />
+            <mxPoint x="720" y="140" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nvce8nYGoO_pX4KJUv21-37" value="ATIPC" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="-10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="170" as="sourcePoint" />
+            <mxPoint x="720" y="170" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
