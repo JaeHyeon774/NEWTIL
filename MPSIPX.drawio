@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-27T02:22:59.439Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="E83hg07NofsfExzRxLX1" version="24.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-27T04:37:37.246Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="YmOWCX9EfCTgttYyeAUH" version="24.6.3" type="github">
   <diagram name="페이지-1" id="EQ6efKA7WiJejvNS8g7J">
-    <mxGraphModel dx="797" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1103" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,32 +57,34 @@
         <mxCell id="nvce8nYGoO_pX4KJUv21-14" value="MRXCX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="40" y="530" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nvce8nYGoO_pX4KJUv21-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="200" y="720" width="390" height="440" as="geometry" />
-        </mxCell>
+        <UserObject label="" tooltip="prmm.ut initConfig&#xa;&#xa;typedef struct {&#xa;    int     iSleepSec;          /* reg_chk_period */&#xa;    int     iOldStateSec;       /* sec_old_state */&#xa;    int     iWaitResMsgSec;     /* wait_reg_res_sec */&#xa;    int     iRegAwaitSec;       /* reg_await_time */&#xa;    int     iMaxLogicCnt;       /* max_logic_thread_cnt */&#xa;    int     iExpChkLimitCnt;    /* max_expire_check_limit_cnt */&#xa;    int     iSignalingQos;      /* process signal Qos */    int     iExpireTps;         /* _DEREGI_TPS_CONTROL_ */&#xa;    int     iRegiCntPeriod;     /* regi count period */&#xa;    int     iDeRegiQos;         /* after recv RAR/ASR, Deregi Qos on/off */&#xa;#ifdef _KISA_CMP_CONTACT_&#xa;    int     iCheckContactIp;    /* Check Request Contact IP on/off */&#xa;    int     iCheckContactEpFw;  /* Check Request Contact IP on/off */&#xa;#endif      &#xa;#ifdef _FIX_RCV_ASR_RAR_SIGNAL_&#xa;    int     iDeregiRecvAsr;&#xa;    int     iDeregiRecvRar;&#xa;#endif      &#xa;#ifdef _ROAMING_QOS_SKIP_&#xa;    int     iRoamingQosSkip;&#xa;#endif  &#xa;#ifdef _SBC_QOS_SKIP_&#xa;    int     iSbcQosSkip;#endif&#xa;} stMPREGRXConf_t;" id="nvce8nYGoO_pX4KJUv21-23">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+            <mxGeometry x="190" y="720" width="400" height="440" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="nvce8nYGoO_pX4KJUv21-24" value="MPREGRX PROCESS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="710" width="230" height="20" as="geometry" />
+          <mxGeometry x="190" y="710" width="230" height="20" as="geometry" />
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-25" value="Main Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="240" y="740" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="nvce8nYGoO_pX4KJUv21-26" value="Inter ATIPC Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="210" y="961" width="140" height="50" as="geometry" />
+        <mxCell id="nvce8nYGoO_pX4KJUv21-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="210" y="979" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-27" value="ExpireCheck Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="240" y="780" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="nvce8nYGoO_pX4KJUv21-28" value="Logic Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="360" y="918" width="110" height="70" as="geometry" />
+        <mxCell id="nvce8nYGoO_pX4KJUv21-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="421" y="928" width="110" height="70" as="geometry" />
         </mxCell>
-        <UserObject label="Send Thread" tooltip="Inter ATIPC Handler" id="nvce8nYGoO_pX4KJUv21-29">
+        <UserObject label="" tooltip="Inter ATIPC Handler" id="nvce8nYGoO_pX4KJUv21-29">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-            <mxGeometry x="360" y="852" width="110" height="44" as="geometry" />
+            <mxGeometry x="420" y="865.5" width="110" height="44" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Recv Thread" tooltip="Inter ATIPC Handler" id="nvce8nYGoO_pX4KJUv21-32">
+        <UserObject label="" tooltip="Inter ATIPC Handler" id="nvce8nYGoO_pX4KJUv21-32">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-            <mxGeometry x="360" y="1011" width="110" height="49" as="geometry" />
+            <mxGeometry x="421" y="1015.5" width="110" height="49" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="nvce8nYGoO_pX4KJUv21-34" value="BindingCount Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -103,16 +105,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-40" value="MPSIPX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="50" y="938" width="80" height="30" as="geometry" />
+          <mxGeometry x="50" y="993" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WPXTBIq5dwbOU1SeVhEX-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nvce8nYGoO_pX4KJUv21-48" target="WPXTBIq5dwbOU1SeVhEX-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-48" value="MRXCX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="50" y="780" width="80" height="30" as="geometry" />
+          <mxGeometry x="50" y="907" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-49" value="UE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="40" y="398" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nvce8nYGoO_pX4KJUv21-54" value="Inner ATIPC Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="210" y="896" width="140" height="50" as="geometry" />
+        <mxCell id="nvce8nYGoO_pX4KJUv21-54" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="210" y="890" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-55" value="SIP" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
           <mxGeometry y="-10" width="50" height="50" relative="1" as="geometry">
@@ -264,6 +269,44 @@
         <UserObject label="" tooltip="gpOuterAtIpcHandler" id="WPXTBIq5dwbOU1SeVhEX-6">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
             <mxGeometry x="460" y="428" width="10" height="10" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="WPXTBIq5dwbOU1SeVhEX-13" value="Inner ATIPC Thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="880" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WPXTBIq5dwbOU1SeVhEX-14" value="Inter ATIPC Thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="968" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WPXTBIq5dwbOU1SeVhEX-15" value="Recv Thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="421" y="1005.5" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WPXTBIq5dwbOU1SeVhEX-16" value="Send Thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="855.5" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WPXTBIq5dwbOU1SeVhEX-17" value="Logic Thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="421" y="919" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WPXTBIq5dwbOU1SeVhEX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nvce8nYGoO_pX4KJUv21-40" target="WPXTBIq5dwbOU1SeVhEX-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="" tooltip="gStMpregrxAtipc.pStInterAtipcHdl" id="WPXTBIq5dwbOU1SeVhEX-20">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="210" y="909" width="10" height="10" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tooltip="gStMpregrxAtipc.pStInnerAtipcHdl" id="WPXTBIq5dwbOU1SeVhEX-21">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="210" y="995.5" width="10" height="10" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tooltip="gStMpregrxAtipc.pStInnerAtipcHdl" id="WPXTBIq5dwbOU1SeVhEX-22">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="520" y="875.5" width="10" height="10" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" tooltip="gStMpregrxAtipc.pStInnerAtipcHdl" id="WPXTBIq5dwbOU1SeVhEX-24">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="520" y="890" width="10" height="10" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
