@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-28T01:34:45.359Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="hoORoxNpUnUGEhZMmL2O" version="24.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-28T01:34:54.299Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="MIA0NQ6roBaxB7YNjzP0" version="24.6.3" type="github">
   <diagram name="페이지-1" id="EQ6efKA7WiJejvNS8g7J">
     <mxGraphModel dx="1195" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -49,13 +49,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-13" value="MPREGRX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="40" y="480" width="80" height="30" as="geometry" />
+          <mxGeometry x="40" y="454" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B76s6t1Zyki5P_a1d1n--25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nvce8nYGoO_pX4KJUv21-14" target="B76s6t1Zyki5P_a1d1n--24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-14" value="MRXCX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="40" y="530" width="80" height="30" as="geometry" />
+          <mxGeometry x="40" y="504" width="80" height="30" as="geometry" />
         </mxCell>
         <UserObject label="" tooltip="prmm.ut initConfig&#xa;&#xa;typedef struct {&#xa;    int     iSleepSec;          /* reg_chk_period */&#xa;    int     iOldStateSec;       /* sec_old_state */&#xa;    int     iWaitResMsgSec;     /* wait_reg_res_sec */&#xa;    int     iRegAwaitSec;       /* reg_await_time */&#xa;    int     iMaxLogicCnt;       /* max_logic_thread_cnt */&#xa;    int     iExpChkLimitCnt;    /* max_expire_check_limit_cnt */&#xa;    int     iSignalingQos;      /* process signal Qos */    int     iExpireTps;         /* _DEREGI_TPS_CONTROL_ */&#xa;    int     iRegiCntPeriod;     /* regi count period */&#xa;    int     iDeRegiQos;         /* after recv RAR/ASR, Deregi Qos on/off */&#xa;#ifdef _KISA_CMP_CONTACT_&#xa;    int     iCheckContactIp;    /* Check Request Contact IP on/off */&#xa;    int     iCheckContactEpFw;  /* Check Request Contact IP on/off */&#xa;#endif      &#xa;#ifdef _FIX_RCV_ASR_RAR_SIGNAL_&#xa;    int     iDeregiRecvAsr;&#xa;    int     iDeregiRecvRar;&#xa;#endif      &#xa;#ifdef _ROAMING_QOS_SKIP_&#xa;    int     iRoamingQosSkip;&#xa;#endif  &#xa;#ifdef _SBC_QOS_SKIP_&#xa;    int     iSbcQosSkip;#endif&#xa;} stMPREGRXConf_t;" id="nvce8nYGoO_pX4KJUv21-23">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
