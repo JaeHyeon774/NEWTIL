@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-28T02:13:46.676Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="loVsC7YC0EZUnwH8zyXC" version="24.6.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-28T02:23:56.507Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="h7DVbvopOBNcjg15LOeE" version="24.6.3" type="github" pages="2">
   <diagram name="MPSIPX" id="EQ6efKA7WiJejvNS8g7J">
     <mxGraphModel dx="478" dy="243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -226,9 +226,6 @@
             <mxGeometry x="460" y="338" width="10" height="10" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="tZ1lWaNI56lm-6lrp9uE-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="640" width="80" height="40" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
