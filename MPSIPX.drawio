@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T06:11:22.074Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="6MZvSuux-GJPGsqEJiPj" version="24.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-01T07:42:08.486Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="x8CVm64SM0kUUcKg1PsU" version="24.6.4" type="github" pages="4">
   <diagram name="MPSIPX" id="EQ6efKA7WiJejvNS8g7J">
     <mxGraphModel dx="1195" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -683,13 +683,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_Xwj_nyiZzvryOXpBULN" name="REGISTER FLOW">
-    <mxGraphModel dx="1434" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PZ-rk5bDoATkxriQ5VTO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="PZ-rk5bDoATkxriQ5VTO-19">
+        <mxCell id="PZ-rk5bDoATkxriQ5VTO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="PZ-rk5bDoATkxriQ5VTO-34">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="1170" as="targetPoint" />
+            <mxPoint x="150" y="1160" as="targetPoint" />
+            <mxPoint x="150" y="380" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <UserObject label="Recv RegRequest" tooltip="REGISTER sip:registrar.lte-lguplus.co.kr SIP/2.0^M&#xa;Via: SIP/2.0/TCP 192.3.1.114:51071;branch=z9hG4bK%0%2aaaac059dc01c69fb81_3faec&#xa;To: &lt;sip:01090001111@lte-lguplus.co.kr&gt;&#xa;Call-ID: 1719456585-2137716190@192.3.1.114&#xa;CSeq: 1 REGISTER[11:49:45.262] From: &lt;sip:01090001111@lte-lguplus.co.kr&gt;;tag=45db4fb63fa57&#xa;Content-Type: application/requestinfo+xml&#xa;Content-Length: 316&#xa;Contact: &lt;sip:192.3.1.114:51071&gt;;expires=3600;description=&quot;VT, AT&quot;&#xa;Expires: 3600&#xa;Authorization: Digest username=&quot;450061090001111@lte-lguplus.co.kr@lte-lguplus.co.kr&quot;, &#xa;&#x9;realm=&quot;registrar.lte-lguplus.co.kr&quot;, nonce=&quot;&quot;, &#xa;&#x9;uri=&quot;sip:registrar.lte-lguplus.co.kr&quot;&#xa;P-Access-Network-Info: 3GPP-E-UTRAN-FDD&#xa;User-Agent: LG-mVoIP/1.0 iOS/17.4.1 Device_Type/iOS_APP LGU" id="PZ-rk5bDoATkxriQ5VTO-12">
@@ -707,8 +708,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PZ-rk5bDoATkxriQ5VTO-15" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PZ-rk5bDoATkxriQ5VTO-16" target="PZ-rk5bDoATkxriQ5VTO-20">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.6471" relative="1" as="geometry">
             <mxPoint x="440" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="180" />
+              <mxPoint x="300" y="270" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <UserObject label="mpsipx_PxyReqRecv_1_Validate&lt;div&gt;&amp;lt; 0&lt;/div&gt;" tooltip="sip_PxyReqRecv_1_Validate : 메시지 유효성 체크&#xa;&#xa;sipSyntax_GetCseqMethodTag : Cseq 메소드 테그값 확인. ACK면 return P_FAIL&#xa;&#xa;pStResponse = sip_GenerateResponse" id="PZ-rk5bDoATkxriQ5VTO-16">
@@ -722,8 +728,8 @@
             <mxPoint x="150" y="200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PZ-rk5bDoATkxriQ5VTO-18" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PZ-rk5bDoATkxriQ5VTO-19" target="PZ-rk5bDoATkxriQ5VTO-20">
-          <mxGeometry x="0.1667" relative="1" as="geometry">
+        <mxCell id="PZ-rk5bDoATkxriQ5VTO-18" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PZ-rk5bDoATkxriQ5VTO-19" target="PZ-rk5bDoATkxriQ5VTO-20">
+          <mxGeometry x="-0.25" relative="1" as="geometry">
             <mxPoint x="330" y="270" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
@@ -735,7 +741,80 @@
         </UserObject>
         <UserObject label="retrun" tooltip="mpsipx_AddReasonHeader : Reason 헤더 추가&#xa;&#xa;mpsipx_SendResponse : sip_SendResponse" id="PZ-rk5bDoATkxriQ5VTO-20">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="330" y="165" width="50" height="30" as="geometry" />
+            <mxGeometry x="330" y="255" width="50" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="PZ-rk5bDoATkxriQ5VTO-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="PZ-rk5bDoATkxriQ5VTO-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="340" as="targetPoint" />
+            <mxPoint x="150" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PZ-rk5bDoATkxriQ5VTO-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="PZ-rk5bDoATkxriQ5VTO-19" target="PZ-rk5bDoATkxriQ5VTO-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="340" as="targetPoint" />
+            <mxPoint x="150" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PZ-rk5bDoATkxriQ5VTO-25" value="mpsipx_ProcessSipRequestEventNext" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ-rk5bDoATkxriQ5VTO-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="PZ-rk5bDoATkxriQ5VTO-25" target="PZ-rk5bDoATkxriQ5VTO-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="1160" as="targetPoint" />
+            <mxPoint x="150" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PZ-rk5bDoATkxriQ5VTO-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PZ-rk5bDoATkxriQ5VTO-27" target="PZ-rk5bDoATkxriQ5VTO-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PZ-rk5bDoATkxriQ5VTO-31" value="iRet &amp;lt; 0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PZ-rk5bDoATkxriQ5VTO-29">
+          <mxGeometry x="-0.1333" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PZ-rk5bDoATkxriQ5VTO-33" value="iRet == 1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PZ-rk5bDoATkxriQ5VTO-27" target="PZ-rk5bDoATkxriQ5VTO-32">
+          <mxGeometry x="0.4483" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="495" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PZ-rk5bDoATkxriQ5VTO-27" value="iRet=&lt;div&gt;mpsipx_check_sbc_status&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="410" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ-rk5bDoATkxriQ5VTO-30" value="err_return" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ-rk5bDoATkxriQ5VTO-32" value="return" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ-rk5bDoATkxriQ5VTO-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="PZ-rk5bDoATkxriQ5VTO-27" target="PZ-rk5bDoATkxriQ5VTO-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="1160" as="targetPoint" />
+            <mxPoint x="150" y="450" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PZ-rk5bDoATkxriQ5VTO-34" value="pStRTrctInfo-&gt;eReqDirection == eREQ_DIRECTION_UE_TO_NET" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="520" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ-rk5bDoATkxriQ5VTO-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PZ-rk5bDoATkxriQ5VTO-34" target="PZ-rk5bDoATkxriQ5VTO-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="590" as="targetPoint" />
+            <mxPoint x="250" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PZ-rk5bDoATkxriQ5VTO-41" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PZ-rk5bDoATkxriQ5VTO-39">
+          <mxGeometry x="0.0595" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="mpsipx_DecryptNextTopRoute" tooltip="mpsipx_GetRouteBlockCnt(pTask, pStRequest, &amp;iRouteCnt) : message ROUTE 헤더 필드 값의 갯수를 iRouteCnt에 담아준다. &#xa;&#xa;&#xa;" id="PZ-rk5bDoATkxriQ5VTO-38">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="260" y="565" width="170" height="20" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
