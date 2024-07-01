@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T04:57:41.391Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="1lioOJ8ZCB7OG1Tk07Lu" version="24.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-01T06:10:39.312Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="mFN6lvZ-s_h4p3DMFWGC" version="24.6.4" type="github" pages="4">
   <diagram name="MPSIPX" id="EQ6efKA7WiJejvNS8g7J">
     <mxGraphModel dx="1195" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -269,7 +269,13 @@
             <mxPoint x="140" y="190" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="mpsipx_InitProcessData" tooltip="mpsipx_PrepareProcessData&#xa;&#xa;pStRTrctInfo = mpsipx_InitRTrctInfo&#xa; 트렌젝션 정보 초기화(pStRTrctInfo-&gt;bRoamingUsr, pStSipCall(sipCall_SearchCall))&#xa;&#xa;eSipHostType = mpsipx_Determine_IP_Type&#xa; IP_TYPE 결정&#xa;&#xa;eSipHostType == SIP_HOST_TYPE_IPV6REFERENCE&#xa; pStRTrctInfo-&gt;bIpv6Type = SIP_TRUE&#xa;&#xa;mpsipx_StatRecvReq&#xa;mpsipx_StatRecvTry_Register&#xa; REGI REQ STAT 정보 업데이트&#xa;  MPSIPX_STAT_PLUSPLUS(REGI_RCV_TRY)&#xa;  MPSIPX_STAT_ACCNET_PLUSPLUS_R(pStRTrctInfo, REGI_RCV_TRY)&#xa;  MPSIPX_STAT_PLUSPLUS(IPV6_REGI_RCV_TRY)&#xa;  MPSIPX_STAT_PLUSPLUS(ROAMING_REGI_RCV_TRY)&#xa;  MPSIPX_STAT_PLUSPLUS(SOS_REGI_RCV_TRY)&#xa;&#xa;mpsipx_PrepareRegisterProcessData&#xa;&#xa;&#xa;&#xa;&#xa;" id="3fMzJ9JNx06sxjSxcLIT-1">
+        <mxCell id="3fMzJ9JNx06sxjSxcLIT-9" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3fMzJ9JNx06sxjSxcLIT-1" target="3fMzJ9JNx06sxjSxcLIT-6">
+          <mxGeometry x="0.1667" relative="1" as="geometry">
+            <mxPoint x="320" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="mpsipx_InitProcessData&lt;div&gt;&amp;lt; 0&lt;/div&gt;" tooltip="mpsipx_PrepareProcessData&#xa;&#xa;pStRTrctInfo = mpsipx_InitRTrctInfo&#xa; 트렌젝션 정보 초기화(pStRTrctInfo-&gt;bRoamingUsr, pStSipCall(sipCall_SearchCall))&#xa;&#xa;eSipHostType = mpsipx_Determine_IP_Type&#xa; IP_TYPE 결정&#xa;&#xa;eSipHostType == SIP_HOST_TYPE_IPV6REFERENCE&#xa; pStRTrctInfo-&gt;bIpv6Type = SIP_TRUE&#xa;&#xa;mpsipx_StatRecvReq&#xa;mpsipx_StatRecvTry_Register&#xa; REGI REQ STAT 정보 업데이트&#xa;  MPSIPX_STAT_PLUSPLUS(REGI_RCV_TRY)&#xa;  MPSIPX_STAT_ACCNET_PLUSPLUS_R(pStRTrctInfo, REGI_RCV_TRY)&#xa;  MPSIPX_STAT_PLUSPLUS(IPV6_REGI_RCV_TRY)&#xa;  MPSIPX_STAT_PLUSPLUS(ROAMING_REGI_RCV_TRY)&#xa;  MPSIPX_STAT_PLUSPLUS(SOS_REGI_RCV_TRY)&#xa;&#xa;mpsipx_PrepareRegisterProcessData&#xa; pStrSemiPAccNetWork,&#xa; pStRTrctRegister-&gt;strIp,&#xa; pStRTrctRegister-&gt;iPort,&#xa; pStRTrctRegister-&gt;strPublicId,&#xa; pStRTrctRegister-&gt;strPublicIdDPName,&#xa; pStRTrctRegister-&gt;strPrivateId,&#xa; ***PUID, PRID Convert to HomePUDI, HomePRID&#xa; pStRTrctRegister-&gt;strICID,&#xa; pStRTrctRegister-&gt;strHWID,&#xa; pStRTrctInfo-&gt;strKey&#xa;&#xa;" id="3fMzJ9JNx06sxjSxcLIT-1">
           <mxCell style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
             <mxGeometry x="40" y="240" width="200" height="40" as="geometry" />
           </mxCell>
