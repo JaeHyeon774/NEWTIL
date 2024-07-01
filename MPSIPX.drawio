@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T01:29:13.690Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="wzY1XHwBhaQ65CzIIX9F" version="24.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-01T01:29:23.658Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="8-mVEB2v94STdIrVP6Ap" version="24.6.4" type="github" pages="4">
   <diagram name="MPSIPX" id="EQ6efKA7WiJejvNS8g7J">
     <mxGraphModel dx="1195" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -679,10 +679,10 @@
           <mxGeometry x="40" y="170" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0FVrEqdqBqOST0vmmh1K-7" value="Message" style="fillColor=none;strokeColor=none;html=1;fontSize=11;fontStyle=0;align=left;fontColor=#596780;fontStyle=1;fontSize=11" vertex="1" parent="1">
-          <mxGeometry x="260" y="90" width="240" height="20" as="geometry" />
+          <mxGeometry x="380" y="120" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0FVrEqdqBqOST0vmmh1K-8" value="&lt;div style=&quot;text-wrap: wrap;&quot;&gt;REGISTER sip:registrar.lte-lguplus.co.kr SIP/2.0^M&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;Via: SIP/2.0/TCP 192.3.1.114:51071;branch=z9hG4bK%0%2aaaac059dc01c69fb81_3faec&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;To: &amp;lt;sip:01090001111@lte-lguplus.co.kr&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;Call-ID: 1719456585-2137716190@192.3.1.114&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;CSeq: 1 REGISTER[11:49:45.262] From: &amp;lt;sip:01090001111@lte-lguplus.co.kr&amp;gt;;tag=45db4fb63fa57&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;Content-Type: application/requestinfo+xml&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;Content-Length: 316&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;Contact: &amp;lt;sip:192.3.1.114:51071&amp;gt;;expires=3600;description=&quot;VT, AT&quot;&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;Expires: 3600&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;Authorization: Digest username=&quot;450061090001111@lte-lguplus.co.kr@lte-lguplus.co.kr&quot;,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;realm=&quot;registrar.lte-lguplus.co.kr&quot;, nonce=&quot;&quot;,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;uri=&quot;sip:registrar.lte-lguplus.co.kr&quot;&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;P-Access-Network-Info: 3GPP-E-UTRAN-FDD&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;User-Agent: LG-mVoIP/1.0 iOS/17.4.1 Device_Type/iOS_APP LGU&lt;/div&gt;" style="rounded=1;arcSize=9;fillColor=#F7F8F9;align=left;spacingLeft=5;strokeColor=#DEE1E6;html=1;strokeWidth=2;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="260" y="115" width="430" height="275" as="geometry" />
+          <mxGeometry x="380" y="145" width="430" height="275" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
