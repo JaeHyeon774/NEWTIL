@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T06:36:39.112Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="uJOwoN9KZYAccsA_AIAS" version="24.6.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-07-02T07:36:26.837Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="PNyZerGZrnAEb-WriqPy" version="24.6.4" type="github" pages="5">
   <diagram name="MPSIPX" id="EQ6efKA7WiJejvNS8g7J">
     <mxGraphModel dx="1434" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1079,7 +1079,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zpzc1cduCmgI2uxJUrTf" name="REGISTER FLOW">
-    <mxGraphModel dx="819" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="574" dy="291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1109,8 +1109,33 @@
         <mxCell id="4x74FJtP62-ROi0YiRXt-5" value="case eRTRCT_REQ_TYPE_REGISTER:" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="290" y="230" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4x74FJtP62-ROi0YiRXt-8" value="mpsipx_RecvRegisterUeToNetProcess" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="295" y="300" width="210" height="20" as="geometry" />
+        <mxCell id="4x74FJtP62-ROi0YiRXt-8" value="mpsipx_RecvRegisterUeToNetProcess" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="292.5" y="300" width="215" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4x74FJtP62-ROi0YiRXt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="4x74FJtP62-ROi0YiRXt-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="729.7857142857142" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4x74FJtP62-ROi0YiRXt-9" value="mpsipx_RecvRegisterUeToNetProcess" style="text;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="622.5" y="40" width="215" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4x74FJtP62-ROi0YiRXt-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="4x74FJtP62-ROi0YiRXt-9" target="4x74FJtP62-ROi0YiRXt-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="729.7857142857142" y="610" as="targetPoint" />
+            <mxPoint x="730.5" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4x74FJtP62-ROi0YiRXt-13" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4x74FJtP62-ROi0YiRXt-11" target="4x74FJtP62-ROi0YiRXt-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="992.5" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4x74FJtP62-ROi0YiRXt-11" value="&lt;div&gt;if(mpsipx_CheckNRedirectRegister(pTask, pStTrct,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; pStRTrctInfo, pStTrct-&amp;gt;pStRequest) == 0 )&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="120" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4x74FJtP62-ROi0YiRXt-14" value="return P_SUCCRESS;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="120" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
