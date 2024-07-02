@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T06:24:05.225Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="7IiXau0zrKUz-OSfsCHj" version="24.6.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-07-02T06:28:06.822Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="M_4Pjgi1_IUVKLvpHZ0S" version="24.6.4" type="github" pages="3">
   <diagram name="MPSIPX" id="EQ6efKA7WiJejvNS8g7J">
     <mxGraphModel dx="1434" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -624,7 +624,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_Xwj_nyiZzvryOXpBULN" name="공통 FLOW">
-    <mxGraphModel dx="2607" dy="1324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -756,7 +756,7 @@
           </mxGeometry>
         </mxCell>
         <UserObject label="mpsipx_DecryptNextTopRoute" tooltip="우측 하단 참고 " id="PZ-rk5bDoATkxriQ5VTO-38">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
             <mxGeometry x="260" y="565" width="170" height="20" as="geometry" />
           </mxCell>
         </UserObject>
@@ -775,26 +775,25 @@
         <mxCell id="79OtOp3cADIRoL_bQsg8-2" value="INVITE MESSAGE" style="fillColor=none;strokeColor=none;html=1;fontSize=11;fontStyle=0;align=left;fontColor=#596780;fontStyle=1;fontSize=11" vertex="1" parent="1">
           <mxGeometry x="840" y="420" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="79OtOp3cADIRoL_bQsg8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-3" target="79OtOp3cADIRoL_bQsg8-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="79OtOp3cADIRoL_bQsg8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="79OtOp3cADIRoL_bQsg8-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1065" y="1150" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="79OtOp3cADIRoL_bQsg8-3" value="mpsipx_ProcessSipRequestEventNext" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="830" y="1060" width="210" height="20" as="geometry" />
+        <mxCell id="79OtOp3cADIRoL_bQsg8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="79OtOp3cADIRoL_bQsg8-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1065" y="1150" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="79OtOp3cADIRoL_bQsg8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-4" target="79OtOp3cADIRoL_bQsg8-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="79OtOp3cADIRoL_bQsg8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="79OtOp3cADIRoL_bQsg8-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1065" y="1150" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="79OtOp3cADIRoL_bQsg8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-4" target="79OtOp3cADIRoL_bQsg8-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="79OtOp3cADIRoL_bQsg8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-4" target="79OtOp3cADIRoL_bQsg8-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="79OtOp3cADIRoL_bQsg8-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-4" target="79OtOp3cADIRoL_bQsg8-27">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="79OtOp3cADIRoL_bQsg8-4" value="mpsipx_DecryptNextTopRoute" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="980" y="1130" width="170" height="20" as="geometry" />
+        <mxCell id="79OtOp3cADIRoL_bQsg8-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-80" target="79OtOp3cADIRoL_bQsg8-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1065" y="1150" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="79OtOp3cADIRoL_bQsg8-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-5" target="79OtOp3cADIRoL_bQsg8-31">
           <mxGeometry relative="1" as="geometry" />
@@ -925,7 +924,7 @@
         <mxCell id="79OtOp3cADIRoL_bQsg8-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.564;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-5" target="79OtOp3cADIRoL_bQsg8-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="79OtOp3cADIRoL_bQsg8-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-4" target="79OtOp3cADIRoL_bQsg8-45">
+        <mxCell id="79OtOp3cADIRoL_bQsg8-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="79OtOp3cADIRoL_bQsg8-45">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1065" y="1860" as="targetPoint" />
             <mxPoint x="1065" y="1150" as="sourcePoint" />
@@ -1060,6 +1059,11 @@
         <mxCell id="79OtOp3cADIRoL_bQsg8-78" value="switch(pStRTrctInfo-&amp;gt;eReqDirection)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="1120" width="200" height="40" as="geometry" />
         </mxCell>
+        <UserObject label="mpsipx_DecryptNextTopRoute" tooltip="우측 하단 참고 " id="79OtOp3cADIRoL_bQsg8-80">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="980" y="1110" width="170" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
