@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T03:58:13.976Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="JBJYs7rSCnKNJb9YMYoC" version="24.6.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-07-02T06:24:05.225Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="7IiXau0zrKUz-OSfsCHj" version="24.6.4" type="github" pages="3">
   <diagram name="MPSIPX" id="EQ6efKA7WiJejvNS8g7J">
     <mxGraphModel dx="1434" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -624,16 +624,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_Xwj_nyiZzvryOXpBULN" name="공통 FLOW">
-    <mxGraphModel dx="1195" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2607" dy="1324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PZ-rk5bDoATkxriQ5VTO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;" parent="1" source="PZ-rk5bDoATkxriQ5VTO-34" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="1160" as="targetPoint" />
-            <mxPoint x="150" y="380" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <UserObject label="Recv Request" tooltip="REGISTER sip:registrar.lte-lguplus.co.kr SIP/2.0^M&#xa;Via: SIP/2.0/TCP 192.3.1.114:51071;branch=z9hG4bK%0%2aaaac059dc01c69fb81_3faec&#xa;To: &lt;sip:01090001111@lte-lguplus.co.kr&gt;&#xa;Call-ID: 1719456585-2137716190@192.3.1.114&#xa;CSeq: 1 REGISTER[11:49:45.262] From: &lt;sip:01090001111@lte-lguplus.co.kr&gt;;tag=45db4fb63fa57&#xa;Content-Type: application/requestinfo+xml&#xa;Content-Length: 316&#xa;Contact: &lt;sip:192.3.1.114:51071&gt;;expires=3600;description=&quot;VT, AT&quot;&#xa;Expires: 3600&#xa;Authorization: Digest username=&quot;450061090001111@lte-lguplus.co.kr@lte-lguplus.co.kr&quot;, &#xa;&#x9;realm=&quot;registrar.lte-lguplus.co.kr&quot;, nonce=&quot;&quot;, &#xa;&#x9;uri=&quot;sip:registrar.lte-lguplus.co.kr&quot;&#xa;P-Access-Network-Info: 3GPP-E-UTRAN-FDD&#xa;User-Agent: LG-mVoIP/1.0 iOS/17.4.1 Device_Type/iOS_APP LGU" id="PZ-rk5bDoATkxriQ5VTO-12">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
             <mxGeometry x="110" y="70" width="80" height="40" as="geometry" />
@@ -713,7 +707,7 @@
         </mxCell>
         <mxCell id="PZ-rk5bDoATkxriQ5VTO-31" value="iRet &amp;lt; 0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="PZ-rk5bDoATkxriQ5VTO-29" vertex="1" connectable="0">
           <mxGeometry x="-0.1333" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-81" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PZ-rk5bDoATkxriQ5VTO-33" value="iRet == 1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PZ-rk5bDoATkxriQ5VTO-27" target="PZ-rk5bDoATkxriQ5VTO-32" edge="1">
@@ -728,10 +722,10 @@
           <mxGeometry x="50" y="410" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PZ-rk5bDoATkxriQ5VTO-30" value="err_return" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="420" width="60" height="30" as="geometry" />
+          <mxGeometry x="580" y="645" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PZ-rk5bDoATkxriQ5VTO-32" value="return" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="480" width="60" height="30" as="geometry" />
+          <mxGeometry x="370" y="480" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PZ-rk5bDoATkxriQ5VTO-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;" parent="1" source="PZ-rk5bDoATkxriQ5VTO-27" target="PZ-rk5bDoATkxriQ5VTO-34" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -753,7 +747,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="mpsipx_DecryptNextTopRoute" tooltip="mpsipx_GetRouteBlockCnt(pTask, pStRequest, &amp;iRouteCnt) : message ROUTE 헤더 필드 값의 갯수를 iRouteCnt에 담아준다. &#xa;&#xa;&#xa;mpsipx_GetProxyRouteFromRoute(pTask, pStRequest, pStRouteBlock, &amp;pStProxyRoute) :&#xa;-&gt;  sipSyntax_GetRouteHostType : route 헤더 필드 값의 호스트 타입을 가져옴&#xa;-&gt; if( eSipHostType == SIP_HOST_TYPE_HOSTNAME )&#xa;--&gt; sipSyntax_GetRouteUserString, sipSyntax_GetRouteHostString, sipSyntax_GetRoutePort, sipSyntax_IsRouteHaveLrParameter, sipSyntax_GetRouteTokenizedBy&#xa;&#xa;-&gt; set pStProxyRoute value&#xa;-&gt; ppStRouteInfo = pStProxyRoute; &#xa;&#xa;mpsipx_ConvertRoute(pTask, pStProxyRoute,&#xa;stSipSvrInfo.strIp, &amp;stSipSvrInfo.iPort) : &#xa;" id="PZ-rk5bDoATkxriQ5VTO-38">
+        <mxCell id="79OtOp3cADIRoL_bQsg8-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PZ-rk5bDoATkxriQ5VTO-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="345" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="mpsipx_DecryptNextTopRoute" tooltip="우측 하단 참고 " id="PZ-rk5bDoATkxriQ5VTO-38">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
             <mxGeometry x="260" y="565" width="170" height="20" as="geometry" />
           </mxCell>
@@ -765,18 +767,298 @@
           <mxGeometry x="840" y="40" width="560" height="333" as="geometry" />
         </mxCell>
         <mxCell id="0EIZlEKamaom5EC6vVGr-9" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Route 헤더 필드 값 유형&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; face=&quot;txcRlVbWFrcXK2f_8oMv&quot;&gt;Host name :&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot; face=&quot;monospace&quot;&gt;&amp;nbsp;&amp;lt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;sip:alice@atlanta.com;lr&amp;gt;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: initial;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;IPV4 :&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;&amp;lt;sip:192.0.2.1;lr&amp;gt;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;IPV6 :&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;lt;sip:[2001:db8::1];lr&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;arcSize=9;fillColor=#F7F8F9;align=left;spacingLeft=5;strokeColor=#DEE1E6;html=1;strokeWidth=2;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="450" y="420" width="223" height="80" as="geometry" />
+          <mxGeometry x="360" y="320" width="223" height="80" as="geometry" />
         </mxCell>
-        <UserObject label="mpsipx_DecryptNextTopRoute" tooltip="mpsipx_GetRouteBlockCnt(pTask, pStRequest, &amp;iRouteCnt) : message ROUTE 헤더 필드 값의 갯수를 iRouteCnt에 담아준다. &#xa;&#xa;&#xa;mpsipx_GetProxyRouteFromRoute(pTask, pStRequest, pStRouteBlock, &amp;pStProxyRoute) :&#xa;-&gt;  sipSyntax_GetRouteHostType : route 헤더 필드 값의 호스트 타입을 가져옴&#xa;-&gt; if( eSipHostType == SIP_HOST_TYPE_HOSTNAME )&#xa;--&gt; sipSyntax_GetRouteUserString, sipSyntax_GetRouteHostString, sipSyntax_GetRoutePort, sipSyntax_IsRouteHaveLrParameter, sipSyntax_GetRouteTokenizedBy&#xa;&#xa;-&gt; set pStProxyRoute value&#xa;-&gt; ppStRouteInfo = pStProxyRoute; &#xa;&#xa;mpsipx_ConvertRoute(pTask, pStProxyRoute,&#xa;stSipSvrInfo.strIp, &amp;stSipSvrInfo.iPort) : &#xa;" id="0EIZlEKamaom5EC6vVGr-10">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="476.5" y="630" width="170" height="20" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="79OtOp3cADIRoL_bQsg8-1" value="&lt;div&gt;INVITE sip:01090002222@lte-lguplus.co.kr SIP/2.0&lt;/div&gt;&lt;div&gt;Via: SIP/2.0/TCP 192.3.1.114:51071;branch=z9hG4bK%0%13e595901e23ef54_73cba&lt;/div&gt;&lt;div&gt;Route: &amp;lt;sip:10.10.4.56:5060;lr&amp;gt;&lt;/div&gt;&lt;div&gt;To: &amp;lt;sip:01090002222@lte-lguplus.co.kr&amp;gt;&lt;/div&gt;&lt;div&gt;Call-ID: 1719540259-936145370@192.3.1.114&lt;/div&gt;&lt;div&gt;CSeq: 1 INVITE&lt;/div&gt;&lt;div&gt;From: &amp;lt;sip:01090001111@lte-lguplus.co.kr&amp;gt;;tag=1a7c582973c32&lt;/div&gt;&lt;div&gt;Contact: &amp;lt;sip:192.3.1.114:51071&amp;gt;;description=&quot;VT&quot;&lt;/div&gt;&lt;div&gt;Content-Length: 422&lt;/div&gt;&lt;div&gt;Content-Type: application/sdp&lt;/div&gt;&lt;div&gt;Accept-Contact: *;description=&quot;VT&quot;&lt;/div&gt;&lt;div&gt;User-Agent: LG-mVoIP/1.0 iOS/17.4.1 Device_Type/iOS_APP LGU&lt;/div&gt;&lt;div&gt;Proxy-Authorization: Digest username=&quot;01090001111@lte-lguplus.co.kr&quot;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;realm=&quot;registrar.lte-lguplus.co.kr&quot;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;uri=&quot;sip:01090002222@lte-lguplus.co.kr&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;v=0&lt;/div&gt;&lt;div&gt;o=CFSAS 38553494 38553494 IN IP4 192.3.1.114&lt;/div&gt;&lt;div&gt;s=-&lt;/div&gt;&lt;div&gt;c=IN IP4 192.3.1.114&lt;/div&gt;&lt;div&gt;t=0 0&lt;/div&gt;&lt;div&gt;m=audio 1234 RTP/AVP 96 97&lt;/div&gt;&lt;div&gt;a=rtpmap:96 AMR/8000/1&lt;/div&gt;&lt;div&gt;a=rtpmap:97 EVRC/8000&lt;/div&gt;&lt;div&gt;a=fmtp:96 mode-set=7; octet-align=1&lt;/div&gt;&lt;div&gt;a=ptime:60&lt;/div&gt;&lt;div&gt;a=maxptime:60&lt;/div&gt;&lt;div&gt;a=sendrecv&lt;/div&gt;&lt;div&gt;m=video 1254 RTP/AVP 34 99&lt;/div&gt;&lt;div&gt;a=rtpmap:34 H263/90000&lt;/div&gt;&lt;div&gt;a=rtpmap:99 MP4V-ES/90000&lt;/div&gt;&lt;div&gt;a=fmtp:34 profile=0 level=10&lt;/div&gt;&lt;div&gt;a=fmtp:99 profile-level-id=8&lt;/div&gt;&lt;div&gt;a=framerate:7&lt;/div&gt;&lt;div&gt;a=framesize:qcif&lt;/div&gt;" style="rounded=1;arcSize=3;fillColor=#F7F8F9;align=left;spacingLeft=5;strokeColor=#DEE1E6;html=1;strokeWidth=2;fontSize=12" vertex="1" parent="1">
           <mxGeometry x="840" y="440" width="560" height="540" as="geometry" />
         </mxCell>
         <mxCell id="79OtOp3cADIRoL_bQsg8-2" value="INVITE MESSAGE" style="fillColor=none;strokeColor=none;html=1;fontSize=11;fontStyle=0;align=left;fontColor=#596780;fontStyle=1;fontSize=11" vertex="1" parent="1">
           <mxGeometry x="840" y="420" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-3" target="79OtOp3cADIRoL_bQsg8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-3" value="mpsipx_ProcessSipRequestEventNext" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1060" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-4" target="79OtOp3cADIRoL_bQsg8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-4" target="79OtOp3cADIRoL_bQsg8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-4" target="79OtOp3cADIRoL_bQsg8-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-4" target="79OtOp3cADIRoL_bQsg8-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-4" value="mpsipx_DecryptNextTopRoute" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1130" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-5" target="79OtOp3cADIRoL_bQsg8-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="mpsipx_GetProxyRouteFromRoute" tooltip="아래 설정값을 pStProxyRoute에 담아줌." id="79OtOp3cADIRoL_bQsg8-5">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="1110" y="1180" width="190" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-8" target="79OtOp3cADIRoL_bQsg8-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-8" target="79OtOp3cADIRoL_bQsg8-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-8" target="79OtOp3cADIRoL_bQsg8-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1205" y="1630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-8" target="79OtOp3cADIRoL_bQsg8-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1205" y="1660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-8" target="79OtOp3cADIRoL_bQsg8-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1205" y="1690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-8" target="79OtOp3cADIRoL_bQsg8-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-8" value="if (pStProxyRoute-&gt;eSipHostType == SIP_HOST_TYPE_HOSTNAME)" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1500" width="380" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-10" value="db_sipsvr_SetSipSvrInfoEmpty(&amp;stSipSvrInfo)" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1560" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-12" value="db_sipsvr_SetSvrCondEmpty" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1590" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-14" value="db_sipsvr_SetIntValue" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1620" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-16" value="db_sipsvr_SetStrValue" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1650" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-18" value="db_sipsvr_GetSvrInfo" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1680" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-20" target="79OtOp3cADIRoL_bQsg8-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-20" value="if (pStProxyRoute-&gt;pStrHost)" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1710" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-22" target="79OtOp3cADIRoL_bQsg8-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-22" target="79OtOp3cADIRoL_bQsg8-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-22" value="mpsipx_ConvertRoute" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1754" width="130" height="20" as="geometry" />
+        </mxCell>
+        <UserObject label="mpsipx_ReplaceProxyRouteFromRoute" tooltip="맨위에 있던 Route 헤더 필드 값 제일 아래에 추가." id="79OtOp3cADIRoL_bQsg8-24">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="1110" y="1858" width="220" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-28" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1065" y="1170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="998" y="2003" />
+              <mxPoint x="998" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-29" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1065" y="2068" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-27" value="if(i&amp;lt;iRouteCnt)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1017.5" y="1988" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-30" value="return" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="2068" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-31" target="79OtOp3cADIRoL_bQsg8-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-31" target="79OtOp3cADIRoL_bQsg8-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-31" target="79OtOp3cADIRoL_bQsg8-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-31" target="79OtOp3cADIRoL_bQsg8-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-31" value="if ( eSipHostType == SIP_HOST_TYPE_HOSTNAME )" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="1220" width="295" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-33" value="pStProxyRoute-&gt;pStrRoute = pStrRoute;&#xa;pStProxyRoute-&gt;pStrUserPart = pStrUser;&#xa;pStProxyRoute-&gt;eSipHostType = eSipHostType;&#xa;pStProxyRoute-&gt;pStrHost = pStrHost;&#xa;pStProxyRoute-&gt;iHostPort = iPort;&#xa;pStProxyRoute-&gt;bHaveLr = bHaveLr;&#xa;pStProxyRoute-&gt;pStrTokenizedBy = pStrTokenizedBy;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1370" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-34" value="sipSyntax_GetRouteHostString" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="1250" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-36" value="sipSyntax_GetRoutePort" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="1280" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-38" value="sipSyntax_IsRouteHaveLrParameter" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="1310" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-40" value="sipSyntax_GetRouteTokenizedBy" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="1340" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.564;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-5" target="79OtOp3cADIRoL_bQsg8-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-4" target="79OtOp3cADIRoL_bQsg8-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1065" y="1860" as="targetPoint" />
+            <mxPoint x="1065" y="1150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-45" value="mpsipx_FreeProxyRoute(pStProxyRoute);" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1918" width="245" height="20" as="geometry" />
+        </mxCell>
+        <UserObject label="if ( pStProxyRoute-&gt;pStrTokenizedBy )" tooltip="pStrTokenizedBy 값이 있고,&#xa;iPort 값이 있으면&#xa;&quot;HostNmae:iPort&quot; 형식으로 &#xa;iPort값이 없으면&#xa;&quot;HostName&quot; 형식으로&#xa;pStProxyRoute-&gt;pStrHost에 담아준다." id="79OtOp3cADIRoL_bQsg8-48">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="1355" y="1800" width="210" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="else" tooltip="pStProxyRoute-&gt;pStRoute = &lt;sip:hostname:port;lr&gt; 형식으로 담아줌." id="79OtOp3cADIRoL_bQsg8-50">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="1355" y="1830" width="25" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-55" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="PZ-rk5bDoATkxriQ5VTO-34" target="79OtOp3cADIRoL_bQsg8-54">
+          <mxGeometry x="-0.4" relative="1" as="geometry">
+            <mxPoint x="150" y="1160" as="targetPoint" />
+            <mxPoint x="150" y="540" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-56" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-54" target="PZ-rk5bDoATkxriQ5VTO-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-54" value="sip_PxyReqRecv_2_PreProcRoute (pTask-&amp;gt;pStParser, pStTrct) &amp;lt; 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="640" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-58" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-54" target="79OtOp3cADIRoL_bQsg8-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="1160" as="targetPoint" />
+            <mxPoint x="150" y="680" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-59" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-57" target="79OtOp3cADIRoL_bQsg8-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="760.2121212121212" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-57" value="if ( pStRTrctInfo-&amp;gt;eReqDirection == eREQ_DIRECTION_UE_TO_NET )" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="740" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-63" value="NO&lt;div&gt;iCnt++&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-60" target="79OtOp3cADIRoL_bQsg8-64">
+          <mxGeometry x="-0.195" relative="1" as="geometry">
+            <mxPoint x="459.8717948717949" y="910" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-60" value="if ( !IS_BLOCK_VALID(pStRouteBlock) )" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="810" width="200" height="39.79" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-62" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-60" target="PZ-rk5bDoATkxriQ5VTO-30">
+          <mxGeometry x="-0.7948" relative="1" as="geometry">
+            <mxPoint x="590" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="830" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-66" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-64" target="PZ-rk5bDoATkxriQ5VTO-30">
+          <mxGeometry x="-0.8646" relative="1" as="geometry">
+            <mxPoint x="600" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="920" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-64" target="79OtOp3cADIRoL_bQsg8-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-64" value="if ( iCnt &amp;gt; 8 )" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="900" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-67" target="79OtOp3cADIRoL_bQsg8-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-67" value="while(pStRouteBlock)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="740" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-73" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-57" target="79OtOp3cADIRoL_bQsg8-72">
+          <mxGeometry x="-0.5455" relative="1" as="geometry">
+            <mxPoint x="150" y="1160" as="targetPoint" />
+            <mxPoint x="150" y="780" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-74" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-72" target="79OtOp3cADIRoL_bQsg8-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1019.9166666666667" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-72" value="if ( pStMPSIPXConfig-&amp;gt;mpsipx_ipsec_act&amp;nbsp;&lt;div&gt;== MPSIPX_FUNC_ON)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1000" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-76" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-75" target="PZ-rk5bDoATkxriQ5VTO-30">
+          <mxGeometry x="-0.8987" relative="1" as="geometry">
+            <mxPoint x="600" y="680" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-77" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="1090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-75" value="if(mpsipx_ProcessRequestIPSec(pTask, pStTrct) &lt; 0)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1000" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="79OtOp3cADIRoL_bQsg8-72" target="79OtOp3cADIRoL_bQsg8-78">
+          <mxGeometry x="-0.6681" relative="1" as="geometry">
+            <mxPoint x="150" y="1160" as="targetPoint" />
+            <mxPoint x="150" y="1040" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79OtOp3cADIRoL_bQsg8-78" value="switch(pStRTrctInfo-&amp;gt;eReqDirection)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1120" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
