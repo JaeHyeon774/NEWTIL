@@ -1,26 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T23:58:40.258Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="PcL43bA9P_XfOZzhtEWD" version="24.6.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-07-05T02:46:04.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="vHrljQdQL1Glb9_8hXV1" version="24.6.4" type="github" pages="5">
   <diagram name="MPSIPX" id="EQ6efKA7WiJejvNS8g7J">
     <mxGraphModel dx="1434" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="nvce8nYGoO_pX4KJUv21-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="200" y="50" width="300" height="400" as="geometry" />
+          <mxGeometry x="260" y="50" width="300" height="400" as="geometry" />
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="380" y="290" width="90" height="70" as="geometry" />
+          <mxGeometry x="440" y="290" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="240" y="290" width="120" height="70" as="geometry" />
+          <mxGeometry x="300" y="290" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-2" value="MPSIPX PROCESS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="40" width="230" height="20" as="geometry" />
+          <mxGeometry x="260" y="40" width="230" height="20" as="geometry" />
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="240" y="81" width="230" height="30" as="geometry" />
+          <mxGeometry x="300" y="81" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="240" y="130" width="230" height="30" as="geometry" />
+          <mxGeometry x="300" y="130" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="B76s6t1Zyki5P_a1d1n--17" target="B76s6t1Zyki5P_a1d1n--29" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -28,168 +28,174 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="240" y="230" width="230" height="40" as="geometry" />
+          <mxGeometry x="300" y="230" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="B76s6t1Zyki5P_a1d1n--22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="B76s6t1Zyki5P_a1d1n--21" target="B76s6t1Zyki5P_a1d1n--13" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="390" as="targetPoint" />
+            <mxPoint x="680" y="390" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="325" y="370" />
-              <mxPoint x="325" y="370" />
+              <mxPoint x="385" y="370" />
+              <mxPoint x="385" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="240" y="380" width="230" height="40" as="geometry" />
+          <mxGeometry x="300" y="380" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-12" value="MIPSECX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="40" y="215" width="80" height="30" as="geometry" />
+          <mxGeometry x="100" y="215" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B76s6t1Zyki5P_a1d1n--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nvce8nYGoO_pX4KJUv21-13" target="B76s6t1Zyki5P_a1d1n--24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-13" value="MPREGRX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="40" y="364" width="80" height="30" as="geometry" />
+          <mxGeometry x="100" y="364" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B76s6t1Zyki5P_a1d1n--25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nvce8nYGoO_pX4KJUv21-14" target="B76s6t1Zyki5P_a1d1n--24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-14" value="MRXCX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="40" y="414" width="80" height="30" as="geometry" />
+          <mxGeometry x="100" y="414" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-36" value="Thread IPC" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" edge="1">
           <mxGeometry y="-10" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="50" as="sourcePoint" />
-            <mxPoint x="120" y="50" as="targetPoint" />
+            <mxPoint x="100" y="50" as="sourcePoint" />
+            <mxPoint x="180" y="50" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-37" value="ATIPC" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry y="-10" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="80" as="sourcePoint" />
-            <mxPoint x="120" y="80" as="targetPoint" />
+            <mxPoint x="100" y="80" as="sourcePoint" />
+            <mxPoint x="180" y="80" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-49" value="UE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="40" y="308" width="80" height="30" as="geometry" />
+          <mxGeometry x="100" y="308" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nvce8nYGoO_pX4KJUv21-55" value="SIP" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
           <mxGeometry y="-10" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="109.41" as="sourcePoint" />
-            <mxPoint x="120" y="109.41" as="targetPoint" />
+            <mxPoint x="100" y="109.41" as="sourcePoint" />
+            <mxPoint x="180" y="109.41" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nvce8nYGoO_pX4KJUv21-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="B76s6t1Zyki5P_a1d1n--35" edge="1">
+        <mxCell id="nvce8nYGoO_pX4KJUv21-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="B76s6t1Zyki5P_a1d1n--35" edge="1" target="nvce8nYGoO_pX4KJUv21-13">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="315" as="targetPoint" />
+            <mxPoint x="620" y="315" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="315" />
+              <mxPoint x="690" y="580" />
+              <mxPoint x="60" y="580" />
+              <mxPoint x="60" y="379" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="B76s6t1Zyki5P_a1d1n--1" value="TU Thread" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="280" width="80" height="20" as="geometry" />
+          <mxGeometry x="300" y="280" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B76s6t1Zyki5P_a1d1n--2" value="Local Thread" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="280" width="80" height="20" as="geometry" />
+          <mxGeometry x="440" y="280" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B76s6t1Zyki5P_a1d1n--5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="nvce8nYGoO_pX4KJUv21-12" target="B76s6t1Zyki5P_a1d1n--6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="120" y="230" as="sourcePoint" />
-            <mxPoint x="150" y="170" as="targetPoint" />
+            <mxPoint x="180" y="230" as="sourcePoint" />
+            <mxPoint x="210" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B76s6t1Zyki5P_a1d1n--4" value="Inner Module Receive Thread" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="220" width="170" height="20" as="geometry" />
+          <mxGeometry x="300" y="220" width="170" height="20" as="geometry" />
         </mxCell>
         <UserObject label="" tooltip="gpInnerAtIpcHandler" id="B76s6t1Zyki5P_a1d1n--6">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-            <mxGeometry x="240" y="240" width="10" height="10" as="geometry" />
+            <mxGeometry x="300" y="240" width="10" height="10" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="B76s6t1Zyki5P_a1d1n--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="B76s6t1Zyki5P_a1d1n--7" target="B76s6t1Zyki5P_a1d1n--13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="325" y="280" />
-              <mxPoint x="325" y="280" />
+              <mxPoint x="385" y="280" />
+              <mxPoint x="385" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
         <UserObject label="" tooltip="gStThreadIfIpc.pStSender[iTuIndex]" id="B76s6t1Zyki5P_a1d1n--7">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-            <mxGeometry x="320" y="250" width="10" height="10" as="geometry" />
+            <mxGeometry x="380" y="250" width="10" height="10" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="B76s6t1Zyki5P_a1d1n--9" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="240" y="310" width="10" height="10" as="geometry" />
+          <mxGeometry x="300" y="310" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="B76s6t1Zyki5P_a1d1n--10" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="240" y="340" width="10" height="10" as="geometry" />
+          <mxGeometry x="300" y="340" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="B76s6t1Zyki5P_a1d1n--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;startArrow=none;startFill=0;" parent="1" source="B76s6t1Zyki5P_a1d1n--10" target="nvce8nYGoO_pX4KJUv21-49" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="130" y="308" as="sourcePoint" />
-            <mxPoint x="250" y="325" as="targetPoint" />
+            <mxPoint x="190" y="308" as="sourcePoint" />
+            <mxPoint x="310" y="325" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="160" y="345" />
-              <mxPoint x="160" y="330" />
+              <mxPoint x="220" y="345" />
+              <mxPoint x="220" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
         <UserObject label="" tooltip="pStTaskIfIpc-&gt;pStReceiver" id="B76s6t1Zyki5P_a1d1n--13">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-            <mxGeometry x="320" y="320" width="10" height="10" as="geometry" />
+            <mxGeometry x="380" y="320" width="10" height="10" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="B76s6t1Zyki5P_a1d1n--15" value="Outer Module Receive Thread" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="410" width="170" height="20" as="geometry" />
+          <mxGeometry x="300" y="410" width="170" height="20" as="geometry" />
         </mxCell>
         <UserObject label="" tooltip="pStTaskIfIpc-&gt;pStSender" id="B76s6t1Zyki5P_a1d1n--17">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-            <mxGeometry x="350" y="308" width="10" height="10" as="geometry" />
+            <mxGeometry x="410" y="308" width="10" height="10" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" tooltip="gStThreadIfIpc.pStSender[iTuIndex]" id="B76s6t1Zyki5P_a1d1n--21">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-            <mxGeometry x="320" y="380" width="10" height="10" as="geometry" />
+            <mxGeometry x="380" y="380" width="10" height="10" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" tooltip="gpOuterAtIpcHandler" id="B76s6t1Zyki5P_a1d1n--24">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-            <mxGeometry x="240" y="395" width="10" height="10" as="geometry" />
+            <mxGeometry x="300" y="395" width="10" height="10" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" tooltip="gStThreadIfIpc.pStReceiver" id="B76s6t1Zyki5P_a1d1n--29">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-            <mxGeometry x="380" y="308" width="10" height="10" as="geometry" />
+            <mxGeometry x="440" y="308" width="10" height="10" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="B76s6t1Zyki5P_a1d1n--32" value="DetectSroute Thread" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="120" width="160" height="20" as="geometry" />
+          <mxGeometry x="300" y="120" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B76s6t1Zyki5P_a1d1n--34" value="Main Thread" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="70" width="160" height="20" as="geometry" />
+          <mxGeometry x="300" y="70" width="160" height="20" as="geometry" />
         </mxCell>
         <UserObject label="" tooltip="gpInnerAtIpcHandler" id="B76s6t1Zyki5P_a1d1n--35">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-            <mxGeometry x="460" y="310" width="10" height="10" as="geometry" />
+            <mxGeometry x="520" y="310" width="10" height="10" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="B76s6t1Zyki5P_a1d1n--36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="240" y="180" width="230" height="30" as="geometry" />
+          <mxGeometry x="300" y="180" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B76s6t1Zyki5P_a1d1n--37" value="ovrsc check thread" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="170" width="160" height="20" as="geometry" />
+          <mxGeometry x="300" y="170" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lQJtkHES-kWrGcyV-1Ry-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="nvce8nYGoO_pX4KJUv21-49" target="B76s6t1Zyki5P_a1d1n--9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="370" y="330" as="sourcePoint" />
-            <mxPoint x="420" y="280" as="targetPoint" />
+            <mxPoint x="430" y="330" as="sourcePoint" />
+            <mxPoint x="480" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lQJtkHES-kWrGcyV-1Ry-2" value="TAP IPC" style="endArrow=classic;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" edge="1">
           <mxGeometry y="-10" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="133.5" as="sourcePoint" />
-            <mxPoint x="120" y="133.5" as="targetPoint" />
+            <mxPoint x="100" y="133.5" as="sourcePoint" />
+            <mxPoint x="180" y="133.5" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -197,33 +203,39 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lQJtkHES-kWrGcyV-1Ry-5" value="MSMMCX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="530" y="81" width="80" height="30" as="geometry" />
+          <mxGeometry x="590" y="81" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lQJtkHES-kWrGcyV-1Ry-6" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="460" y="91" width="10" height="10" as="geometry" />
+          <mxGeometry x="520" y="91" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="lQJtkHES-kWrGcyV-1Ry-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="lQJtkHES-kWrGcyV-1Ry-11" target="B76s6t1Zyki5P_a1d1n--13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="350" y="343" />
-              <mxPoint x="350" y="325" />
+              <mxPoint x="410" y="343" />
+              <mxPoint x="410" y="325" />
             </Array>
-            <mxPoint x="360" y="343" as="targetPoint" />
+            <mxPoint x="420" y="343" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <UserObject label="" tooltip="gStThreadIfIpc.pStSender[iTuIndex]" id="lQJtkHES-kWrGcyV-1Ry-11">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-            <mxGeometry x="380" y="338" width="10" height="10" as="geometry" />
+            <mxGeometry x="440" y="338" width="10" height="10" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="WPXTBIq5dwbOU1SeVhEX-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="WPXTBIq5dwbOU1SeVhEX-6" edge="1">
+        <mxCell id="WPXTBIq5dwbOU1SeVhEX-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="WPXTBIq5dwbOU1SeVhEX-6" edge="1" target="nvce8nYGoO_pX4KJUv21-14">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="343" as="targetPoint" />
+            <mxPoint x="620" y="343" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="343" />
+              <mxPoint x="650" y="540" />
+              <mxPoint x="80" y="540" />
+              <mxPoint x="80" y="429" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <UserObject label="" tooltip="gpOuterAtIpcHandler" id="WPXTBIq5dwbOU1SeVhEX-6">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-            <mxGeometry x="460" y="338" width="10" height="10" as="geometry" />
+            <mxGeometry x="520" y="338" width="10" height="10" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
@@ -1056,7 +1068,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zpzc1cduCmgI2uxJUrTf" name="REGISTER FLOW">
-    <mxGraphModel dx="4097" dy="2080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1071,9 +1083,6 @@
         </mxCell>
         <mxCell id="QkPn_m1dib05Eb9Ae-9E-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1181" y="100" width="449" height="780" as="geometry" />
-        </mxCell>
-        <mxCell id="4_f82J1pjAIRaIXNy0LP-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="19" y="50" width="1090" height="960" as="geometry" />
         </mxCell>
         <mxCell id="4x74FJtP62-ROi0YiRXt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="BF_ZonEkPcJuRfD94DBP-1" target="4x74FJtP62-ROi0YiRXt-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1541,6 +1550,12 @@
         </mxCell>
         <mxCell id="QkPn_m1dib05Eb9Ae-9E-18" value="free Atipc msg&lt;br&gt;TaskIpc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2650" y="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D4V236LDorw7x-e4cxTF-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;MPSIPX&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;main.c&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;mpsipx_ProcessSipEvent&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;switch (pStSipEventArgs-&amp;gt;eSipEvent)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&lt;/span&gt;case E_SIP_EVENT_REQ :&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&#x9;&lt;/span&gt;mpsipx_ProcessSipRequestEvent&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&#x9;&#x9;&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;SipRequestEvent.c&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;mpsipx_ProcessSipRequestEvent&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;mpsipx_ProcessSipRequestEventNext&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&lt;/span&gt;switch(pStRTrctInfo-&amp;gt;eReqDirection)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&#x9;&lt;/span&gt;case eREQ_DIRECTION_UE_TO_NET:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&#x9;&#x9;&lt;/span&gt;switch (pStRTrctInfo-&amp;gt;eRTrctRequestType)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/span&gt;mpsipx_RecvRegisterUeToNetProcess&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ProcReqRegister.c&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;mpsipx_RecvRegisterUeToNetProcess&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;mpsipx_PregRegiReq&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;IfPRMM.c&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;mpsipx_PregRegiReq&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;mpsipx_TaskSendToThrIpcForMPREGRX&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;MPSIPX_IfPRMM.c&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;mpsipx_TaskSendToThrIpcForMPREGRX&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;sipThrIpc_Send&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="69" y="1560" width="420" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="D4V236LDorw7x-e4cxTF-4" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;MPREGRX&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;RecvProc.c&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;mpregrx_InterRecvProc&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;atipc_recv&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;mpregrx_DistributeLogicTask&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;cscf_queue_enq(Logic queue)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;---------------------------------------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;LogicProc.c&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;mpregrx_LogicProc&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;cscf_queue_deq&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;switch(pStRecvTaskIpc-&amp;gt;eTaskIpcType)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&lt;/span&gt;case E_TASKIPC_TYPE_PREG_IF&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&#x9;&lt;/span&gt;mpregrx_ProcessPregIfMsg&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;PregIf.c&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;mpregrx_ProcessPregIfMsg&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;switch (pStDepMsg-&amp;gt;iType)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&lt;/span&gt;case E_PREG_REGI_REQ&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&#x9;&lt;/span&gt;mpregrx_ProcRegiReqMsg&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&#x9;&#x9;&lt;/span&gt;switch(iRegiType)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/span&gt;case RET_TYPE_INIT_REGI&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/span&gt;mpregrx_GenerateUniqueRegiKey&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&#x9;&#x9;&lt;/span&gt;mpregrx_SendTaskIpc_ByRegiReqAck&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/span&gt;cscf_queue_enq(Send queue)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;---------------------------------------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SendProc.c&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;mpregrx_SendProc&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;cscf_queue_deq&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;switch(pStRecvTaskIpc-&amp;gt;eTaskIpcType)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&lt;/span&gt;case E_TASKIPC_TYPE_PREG_IF&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&#x9;&lt;/span&gt;Msg 값 파싱?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;atipc_send (from &lt;b&gt;MPREGRX&lt;/b&gt; to &lt;b&gt;MPSIPX&lt;/b&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="488" y="1560" width="491" height="910" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
