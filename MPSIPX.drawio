@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T00:50:20.616Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="P-W366BmsO_doaO4e6XM" version="24.6.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-07-08T00:52:05.952Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="1JsscKnI1Sn-KqJnN6C3" version="24.6.4" type="github" pages="5">
   <diagram name="MPSIPX" id="EQ6efKA7WiJejvNS8g7J">
     <mxGraphModel dx="1434" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1097,10 +1097,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sMTkmY-QTeYeQGOGb11y" name="INVITE FLOW">
-    <mxGraphModel dx="7390" dy="4273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11214" dy="6342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jR9vt6gwm826ZP4KP6lg-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1640" y="-1095" width="840" height="2875" as="geometry" />
+        </mxCell>
         <mxCell id="SFTUYE5n4gvJszsFZdw2-3" value="&lt;div style=&quot;&quot;&gt;MPSIPX_ProcReqInitial.c&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;mpsipx_RecvInitialRequestUeToNetProcess&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;mpsipx_CDR_ProcRequest_Initial&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;mpsipx_qos_ProcessTraffic&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;mpsipx_RecvInitialRequestUeToNetProcessForward&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;mpsipx_ReqRecv_4_ForkRequest&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;mpsipx_VarifyAndModifyRouteList&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&#x9;&lt;/span&gt;mpsipx_SearchSvrListUsingRoute&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&#x9;&lt;/span&gt;...&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;mpsipx_Privacy_ProcessRequestUeToNet&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;mpsipx_PAssertedID_ProcessRequestUeToNet&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;mpsipx_RemoveCDRHeaders&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;mpsipx_AddPChargingVectorHeader&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;mpsipx_AddPChargingVectorHeader&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;mpsipx_ChargingAddr_ProcessRequestUeToNet&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;mpsipx_AddLGUplusPRIDHeader&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;mpsipx_ForwardRequest&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;MPSIPX_ProcessRequest.c&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;mpsipx_ForwardRequest&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;sip_PxyReqSend_2_UpdateMaxForwards&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;mpsipx_PxyReqSend_5_PostProcRoutingInfo&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;switch (sip_PxyReqSend_6_DetermineNextHop )&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;case E_NEXT_HOP_TYPE_DETERMINED :&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;mpsipx_BindMap_AddRecordRoute&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;mpsipx_SetViaBranchAppServiceMode&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;sip_PxyReqSend_7_AddVia&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;sip_PxyReqSend_8_AddContentLength&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;mpsipx_SendRequest&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;sip_SendRequest ( Next Hop )&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;sip_PxyReqSend_9_SetTimerC&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
           <mxGeometry x="-1169" y="2101" width="344" height="910" as="geometry" />
         </mxCell>
@@ -1704,68 +1707,65 @@
         <mxCell id="jR9vt6gwm826ZP4KP6lg-33" value="mpsipx_ForwardRequest" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
           <mxGeometry x="-1495" y="1115" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jR9vt6gwm826ZP4KP6lg-35" value="mpsipx_ForwardRequest" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
-          <mxGeometry x="-1485" y="1125" width="150" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="jR9vt6gwm826ZP4KP6lg-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jR9vt6gwm826ZP4KP6lg-36" target="jR9vt6gwm826ZP4KP6lg-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jR9vt6gwm826ZP4KP6lg-36" value="mpsipx_ForwardRequest" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
-          <mxGeometry x="-977.5" y="-115" width="150" height="30" as="geometry" />
+          <mxGeometry x="-1497.5" y="1220" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jR9vt6gwm826ZP4KP6lg-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jR9vt6gwm826ZP4KP6lg-38" target="jR9vt6gwm826ZP4KP6lg-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="if&amp;nbsp;&lt;div&gt;(sip_PxyReqSend_2_UpdateMaxForwards &amp;lt; 0)&lt;/div&gt;" tooltip="RFC 3261 Proxy Role중 Update Max Forwards 함수. Request에 Max-Forwards header가 존재하면 1을 감소시키고 존재하지 않으면 pSipConfig-&gt;stProxyConfig.iMaxFwdsVal(설정된 값, default = 70)을 value로 가지는 Max-Forwards header를 삽입한다. " id="jR9vt6gwm826ZP4KP6lg-38">
           <mxCell style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="-1007.5" y="-50" width="200" height="40" as="geometry" />
+            <mxGeometry x="-1527.5" y="1285" width="200" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="jR9vt6gwm826ZP4KP6lg-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jR9vt6gwm826ZP4KP6lg-40" target="jR9vt6gwm826ZP4KP6lg-43">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-907.5" y="133" />
+              <mxPoint x="-1427.5" y="1468" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="jR9vt6gwm826ZP4KP6lg-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jR9vt6gwm826ZP4KP6lg-40" target="jR9vt6gwm826ZP4KP6lg-44">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-907.5" y="198" />
+              <mxPoint x="-1427.5" y="1533" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="jR9vt6gwm826ZP4KP6lg-40" value="switch (pStRTrctInfo-&gt;eRTrctRequestType)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1010" y="45" width="205" height="40" as="geometry" />
+          <mxGeometry x="-1530" y="1380" width="205" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jR9vt6gwm826ZP4KP6lg-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jR9vt6gwm826ZP4KP6lg-43" target="jR9vt6gwm826ZP4KP6lg-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jR9vt6gwm826ZP4KP6lg-43" value="case eSTRCT_REQ_TYPE_REGISTER:" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
-          <mxGeometry x="-847.5" y="120" width="260" height="25" as="geometry" />
+          <mxGeometry x="-1367.5" y="1455" width="260" height="25" as="geometry" />
         </mxCell>
         <mxCell id="jR9vt6gwm826ZP4KP6lg-44" value="case eRTRCT_REQ_TYPE_INITIALREQUEST:" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
-          <mxGeometry x="-847.5" y="185" width="280" height="25" as="geometry" />
+          <mxGeometry x="-1367.5" y="1520" width="280" height="25" as="geometry" />
         </mxCell>
         <mxCell id="jR9vt6gwm826ZP4KP6lg-51" value="break;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jR9vt6gwm826ZP4KP6lg-47" target="jR9vt6gwm826ZP4KP6lg-50">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-431" y="240" />
-              <mxPoint x="-907" y="240" />
+              <mxPoint x="-951" y="1575" />
+              <mxPoint x="-1427" y="1575" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="jR9vt6gwm826ZP4KP6lg-47" value="mpsipx_ChooseNSetDestIcscf" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-535.5" y="122.5" width="210" height="20" as="geometry" />
+          <mxGeometry x="-1055.5" y="1457.5" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jR9vt6gwm826ZP4KP6lg-53" value="..." style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jR9vt6gwm826ZP4KP6lg-50" target="jR9vt6gwm826ZP4KP6lg-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jR9vt6gwm826ZP4KP6lg-50" value="if( mpsipx_PxyReqSend_5_PostProcRoutingInfo !=&amp;nbsp;eSERVICE_ERROR_TYPE_NONE )" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1007.5" y="270" width="200" height="40" as="geometry" />
+          <mxGeometry x="-1527.5" y="1605" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jR9vt6gwm826ZP4KP6lg-52" value="mpsipx_SendRequest" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-987.5" y="380" width="160" height="20" as="geometry" />
+          <mxGeometry x="-1507.5" y="1715" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
