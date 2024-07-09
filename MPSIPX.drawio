@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T07:50:09.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="NObAed0tb50_xaA78NO4" version="24.6.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-07-09T08:52:40.011Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="bREhAM_vlMX9E7YJiBUh" version="24.6.4" type="github" pages="5">
   <diagram name="MPSIPX" id="EQ6efKA7WiJejvNS8g7J">
     <mxGraphModel dx="819" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -393,7 +393,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_Xwj_nyiZzvryOXpBULN" name="공통 FLOW">
-    <mxGraphModel dx="1687" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -700,6 +700,18 @@
         </mxCell>
         <mxCell id="aaTxrYnX9s_0V3QwsMBf-1" value="mpsipx_ProcessSipRequestEventNext" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="280" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aaTxrYnX9s_0V3QwsMBf-4" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Prepare RTrctInfo&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=12;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="110" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="aaTxrYnX9s_0V3QwsMBf-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aaTxrYnX9s_0V3QwsMBf-5" target="aaTxrYnX9s_0V3QwsMBf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aaTxrYnX9s_0V3QwsMBf-5" value="mpsipx_InitProcessData" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="40" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aaTxrYnX9s_0V3QwsMBf-6" value="mpsipx_PrepareProcesData" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="120" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
