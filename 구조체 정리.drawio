@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T02:16:38.410Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="dyBhrARiijEn3uRNvVVn" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T02:17:29.827Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="QYC9qP0TRwNmvDbrLqOI" version="24.6.4" type="github">
   <diagram name="페이지-1" id="YhR5rL2IVKgzNh5xREoA">
     <mxGraphModel dx="1434" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j6d-o00OI4CUoNa3O5Kz-7" value="mpsipx_InitRTrctInfo 에서 아래 구조체 값 초기화" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="300" y="200" width="280" height="30" as="geometry" />
+          <mxGeometry x="300" y="210" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j6d-o00OI4CUoNa3O5Kz-8" value="mpsipx_InitRTrctInfo&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;eCallDirection =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;E_CALL_DIRECTION_FORWARD&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;eCallMode =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;E_CALL_MODE_ORIG&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="850" y="190" width="320" height="50" as="geometry" />
@@ -33,7 +33,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j6d-o00OI4CUoNa3O5Kz-10" value="mpsipx_CheckDirectionUseRoute" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="850" y="160" width="210" height="20" as="geometry" />
+          <mxGeometry x="850" y="160" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j6d-o00OI4CUoNa3O5Kz-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.783;exitY=0.167;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="j6d-o00OI4CUoNa3O5Kz-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -53,14 +53,14 @@
             <mxPoint x="640" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j6d-o00OI4CUoNa3O5Kz-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="j6d-o00OI4CUoNa3O5Kz-16">
+        <mxCell id="j6d-o00OI4CUoNa3O5Kz-15" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1" target="j6d-o00OI4CUoNa3O5Kz-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="520" y="450" as="sourcePoint" />
             <mxPoint x="850" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j6d-o00OI4CUoNa3O5Kz-16" value="bExpires = SIP_FALSE || TRUE&lt;div&gt;iExpieds = contact header&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="840" y="440" width="180" height="20" as="geometry" />
+          <mxGeometry x="840" y="430" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
