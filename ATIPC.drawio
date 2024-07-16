@@ -1,52 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-06-25T08:40:15.415Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="meuk4N_-C8kA2Fkpg9OR" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-16T06:24:28.430Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="trn0KYQr8VW2yfRKVnWu" version="24.6.5" type="github">
   <diagram name="페이지-1" id="jERm6EU6h7SOklrPmQn_">
-    <mxGraphModel dx="1665" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2607" dy="1324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JRY9VZmu6lB9FQlv3pIe-1" value="mfoo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="40" y="120" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="JRY9VZmu6lB9FQlv3pIe-2" value="mbar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="360" y="120" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="JRY9VZmu6lB9FQlv3pIe-3" value="test.ini&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[MFOO]&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=13;" vertex="1" parent="1">
-          <mxGeometry x="-390" y="230" width="80" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="JRY9VZmu6lB9FQlv3pIe-4" value="atipc.map" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=13;" vertex="1" parent="1">
-          <mxGeometry x="-390" y="110" width="80" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="JRY9VZmu6lB9FQlv3pIe-6" value="test" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="60" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="JRY9VZmu6lB9FQlv3pIe-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="JRY9VZmu6lB9FQlv3pIe-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="500" as="sourcePoint" />
-            <mxPoint x="270" y="70" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <UserObject label="&lt;pre style=&quot;font-family: &amp;quot;Malgun Gothic&amp;quot;, monospace, Courier; padding: 1em; border: 1px solid rgb(221, 221, 221); color: rgb(0, 0, 0); background-color: rgb(249, 249, 249); line-height: 1.3em; font-size: 12.8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font color=&quot;brown&quot;&gt; &lt;a href=&quot;http://tom.telcoware.com/wiki/index.php?title=ATIPC#atipc_bind&quot; title=&quot;ATIPC&quot; style=&quot;text-decoration: none; color: rgb(6, 69, 173); background: none;&quot;&gt;atipc_bind_by_name&lt;/a&gt;(at, &quot;test&quot;, &quot;mfoo&quot;, ATIPC_RECV_MODE_CH);&lt;/font&gt;&lt;/pre&gt;" link="&lt;pre style=&quot;font-family: &amp;quot;Malgun Gothic&amp;quot;, monospace, Courier; padding: 1em; border: 1px solid rgb(221, 221, 221); color: rgb(0, 0, 0); background-color: rgb(249, 249, 249); line-height: 1.3em; font-size: 12.8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font color=&quot;brown&quot;&gt; &lt;a href=&quot;http://tom.telcoware.com/wiki/index.php?title=ATIPC#atipc_bind&quot; title=&quot;ATIPC&quot; style=&quot;text-decoration: none; color: rgb(6, 69, 173); background: none;&quot;&gt;atipc_bind_by_name&lt;/a&gt;(at, &quot;test&quot;, &quot;mfoo&quot;, ATIPC_RECV_MODE_CH);&lt;/font&gt;&lt;/pre&gt;" id="JRY9VZmu6lB9FQlv3pIe-8">
-          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="-159" y="210" width="430" height="90" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;pre style=&quot;font-family: &amp;quot;Malgun Gothic&amp;quot;, monospace, Courier; padding: 1em; border: 1px solid rgb(221, 221, 221); color: rgb(0, 0, 0); background-color: rgb(249, 249, 249); line-height: 1.3em; font-size: 12.8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font color=&quot;brown&quot;&gt;&lt;a href=&quot;http://tom.telcoware.com/wiki/index.php?title=ATIPC#atipc_init&quot; title=&quot;ATIPC&quot; style=&quot;text-decoration: none; color: rgb(6, 69, 173); background: none;&quot;&gt;atipc_init&lt;/a&gt;(&quot;atipc.map&quot;, NULL);&lt;/font&gt;&lt;/pre&gt;" link="&lt;pre style=&quot;font-family: &amp;quot;Malgun Gothic&amp;quot;, monospace, Courier; padding: 1em; border: 1px solid rgb(221, 221, 221); color: rgb(0, 0, 0); background-color: rgb(249, 249, 249); line-height: 1.3em; font-size: 12.8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font color=&quot;brown&quot;&gt;&lt;a href=&quot;http://tom.telcoware.com/wiki/index.php?title=ATIPC#atipc_init&quot; title=&quot;ATIPC&quot; style=&quot;text-decoration: none; color: rgb(6, 69, 173); background: none;&quot;&gt;atipc_init&lt;/a&gt;(MFOO_ATIPC_CONF_FILE, NULL);&lt;/font&gt;&lt;/pre&gt;" id="JRY9VZmu6lB9FQlv3pIe-9">
-          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="43" y="161" width="180" height="30" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="JRY9VZmu6lB9FQlv3pIe-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JRY9VZmu6lB9FQlv3pIe-1" target="JRY9VZmu6lB9FQlv3pIe-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="10" y="260" as="sourcePoint" />
-            <mxPoint x="280" y="140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="JRY9VZmu6lB9FQlv3pIe-12" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF3333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JRY9VZmu6lB9FQlv3pIe-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="111" y="108.82" as="sourcePoint" />
-            <mxPoint x="280" y="140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
