@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="페이지-1" id="HsaKV4gtXQu6MExX4XXO">
-    <mxGraphModel dx="1434" dy="786" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="637" dy="349" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -140,6 +140,136 @@
           <mxGeometry x="-0.5" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="660" y="620" as="sourcePoint" />
             <mxPoint x="180" y="620" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fr2JG_WPuw4Xb1J1Nvzu-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1029" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-2" value="iPhone UE&lt;div&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 9px;&quot;&gt;(TTA-VoLTE/2.0 iOS/15.5)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970.5" y="80" width="117" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-3" value="P-CSCF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1149" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-4" value="MRERGX (S-CSCF)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1288" y="80" width="122" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-5" value="HSS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1469" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fr2JG_WPuw4Xb1J1Nvzu-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1189" y="680" as="targetPoint" />
+            <mxPoint x="1179" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fr2JG_WPuw4Xb1J1Nvzu-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1349" y="680" as="targetPoint" />
+            <mxPoint x="1349" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fr2JG_WPuw4Xb1J1Nvzu-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1509" y="680" as="targetPoint" />
+            <mxPoint x="1499" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-10" value="Unprotected-REGI(IPSEC)&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;PANI(X), expires=3600&lt;/font&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1029" y="180" as="sourcePoint" />
+            <mxPoint x="1189" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-14" value="&lt;b&gt;SA 생성&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1016" y="250" width="188" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-18" value="&lt;div&gt;INVITE Trct 에만&lt;/div&gt;&lt;div&gt;bSessionCDR flag = TURE 설정&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=#FFF2CC;fillColor=#fff2cc;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1569" y="386" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-23" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;1. INIT-REGI 판단 &amp;amp;&lt;/font&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;2. Integrity-protected=yes &amp;amp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;3. MCC/MNC 별 로밍 ipsec off 판단 (DB)&lt;br&gt;-&amp;gt; 위의 조건 만족시&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;4. DB Binding 의 avail_util 및 200 OK&amp;nbsp; Contact 의 expires 값에 설정된 ipsec_off_roam_reg_expires 값 세팅 후 전송&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1236" y="360" width="226" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-24" value="짧은 RE-REGI 유도" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=#FFF2CC;fillColor=#fff2cc;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="533" width="180" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-25" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;생성한 DB Binding 의&lt;br&gt;avail_until = ipsec_off_roam-reg_expires&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=#FFF2CC;fillColor=#fff2cc;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1209" y="480" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-28" value="Unprotected-REGI(IPSEC)&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;PANI(X), expires=3600&lt;/font&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1189" y="180" as="sourcePoint" />
+            <mxPoint x="1349" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-29" value="MAR" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry y="9" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1349" y="180" as="sourcePoint" />
+            <mxPoint x="1509" y="180" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-30" value="MAA" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry y="-10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1509" y="226" as="sourcePoint" />
+            <mxPoint x="1349" y="226" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-31" value="401 UNAUTHORIZED" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry y="-10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1349" y="226" as="sourcePoint" />
+            <mxPoint x="1189" y="226" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-32" value="401 UNAUTHORIZED" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry y="-10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1189" y="226" as="sourcePoint" />
+            <mxPoint x="1029" y="226" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-34" value="Pretected-REGI(IPSEC)&lt;div&gt;PANI(O,MCC/MNC:23415)&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1029" y="293" as="sourcePoint" />
+            <mxPoint x="1189" y="293" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-35" value="Pretected-REGI(IPSEC)&lt;div&gt;PANI(O)&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1189" y="293" as="sourcePoint" />
+            <mxPoint x="1349" y="293" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-36" value="SAR" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry y="9" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1349" y="293.74" as="sourcePoint" />
+            <mxPoint x="1509" y="293.74" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-37" value="SAA" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry y="-10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1509" y="339.74" as="sourcePoint" />
+            <mxPoint x="1349" y="339.74" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-38" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;200 OK&lt;/font&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#ff0000&quot;&gt;Contact : xxxxxx;&lt;b style=&quot;&quot;&gt;expires=60&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry x="0.8278" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1349" y="585" as="sourcePoint" />
+            <mxPoint x="1189" y="585" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fr2JG_WPuw4Xb1J1Nvzu-39" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;200 OK&lt;/font&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#ff0000&quot;&gt;Contact : xxxxxx;&lt;b style=&quot;&quot;&gt;expires=60&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry x="0.8278" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1189" y="585" as="sourcePoint" />
+            <mxPoint x="1029" y="585" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
