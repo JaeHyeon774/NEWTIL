@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T05:28:45.861Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Ti65V3zSTY8inB3SlsVB" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6" pages="2">
   <diagram name="페이지-1" id="jbmBaX_fbK1Vl6JB3Odb">
     <mxGraphModel dx="3975" dy="-5484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -491,6 +491,14 @@
         <mxCell id="Mr1B6nBS8uSu-eiEcRbw-120" value="    BYE sip:10.10.4.56:5901 SIP/2.0&#xa;   &#xa;    Route: &lt;sip:PCSM1-orig@10.10.4.56:5060;lr&gt;, &lt;sip:SCSM1-ptso-tu00@10.10.4.56:5067;lr&gt;,&#xa;    &lt;sip:SCSM1-htst-tu00@10.10.4.56:5067;lr&gt;, &lt;sip:PCSM1-term@10.10.4.56:5060;lr&gt;&#xa;    To: &lt;sip:01099994444@lte-lguplus.co.kr&gt;;tag=31cd6eec1259b&#xa;    From: &lt;sip:01099992222@lte-lguplus.co.kr&gt;;tag=5f8987f9469&#xa;    Call-ID: 1706851150-936145370@192.3.1.114&#xa;    CSeq: 2 BYE" style="text;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="177" y="11600" width="560" height="240" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UvOxnW-SAEWguf2FhDF3" name="페이지-2">
+    <mxGraphModel dx="2074" dy="1092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
