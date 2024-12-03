@@ -520,17 +520,44 @@
         <mxCell id="xJGoVkz-1VHKfE3BQOuf-17" value="1. 프로세스 종료&lt;div&gt;gpDalConn disconnect 수행&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="65" y="220" width="110" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="xJGoVkz-1VHKfE3BQOuf-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xJGoVkz-1VHKfE3BQOuf-18" target="xJGoVkz-1VHKfE3BQOuf-29">
+        <mxCell id="xJGoVkz-1VHKfE3BQOuf-18" value="3. gpDalConn&lt;div&gt;NULL 체크&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="350" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xJGoVkz-1VHKfE3BQOuf-25" value="2. 포인터 변수 값&amp;nbsp;&lt;div&gt;NULL 초기화&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="63" y="292" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xJGoVkz-1VHKfE3BQOuf-32" value="&lt;b&gt;MAIN THREAD&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="401" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xJGoVkz-1VHKfE3BQOuf-33" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="xJGoVkz-1VHKfE3BQOuf-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="441" y="640" as="sourcePoint" />
+            <mxPoint x="711" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJGoVkz-1VHKfE3BQOuf-34" value="&lt;b&gt;&amp;nbsp;OTHER THREAD&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="521" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xJGoVkz-1VHKfE3BQOuf-35" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="xJGoVkz-1VHKfE3BQOuf-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="561" y="640" as="sourcePoint" />
+            <mxPoint x="831" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJGoVkz-1VHKfE3BQOuf-36" value="1. 프로세스 종료&lt;div&gt;gpDalConn disconnect 수행&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="386" y="220" width="110" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="xJGoVkz-1VHKfE3BQOuf-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xJGoVkz-1VHKfE3BQOuf-38" target="xJGoVkz-1VHKfE3BQOuf-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xJGoVkz-1VHKfE3BQOuf-18" value="2. gpDalConn 접근" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="292" width="120" height="50" as="geometry" />
+        <mxCell id="xJGoVkz-1VHKfE3BQOuf-38" value="2. gpDalConn 접근" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="501" y="292" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="xJGoVkz-1VHKfE3BQOuf-29" value="gpDalConn&lt;div&gt;(전역 포인터 변수)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="231" width="130" height="30" as="geometry" />
+        <mxCell id="xJGoVkz-1VHKfE3BQOuf-39" value="gpDalConn&lt;div&gt;(전역 포인터 변수)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="621" y="231" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xJGoVkz-1VHKfE3BQOuf-31" value="CORE 발생" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.6_point_star;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="315" y="302" width="100" height="30" as="geometry" />
+        <mxCell id="xJGoVkz-1VHKfE3BQOuf-40" value="CORE 발생" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.6_point_star;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="636" y="302" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
