@@ -1,26 +1,46 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="2">
   <diagram name="UPSF" id="H_dfcsTCwug_mlnV_Yec">
-    <mxGraphModel dx="1434" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="F-DTdYH_jv9m4dHe0AxT-1" value="MOSSIF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="600" width="80" height="40" as="geometry" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LiX3q3adArF_mDxqBYQM" name="MQ_SIM">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HlduNKfHuNDw62D-EO7Y-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HlduNKfHuNDw62D-EO7Y-1" target="HlduNKfHuNDw62D-EO7Y-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F-DTdYH_jv9m4dHe0AxT-2" value="MPROV" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="600" width="80" height="40" as="geometry" />
+        <mxCell id="HlduNKfHuNDw62D-EO7Y-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HlduNKfHuNDw62D-EO7Y-1" target="HlduNKfHuNDw62D-EO7Y-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F-DTdYH_jv9m4dHe0AxT-3" value="TAS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="600" width="80" height="40" as="geometry" />
+        <mxCell id="HlduNKfHuNDw62D-EO7Y-1" value="main&lt;div&gt;ini 에서 청약 메시지 읽어 오는 부분 추가!&lt;/div&gt;&lt;div&gt;while로 살려&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="F-DTdYH_jv9m4dHe0AxT-4" value="LEGACY" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="680" width="80" height="40" as="geometry" />
+        <mxCell id="HlduNKfHuNDw62D-EO7Y-8" value="init" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HlduNKfHuNDw62D-EO7Y-2" target="HlduNKfHuNDw62D-EO7Y-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F-DTdYH_jv9m4dHe0AxT-5" value="MSUB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="600" width="80" height="40" as="geometry" />
+        <mxCell id="HlduNKfHuNDw62D-EO7Y-2" value="send(인자로 받은거 여기로 넘겨)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="F-DTdYH_jv9m4dHe0AxT-6" value="DBS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="680" width="80" height="40" as="geometry" />
+        <mxCell id="HlduNKfHuNDw62D-EO7Y-3" value="recv(인자로 받은거 여기로 다 넘겨)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HlduNKfHuNDw62D-EO7Y-7" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;공통 로직은 따로 빼주고&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;여기서 각자 로직 수행?&lt;br&gt;while 문&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HlduNKfHuNDw62D-EO7Y-9" value="청약 메시지 그때 그때 읽어..?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HlduNKfHuNDw62D-EO7Y-10" value="init" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HlduNKfHuNDw62D-EO7Y-3" target="HlduNKfHuNDw62D-EO7Y-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HlduNKfHuNDw62D-EO7Y-12" value="&lt;span style=&quot;&quot;&gt;1. 청약 메시지를 어떤식으로 받아 올 것인가?&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 어떤식으로 고를것인가..?&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="280" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
