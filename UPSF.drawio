@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="3">
   <diagram name="UPSF" id="H_dfcsTCwug_mlnV_Yec">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,10 +66,57 @@
           <mxGeometry x="260" y="170" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B1EWdB-hmAH-CvW41Hd_-17" value="SEND 와 RECV 가&lt;div&gt;공통으로 사용하는&lt;/div&gt;&lt;div&gt;기능들은 따로&lt;/div&gt;&lt;div&gt;함수로 빼&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="320" width="160" height="120" as="geometry" />
+          <mxGeometry x="40" y="620" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="B1EWdB-hmAH-CvW41Hd_-18" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;UTIL&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="300" width="120" height="40" as="geometry" />
+          <mxGeometry x="60" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iVC3MoUxUxa-nneZdUae" name="페이지-3">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rQ8HIJk4FDCnvhElWmjL-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="110" width="160" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="rQ8HIJk4FDCnvhElWmjL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rQ8HIJk4FDCnvhElWmjL-7" target="rQ8HIJk4FDCnvhElWmjL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rQ8HIJk4FDCnvhElWmjL-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="110" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="rQ8HIJk4FDCnvhElWmjL-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;MQSIM&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rQ8HIJk4FDCnvhElWmjL-3" value="MAIN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rQ8HIJk4FDCnvhElWmjL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rQ8HIJk4FDCnvhElWmjL-4" target="rQ8HIJk4FDCnvhElWmjL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rQ8HIJk4FDCnvhElWmjL-4" value="RECV" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rQ8HIJk4FDCnvhElWmjL-5" value="SEND" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rQ8HIJk4FDCnvhElWmjL-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;MQ&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rQ8HIJk4FDCnvhElWmjL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="rQ8HIJk4FDCnvhElWmjL-8" target="rQ8HIJk4FDCnvhElWmjL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rQ8HIJk4FDCnvhElWmjL-8" value="/etc/ini/mqsim.ut" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rQ8HIJk4FDCnvhElWmjL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="rQ8HIJk4FDCnvhElWmjL-10" target="rQ8HIJk4FDCnvhElWmjL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rQ8HIJk4FDCnvhElWmjL-10" value="ptas.dat&lt;div&gt;etas.dat&lt;/div&gt;&lt;div&gt;mtas.dat&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
