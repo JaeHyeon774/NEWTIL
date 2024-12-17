@@ -8,65 +8,67 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LiX3q3adArF_mDxqBYQM" name="MQ_SIM">
-    <mxGraphModel dx="746" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-1" value="기존 구현 그대로 유지" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B1EWdB-hmAH-CvW41Hd_-1" value="기존 구현 그대로 유지" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="320" width="160" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;기존 구현에서&lt;div&gt;추가로 입력을 받아&amp;nbsp;&lt;/div&gt;&lt;div&gt;g_map에서&amp;nbsp;&lt;/div&gt;&lt;div&gt;dat file name 으로&amp;nbsp;&lt;/div&gt;&lt;div&gt;청약 메시지를&amp;nbsp;&lt;/div&gt;&lt;div&gt;open할 수 있도록&amp;nbsp;&lt;/div&gt;&lt;div&gt;변경&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B1EWdB-hmAH-CvW41Hd_-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;기존 구현에서&lt;div&gt;추가로 입력을 받아&amp;nbsp;&lt;/div&gt;&lt;div&gt;dat_info 에서&amp;nbsp;&lt;/div&gt;&lt;div&gt;dat file name 으로&amp;nbsp;&lt;/div&gt;&lt;div&gt;청약 메시지를&amp;nbsp;&lt;/div&gt;&lt;div&gt;open할 수 있도록&amp;nbsp;&lt;/div&gt;&lt;div&gt;변경&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="320" width="160" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;while() {}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B1EWdB-hmAH-CvW41Hd_-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;while() {}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="60" width="160" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;ptas.dat&lt;div&gt;etas.dat&lt;/div&gt;&lt;div&gt;mtas.dat&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="B1EWdB-hmAH-CvW41Hd_-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;ptas.dat&lt;div&gt;etas.dat&lt;/div&gt;&lt;div&gt;mtas.dat&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="40" y="200" width="60" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-5" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;SEND&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B1EWdB-hmAH-CvW41Hd_-5" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;SEND&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="300" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;MAIN&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B1EWdB-hmAH-CvW41Hd_-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;MAIN&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-7" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;RECV&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B1EWdB-hmAH-CvW41Hd_-7" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;RECV&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="660" y="300" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-8" value="File I/O" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B1EWdB-hmAH-CvW41Hd_-9" target="B1EWdB-hmAH-CvW41Hd_-11">
+        <mxCell id="B1EWdB-hmAH-CvW41Hd_-8" value="File I/O" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="B1EWdB-hmAH-CvW41Hd_-9" target="B1EWdB-hmAH-CvW41Hd_-12" edge="1">
           <mxGeometry x="0.1111" relative="1" as="geometry">
-            <mxPoint x="280" y="140" as="targetPoint" />
+            <mxPoint x="260" y="145" as="targetPoint" />
             <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="80" y="470" />
+              <mxPoint x="420" y="470" />
+              <mxPoint x="420" y="375" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-9" value="dat.ut" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="190" width="40" height="20" as="geometry" />
+        <mxCell id="B1EWdB-hmAH-CvW41Hd_-9" value="dat.ut" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="280" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-10" value="arvc valid check" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="B1EWdB-hmAH-CvW41Hd_-10" value="arvc valid check" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="260" y="90" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-11" value="g_map" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="260" y="130" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-12" value="&lt;div&gt;extern&lt;/div&gt;g_map" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="B1EWdB-hmAH-CvW41Hd_-12" value="&lt;div&gt;dat_info&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="460" y="360" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B1EWdB-hmAH-CvW41Hd_-14" target="B1EWdB-hmAH-CvW41Hd_-5">
+        <mxCell id="B1EWdB-hmAH-CvW41Hd_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="B1EWdB-hmAH-CvW41Hd_-14" target="B1EWdB-hmAH-CvW41Hd_-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-14" value="void send_proc();" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="B1EWdB-hmAH-CvW41Hd_-14" value="void send_proc();" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="260" y="190" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B1EWdB-hmAH-CvW41Hd_-16" target="B1EWdB-hmAH-CvW41Hd_-7">
+        <mxCell id="B1EWdB-hmAH-CvW41Hd_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="B1EWdB-hmAH-CvW41Hd_-16" target="B1EWdB-hmAH-CvW41Hd_-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-16" value="void recv_proc();" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="B1EWdB-hmAH-CvW41Hd_-16" value="void recv_proc();" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="260" y="170" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-17" value="SEND 와 RECV 가&lt;div&gt;공통으로 사용하는&lt;/div&gt;&lt;div&gt;기능들은 따로&lt;/div&gt;&lt;div&gt;함수로 빼&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B1EWdB-hmAH-CvW41Hd_-17" value="SEND 와 RECV 가&lt;div&gt;공통으로 사용하는&lt;/div&gt;&lt;div&gt;기능들은 따로&lt;/div&gt;&lt;div&gt;함수로 빼&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="320" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-18" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;UTIL&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B1EWdB-hmAH-CvW41Hd_-18" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;UTIL&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="300" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
