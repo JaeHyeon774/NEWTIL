@@ -65,12 +65,6 @@
         <mxCell id="B1EWdB-hmAH-CvW41Hd_-16" value="void recv_proc();" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="260" y="170" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-17" value="SEND 와 RECV 가&lt;div&gt;공통으로 사용하는&lt;/div&gt;&lt;div&gt;기능들은 따로&lt;/div&gt;&lt;div&gt;함수로 빼&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="620" width="160" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="B1EWdB-hmAH-CvW41Hd_-18" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;UTIL&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="600" width="120" height="40" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
