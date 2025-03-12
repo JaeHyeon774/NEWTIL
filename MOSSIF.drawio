@@ -85,6 +85,24 @@
         <mxCell id="9r8QmlUg3Ydf7AhCJzKc-6" value="OSS_BAT_R" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="400" width="120" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="9r8QmlUg3Ydf7AhCJzKc-13" value="sendmsg_by_name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="480" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9r8QmlUg3Ydf7AhCJzKc-14" value="recvmsg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="440" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9r8QmlUg3Ydf7AhCJzKc-15" value="sendmsg_by_name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9r8QmlUg3Ydf7AhCJzKc-16" value="recvmsg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9r8QmlUg3Ydf7AhCJzKc-17" value="sendmsg_by_name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="480" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9r8QmlUg3Ydf7AhCJzKc-18" value="recvmsg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="440" width="70" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
