@@ -66,7 +66,7 @@
           <mxGeometry x="45" y="390" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5ydEreZdV_bBArX5orX0-21" value="Result = FAIL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="840" width="80" height="30" as="geometry" />
+          <mxGeometry x="340" y="850" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5ydEreZdV_bBArX5orX0-31" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5ydEreZdV_bBArX5orX0-22">
           <mxGeometry relative="1" as="geometry">
