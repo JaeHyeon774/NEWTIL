@@ -1,311 +1,413 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.3">
   <diagram name="페이지-1" id="t6EU2og51nB3L_bHq7Tq">
-    <mxGraphModel dx="1188" dy="619" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-1" value="MOSSIF" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="144.5" y="39" width="80" height="20" as="geometry" />
+          <mxGeometry x="150" y="40" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-3" value="OSS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="4.5" y="39" width="80" height="20" as="geometry" />
+          <mxGeometry x="10" y="40" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-4" value="MSUB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="284.5" y="39" width="80" height="20" as="geometry" />
+          <mxGeometry x="290" y="40" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-5" value="MPROV" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="424.5" y="39" width="80" height="20" as="geometry" />
+          <mxGeometry x="430" y="40" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-6" value="Legacy PTAS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="564.5" y="39" width="80" height="20" as="geometry" />
+          <mxGeometry x="580" y="40" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-7" value="PTAS_DBS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="704.5" y="39" width="80" height="20" as="geometry" />
+          <mxGeometry x="720" y="40" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="3Ipi1YKnP4tADC3sbSw0-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="44.5" y="439" as="sourcePoint" />
-            <mxPoint x="424.5" y="359" as="targetPoint" />
+            <mxPoint x="50" y="880" as="sourcePoint" />
+            <mxPoint x="428" y="359" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="3Ipi1YKnP4tADC3sbSw0-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="184.5" y="439" as="sourcePoint" />
-            <mxPoint x="164.5" y="89" as="targetPoint" />
+            <mxPoint x="190" y="880" as="sourcePoint" />
+            <mxPoint x="168" y="89" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="3Ipi1YKnP4tADC3sbSw0-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="324.5" y="439" as="sourcePoint" />
-            <mxPoint x="304.5" y="89" as="targetPoint" />
+            <mxPoint x="330" y="880" as="sourcePoint" />
+            <mxPoint x="308" y="89" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="3Ipi1YKnP4tADC3sbSw0-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="464.5" y="439" as="sourcePoint" />
-            <mxPoint x="444.5" y="79" as="targetPoint" />
+            <mxPoint x="470" y="880" as="sourcePoint" />
+            <mxPoint x="448" y="79" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="3Ipi1YKnP4tADC3sbSw0-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="604.5" y="439" as="sourcePoint" />
-            <mxPoint x="594.5" y="69" as="targetPoint" />
+            <mxPoint x="620" y="880" as="sourcePoint" />
+            <mxPoint x="598" y="69" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="3Ipi1YKnP4tADC3sbSw0-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="744.5" y="439" as="sourcePoint" />
-            <mxPoint x="694.5" y="99" as="targetPoint" />
+            <mxPoint x="760" y="880" as="sourcePoint" />
+            <mxPoint x="748.9999999999999" y="59" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-14" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="44.5" y="119" as="sourcePoint" />
-            <mxPoint x="184.5" y="119" as="targetPoint" />
+            <mxPoint x="50" y="120" as="sourcePoint" />
+            <mxPoint x="190" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-15" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="464.5" y="179" as="sourcePoint" />
-            <mxPoint x="604.5" y="179" as="targetPoint" />
+            <mxPoint x="470" y="179" as="sourcePoint" />
+            <mxPoint x="620" y="179" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-16" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="464.5" y="249" as="sourcePoint" />
-            <mxPoint x="744.5" y="249" as="targetPoint" />
+            <mxPoint x="470" y="250" as="sourcePoint" />
+            <mxPoint x="760" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-17" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="184.5" y="139" as="sourcePoint" />
-            <mxPoint x="464.5" y="139" as="targetPoint" />
+            <mxPoint x="190" y="140" as="sourcePoint" />
+            <mxPoint x="470" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-18" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="604.5" y="209" as="sourcePoint" />
-            <mxPoint x="464.5" y="209" as="targetPoint" />
+            <mxPoint x="620" y="210" as="sourcePoint" />
+            <mxPoint x="470" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-19" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="744.5" y="279" as="sourcePoint" />
-            <mxPoint x="464.5" y="279" as="targetPoint" />
+            <mxPoint x="760" y="280" as="sourcePoint" />
+            <mxPoint x="470" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-20" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="324.5" y="349" as="sourcePoint" />
-            <mxPoint x="464.5" y="349" as="targetPoint" />
+            <mxPoint x="330" y="350" as="sourcePoint" />
+            <mxPoint x="470" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-21" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="464.5" y="319" as="sourcePoint" />
-            <mxPoint x="324.5" y="319" as="targetPoint" />
+            <mxPoint x="470" y="320" as="sourcePoint" />
+            <mxPoint x="330" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-22" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="464.5" y="399" as="sourcePoint" />
-            <mxPoint x="184.5" y="399" as="targetPoint" />
+            <mxPoint x="470" y="400" as="sourcePoint" />
+            <mxPoint x="190" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-23" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="184.5" y="419" as="sourcePoint" />
-            <mxPoint x="44.5" y="419" as="targetPoint" />
+            <mxPoint x="190" y="420" as="sourcePoint" />
+            <mxPoint x="50" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-24" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CRTE-TAS-USER AS_TYPE=PTAS USER_ID=0220990600&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="199.5" y="119" width="250" height="10" as="geometry" />
+          <mxGeometry x="203" y="119" width="250" height="10" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-25" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CRTE-TAS-USER AS_TYPE=PTAS USER_ID=0220990600&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="414.5" y="159" width="250" height="10" as="geometry" />
+          <mxGeometry x="418" y="159" width="250" height="10" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-27" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CRTE-TAS-USER OK 110410001&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="464.5" y="189" width="140" height="10" as="geometry" />
+          <mxGeometry x="468" y="189" width="140" height="10" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-28" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CRTE-TAS-USER AS_TYPE=PTAS USER_ID=0220990600&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="479.5" y="229" width="250" height="10" as="geometry" />
+          <mxGeometry x="483" y="229" width="250" height="10" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-30" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CRTE-TAS-USER OK 1104100&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;04&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="534.5" y="259" width="140" height="10" as="geometry" />
+          <mxGeometry x="538" y="259" width="140" height="10" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-31" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CHG-SUBS, userid : 0220990600, as_name:PTAS, as_num:&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;04&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="264.5" y="299" width="270" height="10" as="geometry" />
+          <mxGeometry x="268" y="299" width="270" height="10" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-32" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CHG-SUBS OK&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="354.5" y="329" width="84" height="10" as="geometry" />
+          <mxGeometry x="358" y="329" width="84" height="10" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-36" value="&lt;font size=&quot;1&quot;&gt;Result:[CRTE-SUBS OK]&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Result:[CRTE-TAS-USER OK 110410004]&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="224.5" y="359" width="210" height="30" as="geometry" />
+          <mxGeometry x="228" y="359" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-37" value="MOSSIF" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="559" width="80" height="20" as="geometry" />
+          <mxGeometry x="985" y="40" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-38" value="OSS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="559" width="80" height="20" as="geometry" />
+          <mxGeometry x="850" y="40" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-39" value="MSUB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="559" width="80" height="20" as="geometry" />
+          <mxGeometry x="1130" y="40" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-40" value="MPROV" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="559" width="80" height="20" as="geometry" />
+          <mxGeometry x="1270" y="40" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-41" value="Legacy PTAS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="580" y="559" width="80" height="20" as="geometry" />
+          <mxGeometry x="1410" y="40" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-42" value="PTAS_DBS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="720" y="559" width="80" height="20" as="geometry" />
+          <mxGeometry x="1550" y="40" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-43" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="3Ipi1YKnP4tADC3sbSw0-38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60" y="1120" as="sourcePoint" />
-            <mxPoint x="440" y="879" as="targetPoint" />
+            <mxPoint x="890" y="920" as="sourcePoint" />
+            <mxPoint x="1268" y="359" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-44" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="3Ipi1YKnP4tADC3sbSw0-37" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="1120" as="sourcePoint" />
-            <mxPoint x="180" y="609" as="targetPoint" />
+            <mxPoint x="1030" y="920" as="sourcePoint" />
+            <mxPoint x="1008" y="89" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-45" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="3Ipi1YKnP4tADC3sbSw0-39" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="1120" as="sourcePoint" />
-            <mxPoint x="320" y="609" as="targetPoint" />
+            <mxPoint x="1170" y="920" as="sourcePoint" />
+            <mxPoint x="1148" y="89" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-46" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="3Ipi1YKnP4tADC3sbSw0-40" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="1120" as="sourcePoint" />
-            <mxPoint x="460" y="599" as="targetPoint" />
+            <mxPoint x="1310" y="920" as="sourcePoint" />
+            <mxPoint x="1288" y="79" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-47" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="3Ipi1YKnP4tADC3sbSw0-41" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="620" y="1120" as="sourcePoint" />
-            <mxPoint x="610" y="589" as="targetPoint" />
+            <mxPoint x="1450" y="920" as="sourcePoint" />
+            <mxPoint x="1438" y="69" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-48" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="3Ipi1YKnP4tADC3sbSw0-42" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="760" y="1120" as="sourcePoint" />
-            <mxPoint x="710" y="619" as="targetPoint" />
+            <mxPoint x="1590" y="920" as="sourcePoint" />
+            <mxPoint x="1538" y="99" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-49" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60" y="639" as="sourcePoint" />
-            <mxPoint x="200" y="639" as="targetPoint" />
+            <mxPoint x="890" y="119" as="sourcePoint" />
+            <mxPoint x="1030" y="119" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-50" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="790" as="sourcePoint" />
-            <mxPoint x="620" y="790" as="targetPoint" />
+            <mxPoint x="1310" y="270" as="sourcePoint" />
+            <mxPoint x="1450" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-51" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="860" as="sourcePoint" />
-            <mxPoint x="760" y="860" as="targetPoint" />
+            <mxPoint x="1310" y="340" as="sourcePoint" />
+            <mxPoint x="1590" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-52" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="659" as="sourcePoint" />
-            <mxPoint x="480" y="659" as="targetPoint" />
+            <mxPoint x="1030" y="139" as="sourcePoint" />
+            <mxPoint x="1310" y="139" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-53" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="620" y="820" as="sourcePoint" />
-            <mxPoint x="480" y="820" as="targetPoint" />
+            <mxPoint x="1450" y="300" as="sourcePoint" />
+            <mxPoint x="1310" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-54" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="760" y="890" as="sourcePoint" />
-            <mxPoint x="480" y="890" as="targetPoint" />
+            <mxPoint x="1590" y="370" as="sourcePoint" />
+            <mxPoint x="1310" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-55" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="960" as="sourcePoint" />
-            <mxPoint x="480" y="960" as="targetPoint" />
+            <mxPoint x="1170" y="440" as="sourcePoint" />
+            <mxPoint x="1310" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-56" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="930" as="sourcePoint" />
-            <mxPoint x="340" y="930" as="targetPoint" />
+            <mxPoint x="1310" y="410" as="sourcePoint" />
+            <mxPoint x="1170" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-57" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="1010" as="sourcePoint" />
-            <mxPoint x="200" y="1010" as="targetPoint" />
+            <mxPoint x="1310" y="490" as="sourcePoint" />
+            <mxPoint x="1030" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-58" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="1030" as="sourcePoint" />
-            <mxPoint x="60" y="1030" as="targetPoint" />
+            <mxPoint x="1030" y="510" as="sourcePoint" />
+            <mxPoint x="890" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-59" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CRTE-TAS-USER AS_TYPE=PTAS USER_ID=0220990600&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="215" y="639" width="250" height="10" as="geometry" />
+          <mxGeometry x="1045" y="119" width="250" height="10" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-60" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CRTE-TAS-USER AS_TYPE=PTAS USER_ID=0220990600&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="430" y="770" width="250" height="10" as="geometry" />
+          <mxGeometry x="1260" y="250" width="250" height="10" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-61" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CRTE-TAS-USER OK 110410001&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="480" y="800" width="140" height="10" as="geometry" />
+          <mxGeometry x="1310" y="280" width="140" height="10" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-62" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CRTE-TAS-USER AS_TYPE=PTAS &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;AS_NUM=03&lt;/b&gt;&lt;/font&gt; USER_ID=0220990600&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="467.5" y="840" width="305" height="10" as="geometry" />
+          <mxGeometry x="1297.5" y="320" width="305" height="10" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-63" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CRTE-TAS-USER OK 1104100&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;03&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="550" y="870" width="140" height="10" as="geometry" />
+          <mxGeometry x="1380" y="350" width="140" height="10" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-64" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CHG-SUBS, userid : 0220990600, as_name:PTAS, as_num:03&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="280" y="910" width="270" height="10" as="geometry" />
+          <mxGeometry x="1110" y="390" width="270" height="10" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-65" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CHG-SUBS OK&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="370" y="940" width="84" height="10" as="geometry" />
+          <mxGeometry x="1200" y="420" width="84" height="10" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-66" value="&lt;font size=&quot;1&quot;&gt;Result:[CRTE-SUBS OK]&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Result:[CRTE-TAS-USER OK 110410003]&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="240" y="970" width="210" height="30" as="geometry" />
+          <mxGeometry x="1070" y="450" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-67" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="700" as="sourcePoint" />
-            <mxPoint x="340" y="700" as="targetPoint" />
+            <mxPoint x="1310" y="180" as="sourcePoint" />
+            <mxPoint x="1170" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-68" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="750" as="sourcePoint" />
-            <mxPoint x="480" y="750" as="targetPoint" />
+            <mxPoint x="1170" y="230" as="sourcePoint" />
+            <mxPoint x="1310" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-69" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CHG-SUBS, userid : 0220990600, as_name:PTAS, as_num:00,&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="280" y="680" width="270" height="10" as="geometry" />
+          <mxGeometry x="1110" y="160" width="270" height="10" as="geometry" />
         </mxCell>
         <mxCell id="3Ipi1YKnP4tADC3sbSw0-72" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;CRTE-TAS-USER TargetAS:PTAS_&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;03&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="330" y="730" width="160" height="10" as="geometry" />
+          <mxGeometry x="1160" y="210" width="160" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="CbrFXVtdQ7s79S-LFlLn-1" value="가입자 분배룰(DIST, LSC)에 따라 분배&lt;div&gt;&lt;font style=&quot;font-size: 10px; color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;03 아닌 값으로 생성 될 수 있음.&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.67;size=38;position=0.74;base=13;" vertex="1" parent="1">
-          <mxGeometry x="610.5" y="188" width="205" height="71" as="geometry" />
+        <mxCell id="CbrFXVtdQ7s79S-LFlLn-1" value="가입자 분배룰(DIST, LSC)에 따라 분배&lt;div&gt;&lt;font style=&quot;font-size: 10px; color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;03 아닌 값으로 생성 될 수 있음.&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.67;size=38;position=0.74;base=13;" parent="1" vertex="1">
+          <mxGeometry x="610" y="188" width="205" height="71" as="geometry" />
         </mxCell>
-        <mxCell id="CbrFXVtdQ7s79S-LFlLn-2" value="MPROV가 보내주는 &lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;AS_NUM&lt;/font&gt;&lt;/b&gt; 으로 &lt;br&gt;Reason Code세팅해서 응답" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.64;size=38;position=0.74;base=13;" vertex="1" parent="1">
-          <mxGeometry x="664.5" y="785" width="155" height="89" as="geometry" />
+        <mxCell id="CbrFXVtdQ7s79S-LFlLn-2" value="MPROV가 보내주는 &lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;AS_NUM&lt;/font&gt;&lt;/b&gt; 으로 &lt;br&gt;Reason Code세팅해서 응답" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.64;size=38;position=0.74;base=13;" parent="1" vertex="1">
+          <mxGeometry x="1494.5" y="265" width="155" height="89" as="geometry" />
         </mxCell>
-        <mxCell id="CbrFXVtdQ7s79S-LFlLn-3" value="&lt;div&gt;userid 로 TRUNK_IDV_TBL&amp;nbsp; 에서 as_num 조회( AGCF가 수용된 AS_NUM 조회 )&lt;/div&gt;시범 서비스 AGCF 가입자 : PTAS_03 응답&lt;br&gt;비가입자 &amp;amp; DB 조회 실패 : PTAS_00 응답" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=west;size=37;position=0.53;position2=0.15;" vertex="1" parent="1">
-          <mxGeometry x="128" y="722" width="250" height="106" as="geometry" />
+        <mxCell id="CbrFXVtdQ7s79S-LFlLn-3" value="&lt;div&gt;userid 로 TRUNK_IDV_TBL&amp;nbsp; 에서 as_num 조회( AGCF가 수용된 AS_NUM 조회 )&lt;/div&gt;시범 서비스 AGCF 가입자 : PTAS_03 응답&lt;br&gt;비가입자 &amp;amp; DB 조회 실패 : PTAS_00 응답" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=west;size=37;position=0.53;position2=0.15;" parent="1" vertex="1">
+          <mxGeometry x="958" y="202" width="250" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-1" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="480" as="sourcePoint" />
+            <mxPoint x="190" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-2" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="510" as="sourcePoint" />
+            <mxPoint x="470" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-3" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="570" as="sourcePoint" />
+            <mxPoint x="470" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-4" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="540" as="sourcePoint" />
+            <mxPoint x="330" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-5" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CHG-TAS-USER TargetAS:PTAS_&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;04&lt;/b&gt;&lt;/font&gt; OK&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="318" y="550" width="170" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-6" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="630" as="sourcePoint" />
+            <mxPoint x="760" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-8" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CHG-TAS-USER AS_TYPE=PTAS AS_NUM=&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;04&lt;/font&gt;&lt;/b&gt; USER_ID=0220990600&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="444.5" y="614.43" width="327" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-19" value="CHG-TAS-USER AS_TYPE=PTAS USER_ID=-220990600 NETWORK_GROUP=4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="460" width="454" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-23" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CHG-TAS-USER AS:PTAS&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="338.5" y="520" width="123" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-24" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="600" as="sourcePoint" />
+            <mxPoint x="620" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-25" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CHG-TAS-USER AS_TYPE=PTAS AS_NUM=01&amp;nbsp;USER_ID=0220990600&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="393" y="585" width="327" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-26" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="560" as="sourcePoint" />
+            <mxPoint x="1030" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-27" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="590" as="sourcePoint" />
+            <mxPoint x="1310" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-28" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1170" y="650" as="sourcePoint" />
+            <mxPoint x="1310" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-29" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1310" y="620" as="sourcePoint" />
+            <mxPoint x="1170" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-30" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CHG-TAS-USER TargetAS:PTAS_&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;03&lt;/b&gt;&lt;/font&gt;&amp;nbsp;OK&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1158" y="630" width="170" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-31" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1310" y="710" as="sourcePoint" />
+            <mxPoint x="1590" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-32" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CHG-TAS-USER AS_TYPE=PTAS AS_NUM=&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;03&lt;/font&gt;&lt;/b&gt;&amp;nbsp;USER_ID=0220990600&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1284.5" y="694.43" width="327" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-33" value="CHG-TAS-USER AS_TYPE=PTAS USER_ID=-220990600 NETWORK_GROUP=4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="540" width="454" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-34" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CHG-TAS-USER AS:PTAS&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1178.5" y="600" width="123" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-35" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1310" y="680" as="sourcePoint" />
+            <mxPoint x="1450" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0_uwGFWUdUcNRhHvOgUj-36" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CHG-TAS-USER AS_TYPE=PTAS AS_NUM=01&amp;nbsp;USER_ID=0220990600&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1233" y="665" width="327" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
