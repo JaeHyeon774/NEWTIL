@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="페이지-1" id="11Tss-x-r-TRel5Nvl19">
-    <mxGraphModel dx="332" dy="173" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="619" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -735,7 +735,7 @@
         <mxCell id="pt_60cSoaXnLtonegaPo-46" value="&lt;font style=&quot;font-size: 8px; color: rgb(255, 255, 255);&quot;&gt;4. 전송 완료 File BKUP으로 이동&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1220" y="580" width="60" height="12.5" as="geometry" />
         </mxCell>
-        <mxCell id="pt_60cSoaXnLtonegaPo-47" value="&lt;b&gt;Host path에 File 저장&lt;/b&gt;&lt;div&gt;-&amp;gt; Host 재기동시&amp;nbsp;&lt;/div&gt;&lt;div&gt;-&amp;gt; &lt;b&gt;&lt;u&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Data 유지&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-&amp;gt; Host 복구후 CDR daemon set 이&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;u&gt;미전송 Data 전송 재개&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;align=left;" parent="1" vertex="1">
+        <mxCell id="pt_60cSoaXnLtonegaPo-47" value="&lt;b&gt;Host path에 File 저장&lt;/b&gt;&lt;div&gt;Host 재기동시&amp;nbsp;&lt;/div&gt;&lt;div&gt;-&amp;gt; &lt;b&gt;&lt;u&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Data 유지&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-&amp;gt; Host 복구후 CDR daemon set 이&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;u&gt;미전송 Data 전송 재개&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;align=left;" parent="1" vertex="1">
           <mxGeometry x="910" y="755" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pt_60cSoaXnLtonegaPo-48" value="&lt;b&gt;CDR 조회&lt;/b&gt;&lt;div&gt;-&amp;gt; MMC 나 tool 로 CDR 정보 조회&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;align=left;" parent="1" vertex="1">
@@ -825,9 +825,6 @@
             <mxPoint x="460" y="150" as="sourcePoint" />
             <mxPoint x="480" y="150" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="tTAfSjdmEjPrHL1PmNhm-12" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="85" y="503" width="282" height="145" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
