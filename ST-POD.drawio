@@ -1039,10 +1039,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HGXkfaE5ozjqx9wBX4tZ-46" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF0000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="465" y="1410" width="125" height="90" as="geometry" />
+          <mxGeometry x="465" y="1410" width="105" height="90" as="geometry" />
         </mxCell>
         <mxCell id="HGXkfaE5ozjqx9wBX4tZ-47" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;PV&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="1480" width="30" height="20" as="geometry" />
+          <mxGeometry x="540" y="1480" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
