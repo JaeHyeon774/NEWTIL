@@ -107,6 +107,24 @@
         <mxCell id="S0oh2AhfAs_TwrnKE0im-23" value="stlog_config.ut&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="420" width="120" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="S0oh2AhfAs_TwrnKE0im-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="S0oh2AhfAs_TwrnKE0im-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="314.80952380952374" as="targetPoint" />
+            <mxPoint x="200" y="315" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0oh2AhfAs_TwrnKE0im-25" value="szSvcName" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="300" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S0oh2AhfAs_TwrnKE0im-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="S0oh2AhfAs_TwrnKE0im-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="344.80952380952374" as="targetPoint" />
+            <mxPoint x="200" y="345" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0oh2AhfAs_TwrnKE0im-27" value="szHostName" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="330" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
