@@ -105,7 +105,7 @@
           <mxGeometry x="570" y="394.81" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S0oh2AhfAs_TwrnKE0im-23" value="stlog_config.ut&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="420" width="120" height="20" as="geometry" />
+          <mxGeometry x="80" y="379.81" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="S0oh2AhfAs_TwrnKE0im-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="S0oh2AhfAs_TwrnKE0im-25" source="S0oh2AhfAs_TwrnKE0im-1">
           <mxGeometry relative="1" as="geometry">
@@ -132,6 +132,9 @@
         </mxCell>
         <mxCell id="S0oh2AhfAs_TwrnKE0im-27" value="szIPAddr" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="570" y="449.81" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S0oh2AhfAs_TwrnKE0im-29" value="stlog_config.ut&amp;nbsp;&lt;div&gt;stlog를 INIT 하는 PROC_NAME&lt;br&gt;&lt;div&gt;[CONFIG]&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
