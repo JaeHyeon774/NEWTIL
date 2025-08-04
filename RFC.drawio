@@ -41,9 +41,14 @@
         <mxCell id="BCSXksTVQqFWVQJgQM4V-8" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="300" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BCSXksTVQqFWVQJgQM4V-12" value="return -1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BCSXksTVQqFWVQJgQM4V-9">
+        <mxCell id="BCSXksTVQqFWVQJgQM4V-12" value="yes&amp;nbsp;&lt;div&gt;return -1&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BCSXksTVQqFWVQJgQM4V-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="230.0689655172414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BCSXksTVQqFWVQJgQM4V-13" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BCSXksTVQqFWVQJgQM4V-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950.1034482758621" y="289.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BCSXksTVQqFWVQJgQM4V-9" value="atipc_init == NULL" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -52,6 +57,11 @@
         <mxCell id="BCSXksTVQqFWVQJgQM4V-10" value="mrfcx_cdr_inner_atipc_init" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="850" y="190" width="150" height="20" as="geometry" />
         </mxCell>
+        <UserObject label="atipc_set_conn_event_handler" tooltip="이벤트 발생시 _atipc_conn_event_hdlr 에서 메시지 처리" id="BCSXksTVQqFWVQJgQM4V-14">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="850" y="290" width="200" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
