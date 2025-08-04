@@ -1,9 +1,57 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="페이지-1" id="NueoPwY-g3Gd9_wfFGW5">
-    <mxGraphModel>
+    <mxGraphModel dx="983" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BCSXksTVQqFWVQJgQM4V-4" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BCSXksTVQqFWVQJgQM4V-1" target="BCSXksTVQqFWVQJgQM4V-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="mrfcx_init_conf &amp;lt; 0" tooltip="rfc.ut 에서 읽어옴&#xa;p_conf&#xa;-&gt; read_sleep = 10&#xa;-&gt; retry_sleep = 3&#xa;-&gt; retry_time = 10&#xa;-&gt; max_retry_cnt = 0&#xa;-&gt; max_delay_cnt = 400&#xa;-&gt; max_tuple = 4000&#xa;-&gt; ignore = 0&#xa;...&#xa;" id="BCSXksTVQqFWVQJgQM4V-1">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="240" y="120" width="200" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="BCSXksTVQqFWVQJgQM4V-2" value="ER_RETURN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="130" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BCSXksTVQqFWVQJgQM4V-3" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BCSXksTVQqFWVQJgQM4V-1" target="BCSXksTVQqFWVQJgQM4V-2">
+          <mxGeometry x="0.5294" relative="1" as="geometry">
+            <mxPoint x="490" y="130" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BCSXksTVQqFWVQJgQM4V-6" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BCSXksTVQqFWVQJgQM4V-5" target="BCSXksTVQqFWVQJgQM4V-2">
+          <mxGeometry x="0.6923" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BCSXksTVQqFWVQJgQM4V-7" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BCSXksTVQqFWVQJgQM4V-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="mrfcx_cdr_nner_atipc_init" tooltip="/etc/ini/MSSM/scsm.map&#xa;&#xa;" id="BCSXksTVQqFWVQJgQM4V-5">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="240" y="210" width="200" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="BCSXksTVQqFWVQJgQM4V-8" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BCSXksTVQqFWVQJgQM4V-12" value="return -1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BCSXksTVQqFWVQJgQM4V-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="230.0689655172414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BCSXksTVQqFWVQJgQM4V-9" value="atipc_init == NULL" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="215" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BCSXksTVQqFWVQJgQM4V-10" value="mrfcx_cdr_inner_atipc_init" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="190" width="150" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
