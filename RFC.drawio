@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="페이지-1" id="NueoPwY-g3Gd9_wfFGW5">
-    <mxGraphModel dx="475" dy="248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="703" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,15 +88,6 @@
         <mxCell id="D_4GDyAFtXeE5NAdxXAP-34" value="gHashDiamRealmTable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="155" y="110" width="145" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="D_4GDyAFtXeE5NAdxXAP-37" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="550" y="120" width="120" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="D_4GDyAFtXeE5NAdxXAP-35" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="D_4GDyAFtXeE5NAdxXAP-37">
-          <mxGeometry width="10" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="D_4GDyAFtXeE5NAdxXAP-36" value="gpErrCdrHandle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="D_4GDyAFtXeE5NAdxXAP-37">
-          <mxGeometry x="12" width="108" height="10" as="geometry" />
-        </mxCell>
         <mxCell id="D_4GDyAFtXeE5NAdxXAP-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="D_4GDyAFtXeE5NAdxXAP-30">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="700" y="200" as="targetPoint" />
@@ -131,7 +122,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="D_4GDyAFtXeE5NAdxXAP-61" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="140" y="280" width="140" height="40" as="geometry" />
+          <mxGeometry x="150" y="280" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="D_4GDyAFtXeE5NAdxXAP-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="D_4GDyAFtXeE5NAdxXAP-61" source="D_4GDyAFtXeE5NAdxXAP-43" target="D_4GDyAFtXeE5NAdxXAP-44">
           <mxGeometry relative="1" as="geometry" />
@@ -170,7 +161,7 @@
           <mxGeometry width="140" height="10" as="geometry" />
         </mxCell>
         <mxCell id="D_4GDyAFtXeE5NAdxXAP-68" value="ectpol_enqueue job" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="D_4GDyAFtXeE5NAdxXAP-61" target="D_4GDyAFtXeE5NAdxXAP-43">
-          <mxGeometry x="-0.2941" y="-10" width="50" height="50" relative="1" as="geometry">
+          <mxGeometry x="0.1765" y="-20" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-70" y="30" as="sourcePoint" />
             <mxPoint x="180" y="80" as="targetPoint" />
             <mxPoint as="offset" />
