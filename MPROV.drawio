@@ -172,11 +172,38 @@
             <mxPoint x="520" y="1089.8095238095239" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="J7WhWND6WeCU96IItL8I-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="J7WhWND6WeCU96IItL8I-39" target="J7WhWND6WeCU96IItL8I-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240.04761904761904" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <UserObject label="&lt;div&gt;if (parsed_type == 0 ||&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;is_find_as == 0 ||&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (parsed_type == OAM_TYPE &amp;amp;&amp;amp; strcasecmp(as_key, g_sysname)) ||&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (parsed_type == AS_TYPE &amp;amp;&amp;amp; !strcasecmp(as_key, g_sysname)))&lt;/div&gt;" tooltip="- parsed_type 이 OAM 인데 as_key 가 UPSF 가 아닌 경우&#xa;- parsed_type 이 AS_TYPE 인데 as_key가 UPSF 인 경우&#xa;- parsed_type 이 0 인 경우&#xa;- is_find_as 가 0 인 경우&#xa;" id="J7WhWND6WeCU96IItL8I-39">
           <mxCell style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
             <mxGeometry x="29.94" y="1060" width="420" height="60" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="J7WhWND6WeCU96IItL8I-41" value="is_invalid_msg = 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1075" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J7WhWND6WeCU96IItL8I-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="J7WhWND6WeCU96IItL8I-43" target="J7WhWND6WeCU96IItL8I-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240.04761904761904" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J7WhWND6WeCU96IItL8I-43" value="g_listctl-&amp;gt;add(&amp;amp;(tr-&amp;gt;msglist), (void*)newmsg);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="109.91" y="1160" width="260.06" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J7WhWND6WeCU96IItL8I-46" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J7WhWND6WeCU96IItL8I-45" target="J7WhWND6WeCU96IItL8I-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="1239.8095238095239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J7WhWND6WeCU96IItL8I-45" value="is_invalid_msg == 1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1220" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J7WhWND6WeCU96IItL8I-47" value="prov_msgproc_send_valid_req" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.05;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1230" width="200" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
