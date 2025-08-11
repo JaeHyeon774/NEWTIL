@@ -118,7 +118,7 @@
         <mxCell id="J7WhWND6WeCU96IItL8I-27" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J7WhWND6WeCU96IItL8I-25" target="J7WhWND6WeCU96IItL8I-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="J7WhWND6WeCU96IItL8I-29" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J7WhWND6WeCU96IItL8I-25" target="J7WhWND6WeCU96IItL8I-28">
+        <mxCell id="J7WhWND6WeCU96IItL8I-29" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J7WhWND6WeCU96IItL8I-25" target="J7WhWND6WeCU96IItL8I-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="prov_mmc_parser &amp;gt;= 0" tooltip="OAM TYPE&#xa;청약 메시지가 아닌 MMC " id="J7WhWND6WeCU96IItL8I-25">
@@ -161,6 +161,22 @@
         <mxCell id="J7WhWND6WeCU96IItL8I-37" value="prov_mmcmap_get_as_name(mmc, as_key)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="990" width="250" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="J7WhWND6WeCU96IItL8I-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="J7WhWND6WeCU96IItL8I-39" source="J7WhWND6WeCU96IItL8I-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1060" as="targetPoint" />
+            <mxPoint x="240" y="1020" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J7WhWND6WeCU96IItL8I-40" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J7WhWND6WeCU96IItL8I-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1089.8095238095239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div&gt;if (parsed_type == 0 ||&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;is_find_as == 0 ||&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (parsed_type == OAM_TYPE &amp;amp;&amp;amp; strcasecmp(as_key, g_sysname)) ||&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (parsed_type == AS_TYPE &amp;amp;&amp;amp; !strcasecmp(as_key, g_sysname)))&lt;/div&gt;" tooltip="- parsed_type 이 OAM 인데 as_key 가 UPSF 가 아닌 경우&#xa;- parsed_type 이 AS_TYPE 인데 as_key가 UPSF 인 경우&#xa;- parsed_type 이 0 인 경우&#xa;- is_find_as 가 0 인 경우&#xa;" id="J7WhWND6WeCU96IItL8I-39">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="29.94" y="1060" width="420" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
