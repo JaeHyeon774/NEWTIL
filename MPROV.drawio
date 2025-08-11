@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="페이지-1" id="FyECoSG5ypDKsjbppHW5">
-    <mxGraphModel dx="679" dy="354" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="570" dy="297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -201,8 +201,25 @@
         <mxCell id="J7WhWND6WeCU96IItL8I-45" value="is_invalid_msg == 1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="1220" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="J7WhWND6WeCU96IItL8I-47" value="prov_msgproc_send_valid_req" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.05;" vertex="1" parent="1">
+        <mxCell id="J7WhWND6WeCU96IItL8I-47" value="prov_msgproc_send_valid_req" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.05;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="380" y="1230" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J7WhWND6WeCU96IItL8I-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J7WhWND6WeCU96IItL8I-48" target="J7WhWND6WeCU96IItL8I-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J7WhWND6WeCU96IItL8I-48" value="prov_msgproc_send_valid_req" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.05;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1320" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="J7WhWND6WeCU96IItL8I-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J7WhWND6WeCU96IItL8I-50" target="J7WhWND6WeCU96IItL8I-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;span style=&quot;text-align: left;&quot;&gt;prov_msgproc_send_trans_req&lt;/span&gt;" tooltip="MSUB으로 메시지 전송" id="J7WhWND6WeCU96IItL8I-50">
+          <mxCell style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.05;" vertex="1" parent="1">
+            <mxGeometry x="80" y="1380" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="J7WhWND6WeCU96IItL8I-52" value="prov_msgproc_send_valid_req" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.05;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1440" width="200" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
