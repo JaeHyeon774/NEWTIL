@@ -131,6 +131,11 @@
             <mxPoint x="400" y="919.8095238095239" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="J7WhWND6WeCU96IItL8I-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="J7WhWND6WeCU96IItL8I-26" target="J7WhWND6WeCU96IItL8I-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="J7WhWND6WeCU96IItL8I-26" value="prov_as_mmc_parser &amp;gt;= 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="139.94" y="900" width="200" height="40" as="geometry" />
         </mxCell>
@@ -139,6 +144,22 @@
         </mxCell>
         <mxCell id="J7WhWND6WeCU96IItL8I-31" value="parsed_type = AS_TYPE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="905" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J7WhWND6WeCU96IItL8I-34" value="is_find_as = 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="950" width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="J7WhWND6WeCU96IItL8I-36" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J7WhWND6WeCU96IItL8I-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="999.8095238095239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="strcmp(as_key, &quot;&quot;) == 0" tooltip="MMC 메시지라는 의미" id="J7WhWND6WeCU96IItL8I-35">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="140.06" y="980" width="200" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="J7WhWND6WeCU96IItL8I-37" value="prov_mmcmap_get_as_name(mmc, as_key)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="990" width="250" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
