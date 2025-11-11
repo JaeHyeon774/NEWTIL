@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="페이지-1" id="UTsux1cKN3ZpHWWwOaBE">
-    <mxGraphModel dx="1755" dy="1484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1147" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,8 +55,8 @@
             <mxPoint x="240" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r1wkW50hOJmQSXMHZQ8--14" value="&amp;nbsp; INVITE&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt; urn:service:sos&lt;/font&gt;&lt;/b&gt; SIP/2.0&lt;div&gt;&amp;nbsp; ...&lt;/div&gt;&lt;div&gt;&amp;nbsp; From:&amp;nbsp;&amp;lt;&lt;b style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;sip:450061011112222@&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;ims.mnc006.mcc450.3gppnetwork.org&lt;/font&gt;&lt;/b&gt;&amp;gt;;tag=c813af64c547&lt;/div&gt;&lt;div&gt;P-Access-Network-Info: 3GPP-E-UTRAN-FDD&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="310" width="320" height="80" as="geometry" />
+        <mxCell id="r1wkW50hOJmQSXMHZQ8--14" value="&amp;nbsp; INVITE&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt; urn:service:sos&lt;/font&gt;&lt;/b&gt; SIP/2.0&lt;div&gt;&amp;nbsp; ...&lt;/div&gt;&lt;div&gt;&amp;nbsp; From:&amp;nbsp;&amp;lt;&lt;b style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;sip:450061011112222@&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;ims.mnc006.mcc450.3gppnetwork.org&lt;/font&gt;&lt;/b&gt;&amp;gt;;tag=c813af64c547&lt;/div&gt;&lt;div&gt;&amp;nbsp; P-Access-Network-Info: 3GPP-E-UTRAN-FDD&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="310" width="340" height="80" as="geometry" />
         </mxCell>
         <mxCell id="r1wkW50hOJmQSXMHZQ8--15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="r1wkW50hOJmQSXMHZQ8--14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -67,6 +67,15 @@
               <mxPoint x="160" y="280" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="r1wkW50hOJmQSXMHZQ8--17" value="process_sos_qos 기능 ON" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r1wkW50hOJmQSXMHZQ8--18" value="Regi binding 정보 없음&lt;div&gt;(&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;NO USER&lt;/font&gt;&lt;/b&gt;)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="410" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r1wkW50hOJmQSXMHZQ8--19" value="&lt;b&gt;긴급호 판단&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;div&gt;[SOS_TBL]&lt;span style=&quot;background-color: transparent; color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-wrap-mode: nowrap;&quot;&gt;CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Regi%20binding%20%EC%A0%95%EB%B3%B4%20%EC%97%86%EC%9D%8C%26lt%3Bdiv%26gt%3B(%26lt%3Bb%26gt%3B%26lt%3Bfont%20style%3D%26quot%3Bcolor%3A%20rgb(255%2C%200%2C%200)%3B%26quot%3B%26gt%3BNO%20USER%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fb%26gt%3B)%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%23e1d5e7%3BstrokeColor%3D%239673a6%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22160%22%20y%3D%22410%22%20width%3D%22160%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-wrap-mode: nowrap;&quot;&gt;[]s&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-wrap-mode: nowrap;&quot;&gt;sdf&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="1">
+          <mxGeometry x="160" y="460" width="160" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
