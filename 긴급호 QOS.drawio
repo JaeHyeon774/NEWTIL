@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="페이지-1" id="UTsux1cKN3ZpHWWwOaBE">
-    <mxGraphModel dx="1901" dy="782" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1826" dy="743" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -222,29 +222,135 @@
             <mxPoint x="440" y="1310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8r5VQQSd07zmX0nA_WBS-23" value="&amp;nbsp; TEMP_PUID 에서 MDN(&lt;b style=&quot;text-align: center;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;450061011112222&lt;/font&gt;&lt;/b&gt;) 추출" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="1">
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-23" value="&amp;nbsp; TEMP_PUID 에서 MDN(&lt;b style=&quot;text-align: center;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;450061011112222&lt;/font&gt;&lt;/b&gt;) 추출" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="300" y="1334" width="280" height="23" as="geometry" />
         </mxCell>
         <mxCell id="8r5VQQSd07zmX0nA_WBS-24" value="&lt;b&gt;200 OK&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="1512" as="sourcePoint" />
-            <mxPoint x="120" y="1512" as="targetPoint" />
+            <mxPoint x="280" y="1556" as="sourcePoint" />
+            <mxPoint x="120" y="1556" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8r5VQQSd07zmX0nA_WBS-25" value="&lt;b&gt;AAR send fail&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-25" value="&lt;b&gt;AAR send Succ&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="1492" as="sourcePoint" />
-            <mxPoint x="280" y="1492" as="targetPoint" />
+            <mxPoint x="760" y="1492" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8r5VQQSd07zmX0nA_WBS-26" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;b&gt;&amp;nbsp;Prefix 정보 추출 실패로 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;AAR 미전송&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="314" y="1503" width="96" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="8r5VQQSd07zmX0nA_WBS-29" value="&lt;div&gt;&amp;nbsp; 변경된 MDN에서 Prefix 정보 추출 후&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; DB에서 Diameter Peer 정보 조회&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="1">
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-29" value="&lt;div&gt;&amp;nbsp; 변경된 MDN에서 Prefix 정보 추출 후&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; DB에서 Diameter Peer 정보 조회&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="300" y="1432" width="280" height="35" as="geometry" />
         </mxCell>
         <mxCell id="8r5VQQSd07zmX0nA_WBS-30" value="&amp;nbsp; 추출한 MDN의 값을 변경&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;b style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;45006&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;10&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;11112222&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt; &lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;-&amp;gt; &lt;/font&gt;&lt;font&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;0&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;10&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;11112222&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="1">
           <mxGeometry x="300" y="1377" width="280" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-31" value="&lt;b&gt;AAA&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1536" as="sourcePoint" />
+            <mxPoint x="280" y="1536" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-32" value="&lt;b&gt;AAA&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="1520" as="sourcePoint" />
+            <mxPoint x="440" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-33" value="ORIG" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1081" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-34" value="MPSIPX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="1081" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-35" value="MISIPX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="1081" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-36" value="MSSIPX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="1081" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-37" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="8r5VQQSd07zmX0nA_WBS-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320" y="1721" as="sourcePoint" />
+            <mxPoint x="1680" y="1321" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-38" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="8r5VQQSd07zmX0nA_WBS-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1480" y="1721" as="sourcePoint" />
+            <mxPoint x="1470" y="1141" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-39" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="8r5VQQSd07zmX0nA_WBS-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1640" y="1721" as="sourcePoint" />
+            <mxPoint x="1600" y="1171" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-40" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="8r5VQQSd07zmX0nA_WBS-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1800" y="1721" as="sourcePoint" />
+            <mxPoint x="1780" y="1151" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-41" value="&lt;b&gt;REGISTER&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320" y="1201" as="sourcePoint" />
+            <mxPoint x="1480" y="1201" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-42" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;REGISTER sip:ims.mnc006.mcc450.3gppnetwork.org SIP/2.0&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp; ...&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;To: &amp;lt;sip:450061011112222@ims.mnc006.mcc450.3gppnetwork.org&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Call-ID: 1762854425-2137716190@192.1.1.114&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;CSeq: 1 REGISTER&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;From: &amp;lt;s&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;ip:450061011112222@ims.mnc006.mcc450.3gppnetwork.org&lt;/font&gt;&lt;/b&gt;&amp;gt;...&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1271" width="270" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="8r5VQQSd07zmX0nA_WBS-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="1311" as="sourcePoint" />
+            <mxPoint x="1400" y="1211" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1255" y="1240" />
+              <mxPoint x="1400" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-44" value="&amp;nbsp; skip_uar = 2 일 때,&lt;div&gt;&amp;nbsp; TEMP_PUID 에서 MDN(&lt;b style=&quot;text-align: center;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;450061011112222&lt;/font&gt;&lt;/b&gt;) 추출&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1260" width="280" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-45" value="&lt;div&gt;&amp;nbsp; 변경된 MDN에서 Prefix 정보 추출 후&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; DB에서 S-CSCF 정보 조회&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1379" width="280" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-46" value="&amp;nbsp; 추출한 MDN의 값을 변경&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;b style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;45006&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;10&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;11112222&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt; &lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;-&amp;gt; &lt;/font&gt;&lt;font&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;0&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;10&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;11112222&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1324" width="280" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-47" value="&lt;b&gt;skip_uar = 2&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="1160" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-52" value="&lt;b&gt;200 OK&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1640" y="1482" as="sourcePoint" />
+            <mxPoint x="1480" y="1482" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-53" value="&lt;b&gt;200 OK&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1480" y="1502" as="sourcePoint" />
+            <mxPoint x="1320" y="1502" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-58" value="&lt;b&gt;200 OK&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1799" y="1460" as="sourcePoint" />
+            <mxPoint x="1639" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-59" value="&lt;b&gt;REGISTER&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1640" y="1440" as="sourcePoint" />
+            <mxPoint x="1800" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8r5VQQSd07zmX0nA_WBS-60" value="&lt;b&gt;REGISTER&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1480" y="1230" as="sourcePoint" />
+            <mxPoint x="1640" y="1230" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
