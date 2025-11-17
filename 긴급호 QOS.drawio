@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.3">
   <diagram name="페이지-1" id="UTsux1cKN3ZpHWWwOaBE">
-    <mxGraphModel dx="1588" dy="619" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="875" dy="248" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -525,16 +525,17 @@
         <mxCell id="TF4TD2Fdtc-ypmKtX2rn-16" value="&lt;b&gt;skip_uar = 2&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1619" y="246" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TF4TD2Fdtc-ypmKtX2rn-17" value="&lt;b&gt;Regi Fail&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="TF4TD2Fdtc-ypmKtX2rn-17" value="&lt;b&gt;response 500&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1680" y="440" as="sourcePoint" />
             <mxPoint x="1520" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TF4TD2Fdtc-ypmKtX2rn-18" value="&lt;b&gt;Regi Fail&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="TF4TD2Fdtc-ypmKtX2rn-18" value="&lt;b&gt;response 500&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1520" y="480" as="sourcePoint" />
             <mxPoint x="1360" y="480" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TF4TD2Fdtc-ypmKtX2rn-21" value="&lt;b&gt;REGISTER&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
