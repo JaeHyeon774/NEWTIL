@@ -10,35 +10,17 @@
         <mxCell id="L0DkSdcTaIBicSTvDMbT-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b&gt;~/etc/ini/abc.ut&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;~/etc/ini/skt_ims_event.ut&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;~/etc/ini/pcsm.ut&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="160" x="40" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="L0DkSdcTaIBicSTvDMbT-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Event Handler" vertex="1">
-          <mxGeometry height="40" width="120" x="260" y="390" as="geometry" />
-        </mxCell>
-        <mxCell id="L0DkSdcTaIBicSTvDMbT-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Main Thread" vertex="1">
-          <mxGeometry height="20" width="80" x="260" y="370" as="geometry" />
-        </mxCell>
-        <mxCell id="L0DkSdcTaIBicSTvDMbT-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="80" width="140" x="30" y="480" as="geometry" />
-        </mxCell>
         <mxCell id="Wes0ct-LSTX7vcPUYsSF-70" edge="1" parent="1" source="L0DkSdcTaIBicSTvDMbT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Wes0ct-LSTX7vcPUYsSF-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L0DkSdcTaIBicSTvDMbT-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="40" width="120" x="50" y="790" as="geometry" />
-        </mxCell>
-        <mxCell id="L0DkSdcTaIBicSTvDMbT-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="IPC recv Thread" vertex="1">
-          <mxGeometry height="20" width="100" x="30" y="460" as="geometry" />
+          <mxGeometry height="40" width="120" x="500" y="450" as="geometry" />
         </mxCell>
         <mxCell id="L0DkSdcTaIBicSTvDMbT-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="IPC send Thread" vertex="1">
-          <mxGeometry height="20" width="100" x="50" y="770" as="geometry" />
-        </mxCell>
-        <mxCell id="L0DkSdcTaIBicSTvDMbT-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="40" width="120" x="260" y="470" as="geometry" />
-        </mxCell>
-        <mxCell id="L0DkSdcTaIBicSTvDMbT-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Oam Thread" vertex="1">
-          <mxGeometry height="20" width="80" x="260" y="450" as="geometry" />
+          <mxGeometry height="20" width="100" x="500" y="430" as="geometry" />
         </mxCell>
         <mxCell id="Wes0ct-LSTX7vcPUYsSF-4" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="20" width="80" x="70" y="490" as="geometry" />
+          <mxGeometry height="20" width="80" x="210" y="460" as="geometry" />
         </mxCell>
         <mxCell id="Wes0ct-LSTX7vcPUYsSF-1" parent="Wes0ct-LSTX7vcPUYsSF-4" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="20" width="10" as="geometry" />
@@ -52,34 +34,41 @@
         <mxCell id="Wes0ct-LSTX7vcPUYsSF-14" edge="1" parent="1" source="Wes0ct-LSTX7vcPUYsSF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Wes0ct-LSTX7vcPUYsSF-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="160" y="540" />
-              <mxPoint x="160" y="585" />
-              <mxPoint x="40" y="585" />
-              <mxPoint x="40" y="610" />
+              <mxPoint x="300" y="510" />
+              <mxPoint x="300" y="535" />
+              <mxPoint x="180" y="535" />
+              <mxPoint x="180" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Wes0ct-LSTX7vcPUYsSF-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Type check" vertex="1">
-          <mxGeometry height="20" width="70" x="75" y="530" as="geometry" />
+          <mxGeometry height="20" width="70" x="215" y="500" as="geometry" />
         </mxCell>
         <mxCell id="Wes0ct-LSTX7vcPUYsSF-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Wes0ct-LSTX7vcPUYsSF-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="20" y="500" as="sourcePoint" />
-            <mxPoint x="450" y="490" as="targetPoint" />
+            <mxPoint x="160" y="470" as="sourcePoint" />
+            <mxPoint x="590" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Wes0ct-LSTX7vcPUYsSF-7" edge="1" parent="1" source="Wes0ct-LSTX7vcPUYsSF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Wes0ct-LSTX7vcPUYsSF-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="160" y="500" />
-              <mxPoint x="160" y="520" />
-              <mxPoint x="60" y="520" />
-              <mxPoint x="60" y="540" />
+              <mxPoint x="300" y="470" />
+              <mxPoint x="300" y="490" />
+              <mxPoint x="200" y="490" />
+              <mxPoint x="200" y="510" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Wes0ct-LSTX7vcPUYsSF-31" edge="1" parent="1" source="Wes0ct-LSTX7vcPUYsSF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Wes0ct-LSTX7vcPUYsSF-18">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="560" />
+              <mxPoint x="320" y="580" />
+              <mxPoint x="180" y="580" />
+              <mxPoint x="180" y="610" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Wes0ct-LSTX7vcPUYsSF-32" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="40" width="120" x="200" y="580" as="geometry" />
@@ -124,7 +113,7 @@
           <mxGeometry height="20" width="10" x="110" y="20" as="geometry" />
         </mxCell>
         <mxCell id="Wes0ct-LSTX7vcPUYsSF-48" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="40" width="120" x="40" y="680" as="geometry" />
+          <mxGeometry height="40" width="120" x="490" y="340" as="geometry" />
         </mxCell>
         <mxCell id="Wes0ct-LSTX7vcPUYsSF-49" parent="Wes0ct-LSTX7vcPUYsSF-48" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="gp_ipc_que&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ue&lt;/span&gt;" vertex="1">
           <mxGeometry height="20" width="80" as="geometry" />
@@ -169,7 +158,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Wes0ct-LSTX7vcPUYsSF-71" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="20" width="100" x="200" y="800" as="geometry" />
+          <mxGeometry height="20" width="100" x="650" y="460" as="geometry" />
         </mxCell>
         <mxCell id="Wes0ct-LSTX7vcPUYsSF-67" parent="Wes0ct-LSTX7vcPUYsSF-71" style="rounded=0;whiteSpace=wrap;html=1;" value="atipc_send_to" vertex="1">
           <mxGeometry height="20" width="80" x="10" as="geometry" />
@@ -181,7 +170,7 @@
           <mxGeometry height="20" width="10" as="geometry" />
         </mxCell>
         <mxCell id="Wes0ct-LSTX7vcPUYsSF-75" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="20" width="100" x="60" y="600" as="geometry" />
+          <mxGeometry height="20" width="100" x="200" y="550" as="geometry" />
         </mxCell>
         <mxCell id="Wes0ct-LSTX7vcPUYsSF-10" parent="Wes0ct-LSTX7vcPUYsSF-75" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="" vertex="1">
           <mxGeometry height="20" width="10" as="geometry" />
