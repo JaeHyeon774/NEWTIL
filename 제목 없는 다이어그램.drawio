@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="페이지-1" id="m8fQX8wD3sIqdr1Rjxz5">
-    <mxGraphModel dx="2595" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2057" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -403,15 +403,20 @@
           <mxGeometry height="50" width="200" x="3135" y="430" as="geometry" />
         </mxCell>
         <mxCell id="NGHdp_gngWH9yrq0Q0_0-40" edge="1" parent="1" source="NGHdp_gngWH9yrq0Q0_0-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGHdp_gngWH9yrq0Q0_0-48">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2800" y="640" />
+              <mxPoint x="2859" y="640" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="NGHdp_gngWH9yrq0Q0_0-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;sip_status_code = 설정 코드&lt;/b&gt;&lt;div&gt;&lt;b&gt;* 설정 코드 =&amp;nbsp;&lt;/b&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="35" width="320" x="2640" y="567" as="geometry" />
+        <mxCell id="NGHdp_gngWH9yrq0Q0_0-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;sip_status_code = 설정 코드&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;&lt;b&gt;* 설정 코드 =&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;pst_abc_config-&amp;gt;st_config.i_chg_ipsec_err_resp_code&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="35" width="400" x="2600" y="567" as="geometry" />
         </mxCell>
         <mxCell id="NGHdp_gngWH9yrq0Q0_0-42" edge="1" parent="1" source="NGHdp_gngWH9yrq0Q0_0-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGHdp_gngWH9yrq0Q0_0-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NGHdp_gngWH9yrq0Q0_0-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="sip_status_code = OTHER CODE" vertex="1">
+        <mxCell id="NGHdp_gngWH9yrq0Q0_0-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="sip_status_code = &lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;OTHER CODE&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="35" width="210" x="3100" y="565" as="geometry" />
         </mxCell>
         <mxCell id="NGHdp_gngWH9yrq0Q0_0-44" edge="1" parent="1" source="NGHdp_gngWH9yrq0Q0_0-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#FF0000,#FF0000);" target="NGHdp_gngWH9yrq0Q0_0-43">
@@ -446,8 +451,41 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="NGHdp_gngWH9yrq0Q0_0-51" edge="1" parent="1" source="NGHdp_gngWH9yrq0Q0_0-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGHdp_gngWH9yrq0Q0_0-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NGHdp_gngWH9yrq0Q0_0-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="mregx_local_resp_proc" vertex="1">
-          <mxGeometry height="30" width="160" x="2890" y="670" as="geometry" />
+          <mxGeometry height="30" width="160" x="2779" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="NGHdp_gngWH9yrq0Q0_0-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;*&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;OTHER CODE&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; 가&amp;nbsp;SIP_SC_SER_INTERNAL_SERVER_ERROR(500) 일때&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;mregx_local_resp_proc 이후 로직에서는 ua_type 을 보지 않아&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;조건 만족 시 Retry-After 헤더를 구성함.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="420" x="2990" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="NGHdp_gngWH9yrq0Q0_0-55" edge="1" parent="1" source="NGHdp_gngWH9yrq0Q0_0-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGHdp_gngWH9yrq0Q0_0-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NGHdp_gngWH9yrq0Q0_0-50" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="sip_status_code == &lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;&lt;b&gt;500&lt;/b&gt;&lt;/font&gt; &amp;amp;&amp;amp;&lt;div&gt;e_er_cause_code ==&amp;nbsp;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;&lt;b&gt;ERR_REASON_INT_ERR_PORT_CS_DUPLICATED&lt;/b&gt;&lt;/font&gt; ||&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;&lt;b&gt;ERR_REASON_INT_ERR_SPI_DUPLICATED&lt;/b&gt;&lt;/font&gt; ||&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;ERR_REASON_INT_ERR_SA_COUNT_EXCEED&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="400" x="2659" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="NGHdp_gngWH9yrq0Q0_0-58" edge="1" parent="1" source="NGHdp_gngWH9yrq0Q0_0-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGHdp_gngWH9yrq0Q0_0-57" value="yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NGHdp_gngWH9yrq0Q0_0-59" edge="1" parent="1" source="NGHdp_gngWH9yrq0Q0_0-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="NGHdp_gngWH9yrq0Q0_0-56" value="no">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NGHdp_gngWH9yrq0Q0_0-52" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;&lt;b&gt;*retry_after 설정 값&lt;/b&gt;&lt;/font&gt; &amp;gt; 0" vertex="1">
+          <mxGeometry height="30" width="170" x="2774" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="NGHdp_gngWH9yrq0Q0_0-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;* retry_after 설정 값:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pst_abc_config-&amp;gt;st_pcsm.i_roam_ipsec_err_retry_after&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="340" x="2980" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="NGHdp_gngWH9yrq0Q0_0-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="이후 로직 수행" vertex="1">
+          <mxGeometry height="30" width="89" x="2814.5" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="NGHdp_gngWH9yrq0Q0_0-60" edge="1" parent="1" source="NGHdp_gngWH9yrq0Q0_0-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGHdp_gngWH9yrq0Q0_0-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NGHdp_gngWH9yrq0Q0_0-57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Retry-After 헤더&lt;br&gt;&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;*retry_after 설정값&lt;/font&gt;&lt;/b&gt;으로 세팅" vertex="1">
+          <mxGeometry height="50" width="160" x="2779" y="950" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
