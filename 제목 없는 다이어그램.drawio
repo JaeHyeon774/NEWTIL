@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="페이지-1" id="m8fQX8wD3sIqdr1Rjxz5">
-    <mxGraphModel dx="2315" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2595" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -405,8 +405,8 @@
         <mxCell id="NGHdp_gngWH9yrq0Q0_0-40" edge="1" parent="1" source="NGHdp_gngWH9yrq0Q0_0-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGHdp_gngWH9yrq0Q0_0-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NGHdp_gngWH9yrq0Q0_0-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;냐ㅔ&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="35" width="140" x="2730" y="567" as="geometry" />
+        <mxCell id="NGHdp_gngWH9yrq0Q0_0-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;sip_status_code = 설정 코드&lt;/b&gt;&lt;div&gt;&lt;b&gt;* 설정 코드 =&amp;nbsp;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="35" width="320" x="2640" y="567" as="geometry" />
         </mxCell>
         <mxCell id="NGHdp_gngWH9yrq0Q0_0-42" edge="1" parent="1" source="NGHdp_gngWH9yrq0Q0_0-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGHdp_gngWH9yrq0Q0_0-48">
           <mxGeometry relative="1" as="geometry" />
