@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="페이지-1" id="m8fQX8wD3sIqdr1Rjxz5">
-    <mxGraphModel dx="2057" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2064" dy="874" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -383,7 +383,8 @@
         <mxCell id="NGHdp_gngWH9yrq0Q0_0-35" edge="1" parent="1" source="NGHdp_gngWH9yrq0Q0_0-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#FF0000,#FF0000);strokeWidth=2;" target="NGHdp_gngWH9yrq0Q0_0-43">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2835" y="500" />
+              <mxPoint x="2850" y="455" />
+              <mxPoint x="2850" y="500" />
               <mxPoint x="3205" y="500" />
             </Array>
           </mxGeometry>
@@ -422,7 +423,8 @@
         <mxCell id="NGHdp_gngWH9yrq0Q0_0-44" edge="1" parent="1" source="NGHdp_gngWH9yrq0Q0_0-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#FF0000,#FF0000);" target="NGHdp_gngWH9yrq0Q0_0-43">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3070" y="500" />
+              <mxPoint x="3090" y="455" />
+              <mxPoint x="3090" y="500" />
               <mxPoint x="3204" y="500" />
               <mxPoint x="3204" y="565" />
             </Array>
@@ -484,7 +486,7 @@
         <mxCell id="NGHdp_gngWH9yrq0Q0_0-60" edge="1" parent="1" source="NGHdp_gngWH9yrq0Q0_0-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NGHdp_gngWH9yrq0Q0_0-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NGHdp_gngWH9yrq0Q0_0-57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Retry-After 헤더&lt;br&gt;&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;*retry_after 설정값&lt;/font&gt;&lt;/b&gt;으로 세팅" vertex="1">
+        <mxCell id="NGHdp_gngWH9yrq0Q0_0-57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Retry-After 헤더&lt;br&gt;&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;*retry_after 설정값&lt;/font&gt;&lt;/b&gt;으로 구성" vertex="1">
           <mxGeometry height="50" width="160" x="2779" y="950" as="geometry" />
         </mxCell>
       </root>
