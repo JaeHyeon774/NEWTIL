@@ -1,9 +1,15 @@
 <mxfile host="app.diagrams.net">
   <diagram name="페이지-1" id="INAla1IkwKiJg4I5cdml">
-    <mxGraphModel dx="1503" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1664" dy="914" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="1166" y="2974" as="geometry" />
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="486" y="2978" as="geometry" />
+        </mxCell>
         <mxCell id="ptu5hchLUgZi1ocN6lKN-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
           <mxGeometry height="200" width="480" x="1640" y="2320" as="geometry" />
         </mxCell>
@@ -639,6 +645,286 @@
         </mxCell>
         <mxCell id="ptu5hchLUgZi1ocN6lKN-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Response 500&lt;br&gt;Reason: ERR_REALM_CONFIG_GET_FAIL&amp;nbsp;&amp;nbsp;" vertex="1">
           <mxGeometry height="60" width="220" x="1889" y="2450" as="geometry" />
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="546" y="3238" as="sourcePoint" />
+            <mxPoint x="916" y="3238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SRC" vertex="1">
+          <mxGeometry height="36" width="80" x="506" y="3002" as="geometry" />
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="KzzUZJN7ETME7I-W0D0J-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.4846" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="546" y="3678" as="sourcePoint" />
+            <mxPoint x="896" y="2968" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="406" y="3108" as="sourcePoint" />
+            <mxPoint x="546" y="3108" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-5" connectable="0" parent="KzzUZJN7ETME7I-W0D0J-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;IPSEC&lt;/div&gt;1st REGISTER" vertex="1">
+          <mxGeometry relative="1" x="-0.2271" as="geometry">
+            <mxPoint x="6" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="406" y="3338" as="sourcePoint" />
+            <mxPoint x="546" y="3338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-7" connectable="0" parent="KzzUZJN7ETME7I-W0D0J-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;NORMAL&lt;/div&gt;2&lt;sup&gt;nd&lt;/sup&gt; REGISTER" vertex="1">
+          <mxGeometry relative="1" x="-0.2271" as="geometry">
+            <mxPoint x="6" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-8" edge="1" parent="1" source="KzzUZJN7ETME7I-W0D0J-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="676" y="3180" />
+              <mxPoint x="676" y="3478" />
+              <mxPoint x="636" y="3478" />
+            </Array>
+            <mxPoint x="636" y="3478" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-9" connectable="0" parent="KzzUZJN7ETME7I-W0D0J-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;br&gt;&lt;div&gt;SELECT Binding Info&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3972" y="-2" as="geometry">
+            <mxPoint y="-46" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-10" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="REGI_BINDING" vertex="1">
+          <mxGeometry height="80" width="103" x="703" y="3128" as="geometry" />
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=25;entryPerimeter=0;dashed=1;" target="KzzUZJN7ETME7I-W0D0J-10" value="INSERT Binding Info">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0053" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+            <mxPoint x="546" y="3153" as="sourcePoint" />
+            <mxPoint x="826" y="3248" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CSCF" vertex="1">
+          <mxGeometry height="36" width="80" x="876" y="2993" as="geometry" />
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-13" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="KzzUZJN7ETME7I-W0D0J-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="916" y="3678" as="sourcePoint" />
+            <mxPoint x="986" y="3105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="&amp;nbsp;401&amp;nbsp;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="916" y="3278" as="sourcePoint" />
+            <mxPoint x="546" y="3278" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Get IPSec Type">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="596" y="3358" />
+              <mxPoint x="596" y="3428" />
+            </Array>
+            <mxPoint x="546" y="3358" as="sourcePoint" />
+            <mxPoint x="546" y="3428" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Get Binding Info">
+          <mxGeometry height="50" relative="1" width="50" x="-0.3846" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="596" y="3458" />
+              <mxPoint x="596" y="3578" />
+            </Array>
+            <mxPoint x="546" y="3458" as="sourcePoint" />
+            <mxPoint x="546" y="3578" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-17" connectable="0" parent="KzzUZJN7ETME7I-W0D0J-16" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="ipsec _type == E_IPSEC_TYPE_NONE &amp;amp;&amp;amp; ll_ipsec_key 값 존재&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: light-dark(rgb(255, 255, 255), rgb(31, 47, 30));&quot;&gt;Normal Port 1st REGISTER 가 들어왔다고 판단&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Binding Info 삭제 및 이후 로직 수행&lt;span style=&quot;background-color: light-dark(rgb(213, 232, 212), rgb(31, 47, 30)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0038" y="-1" as="geometry">
+            <mxPoint x="-39" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="KzzUZJN7ETME7I-W0D0J-10" value="Delete Binding Info">
+          <mxGeometry height="50" relative="1" width="50" x="-0.5862" y="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+            <mxPoint x="756" y="3518" as="sourcePoint" />
+            <mxPoint x="883" y="3468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="546" y="3598" as="sourcePoint" />
+            <mxPoint x="916" y="3598" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1226" y="3234" as="sourcePoint" />
+            <mxPoint x="1596" y="3234" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SRC" vertex="1">
+          <mxGeometry height="36" width="80" x="1186" y="2998" as="geometry" />
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-22" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="KzzUZJN7ETME7I-W0D0J-21" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.4846" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1226" y="3678" as="sourcePoint" />
+            <mxPoint x="1576" y="2964" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1086" y="3104" as="sourcePoint" />
+            <mxPoint x="1226" y="3104" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-24" connectable="0" parent="KzzUZJN7ETME7I-W0D0J-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;IPSEC&lt;/div&gt;1st REGISTER" vertex="1">
+          <mxGeometry relative="1" x="-0.2271" as="geometry">
+            <mxPoint x="6" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-25" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1086" y="3338" as="sourcePoint" />
+            <mxPoint x="1226" y="3338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-26" connectable="0" parent="KzzUZJN7ETME7I-W0D0J-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;NORMAL&lt;/div&gt;2&lt;sup&gt;nd&lt;/sup&gt; REGISTER" vertex="1">
+          <mxGeometry relative="1" x="-0.2271" as="geometry">
+            <mxPoint x="6" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-27" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1356" y="3168.5" />
+              <mxPoint x="1356" y="3479.5" />
+            </Array>
+            <mxPoint x="1383" y="3168" as="sourcePoint" />
+            <mxPoint x="1316" y="3479.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-28" connectable="0" parent="KzzUZJN7ETME7I-W0D0J-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;br&gt;&lt;div&gt;SELECT Binding Info&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3972" y="-2" as="geometry">
+            <mxPoint y="-46" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-29" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="REGI_BINDING" vertex="1">
+          <mxGeometry height="80" width="103" x="1383" y="3124" as="geometry" />
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=25;entryPerimeter=0;dashed=1;" target="KzzUZJN7ETME7I-W0D0J-29" value="INSERT Binding Info">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0053" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+            <mxPoint x="1226" y="3149" as="sourcePoint" />
+            <mxPoint x="1506" y="3244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CSCF" vertex="1">
+          <mxGeometry height="36" width="80" x="1556" y="2989" as="geometry" />
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-32" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="KzzUZJN7ETME7I-W0D0J-31" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1596" y="3678" as="sourcePoint" />
+            <mxPoint x="1666" y="3101" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="&amp;nbsp;401&amp;nbsp;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0811" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1406" y="3274" />
+            </Array>
+            <mxPoint x="1596" y="3274" as="sourcePoint" />
+            <mxPoint x="1226" y="3274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-34" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Get IPSec Type">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1276" y="3358" />
+              <mxPoint x="1276" y="3428" />
+            </Array>
+            <mxPoint x="1226" y="3358" as="sourcePoint" />
+            <mxPoint x="1226" y="3428" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Get Binding Info">
+          <mxGeometry height="50" relative="1" width="50" x="-0.4789" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1276" y="3458" />
+              <mxPoint x="1276" y="3642" />
+            </Array>
+            <mxPoint x="1226" y="3458" as="sourcePoint" />
+            <mxPoint x="1226" y="3642" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-36" connectable="0" parent="KzzUZJN7ETME7I-W0D0J-35" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffe6cc;labelBorderColor=#d79b00;" value="ipsec _type == E_IPSEC_TYPE_NONE &amp;amp;&amp;amp; ll_ipsec_key 값이 존재&lt;div&gt;이때 바인딩 정보의&amp;nbsp;&lt;span style=&quot;background-color: light-dark(rgb(255, 230, 204), rgb(54, 33, 10)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;reg_state 가 E_REG_STATE_REG_AUTH 이면서 Normal Port 일 때&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Binding Info 삭제 및&lt;span style=&quot;background-color: light-dark(rgb(255, 230, 204), rgb(54, 33, 10)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;err_return&lt;/span&gt;&lt;/div&gt;&lt;div&gt;pe_er_cause_code =&amp;nbsp;ERR_REASON_&lt;span style=&quot;background-color: light-dark(rgb(255, 230, 204), rgb(54, 33, 10)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;INVALID_IPSEC_AUTH_REGI&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Return&amp;nbsp;SIP_SC_CLI_NOT_ACCEPTABLE&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0038" y="-1" as="geometry">
+            <mxPoint x="-39" y="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-37" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="KzzUZJN7ETME7I-W0D0J-29" value="Delete Binding Info">
+          <mxGeometry height="50" relative="1" width="50" x="-0.5862" y="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+            <mxPoint x="1435" y="3538" as="sourcePoint" />
+            <mxPoint x="1563" y="3464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-38" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="406 Response">
+          <mxGeometry height="50" relative="1" width="50" x="0.0769" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1226" y="3658" as="sourcePoint" />
+            <mxPoint x="1086" y="3658" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-size: 11px; white-space: nowrap; background-color: transparent;&quot;&gt;Authorization response 값이 core 로 전달&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Non-IPSec 등록 성공처리됨.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="215" x="626" y="3576" as="geometry" />
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-40" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="200 OK">
+          <mxGeometry height="50" relative="1" width="50" x="0.027" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="916" y="3638" as="sourcePoint" />
+            <mxPoint x="546" y="3638" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-41" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="200 Respnose">
+          <mxGeometry height="50" relative="1" width="50" x="0.0712" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="546" y="3658" as="sourcePoint" />
+            <mxPoint x="406" y="3658" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-42" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="401">
+          <mxGeometry height="50" relative="1" width="50" x="0.1246" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1225" y="3288" as="sourcePoint" />
+            <mxPoint x="1084.5" y="3288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-43" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="401">
+          <mxGeometry height="50" relative="1" width="50" x="0.1246" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="546.5" y="3288" as="sourcePoint" />
+            <mxPoint x="406" y="3288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SF" vertex="1">
+          <mxGeometry height="19" width="60" x="1196" y="2974" as="geometry" />
+        </mxCell>
+        <mxCell id="KzzUZJN7ETME7I-W0D0J-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SF" vertex="1">
+          <mxGeometry height="19" width="60" x="516" y="2978" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
