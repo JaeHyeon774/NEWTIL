@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="페이지-1" id="INAla1IkwKiJg4I5cdml">
-    <mxGraphModel dx="1414" dy="777" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="913" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -959,7 +959,7 @@
             <mxPoint x="3348" y="1800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vcJmIQ2PLMNJN-oaRHsD-8" connectable="0" parent="vcJmIQ2PLMNJN-oaRHsD-7" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1 SIP REGISTER&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&amp;nbsp; &amp;nbsp;(Authorization: altorithm=AKAv2-SHA-256; integrity-protected=no)&lt;/div&gt;" vertex="1">
+        <mxCell id="vcJmIQ2PLMNJN-oaRHsD-8" connectable="0" parent="vcJmIQ2PLMNJN-oaRHsD-7" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; SIP REGISTER&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&amp;nbsp; &amp;nbsp;(Authorization: altorithm=AKAv2-SHA-256; integrity-protected=no)&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.2735" y="-1" as="geometry">
             <mxPoint x="-121" y="-21" as="offset" />
           </mxGeometry>
@@ -973,7 +973,7 @@
             <mxPoint x="3668" y="1940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vcJmIQ2PLMNJN-oaRHsD-11" connectable="0" parent="vcJmIQ2PLMNJN-oaRHsD-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2 Cx-MAR (SIP-Authentication-Scheme: Digest-AKAv1-MD5)" vertex="1">
+        <mxCell id="vcJmIQ2PLMNJN-oaRHsD-11" connectable="0" parent="vcJmIQ2PLMNJN-oaRHsD-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Cx-MAR (SIP-Authentication-Scheme: Digest-AKAv1-MD5)" vertex="1">
           <mxGeometry relative="1" x="-0.7843" y="-1" as="geometry">
             <mxPoint x="126" y="-15" as="offset" />
           </mxGeometry>
@@ -987,12 +987,12 @@
             <mxPoint x="3348" y="2010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vcJmIQ2PLMNJN-oaRHsD-14" connectable="0" parent="vcJmIQ2PLMNJN-oaRHsD-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3 Cx-MAA (Authentication-Data: AKA Vector)" vertex="1">
+        <mxCell id="vcJmIQ2PLMNJN-oaRHsD-14" connectable="0" parent="vcJmIQ2PLMNJN-oaRHsD-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Cx-MAA (Authentication-Data: AKA Vector)" vertex="1">
           <mxGeometry relative="1" x="0.2107" y="4" as="geometry">
             <mxPoint x="-6" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vcJmIQ2PLMNJN-oaRHsD-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;IK, CK&amp;nbsp;&amp;nbsp;Encoding(SHA-256) &amp;amp; Apply&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;algorithm: AKAv2-SHA-256으로 변경&lt;/div&gt;" vertex="1">
+        <mxCell id="vcJmIQ2PLMNJN-oaRHsD-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;IK, CK&amp;nbsp;&amp;nbsp;Encoding(SHA-256) &amp;amp; Apply&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;algorithm: AKAv2-SHA-256으로 변경&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="200" x="3248" y="2030" as="geometry" />
         </mxCell>
         <mxCell id="vcJmIQ2PLMNJN-oaRHsD-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -1001,7 +1001,7 @@
             <mxPoint x="2988" y="2120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vcJmIQ2PLMNJN-oaRHsD-17" connectable="0" parent="vcJmIQ2PLMNJN-oaRHsD-16" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="5 SIP 401 Unauthorized&lt;div&gt;&amp;nbsp; &amp;nbsp;(WWW-Authenticate: algorithm=AKAv2-SHA-256, nonce, ...)&lt;/div&gt;" vertex="1">
+        <mxCell id="vcJmIQ2PLMNJN-oaRHsD-17" connectable="0" parent="vcJmIQ2PLMNJN-oaRHsD-16" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="&amp;nbsp; SIP 401 Unauthorized&lt;div&gt;&amp;nbsp; &amp;nbsp;(WWW-Authenticate: algorithm=AKAv2-SHA-256, nonce, ...)&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.7193" y="-1" as="geometry">
             <mxPoint x="-20" y="-19" as="offset" />
           </mxGeometry>
@@ -1012,12 +1012,12 @@
             <mxPoint x="3348" y="2190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vcJmIQ2PLMNJN-oaRHsD-19" connectable="0" parent="vcJmIQ2PLMNJN-oaRHsD-18" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="6 SIP REGISTER&lt;div&gt;&amp;nbsp; &amp;nbsp;(Authorization: response=&quot;...&quot;, integrity-protected=yes)&lt;/div&gt;" vertex="1">
+        <mxCell id="vcJmIQ2PLMNJN-oaRHsD-19" connectable="0" parent="vcJmIQ2PLMNJN-oaRHsD-18" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="&amp;nbsp; SIP REGISTER&lt;div&gt;&amp;nbsp; &amp;nbsp;(Authorization: response=&quot;...&quot;, integrity-protected=yes)&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.2289" y="3" as="geometry">
             <mxPoint x="-109" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vcJmIQ2PLMNJN-oaRHsD-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" value="&lt;div&gt;7&lt;/div&gt;&amp;nbsp;Calc RES &amp;amp;&amp;nbsp;&lt;div&gt;&amp;nbsp;Compare RES with XRES&lt;/div&gt;" vertex="1">
+        <mxCell id="vcJmIQ2PLMNJN-oaRHsD-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Calc RES &amp;amp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Compare RES with XRES&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="160" x="3268" y="2210" as="geometry" />
         </mxCell>
         <mxCell id="vcJmIQ2PLMNJN-oaRHsD-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -1026,7 +1026,7 @@
             <mxPoint x="2988" y="2280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vcJmIQ2PLMNJN-oaRHsD-22" connectable="0" parent="vcJmIQ2PLMNJN-oaRHsD-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8 SIP 200 OK" vertex="1">
+        <mxCell id="vcJmIQ2PLMNJN-oaRHsD-22" connectable="0" parent="vcJmIQ2PLMNJN-oaRHsD-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;nbsp;SIP 200 OK" vertex="1">
           <mxGeometry relative="1" x="0.1715" y="5" as="geometry">
             <mxPoint x="-84" y="-16" as="offset" />
           </mxGeometry>
