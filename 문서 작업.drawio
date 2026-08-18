@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="페이지-1" id="INAla1IkwKiJg4I5cdml">
-    <mxGraphModel dx="2828" dy="1554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2020" dy="1110" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1298,7 +1298,7 @@
         <mxCell id="Xd-HmOacOvw8z0aFnBpH-93" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Scheme ==&amp;nbsp;Digest-AKAv1-MD5" vertex="1">
           <mxGeometry height="40" width="200" x="3598" y="3440" as="geometry" />
         </mxCell>
-        <mxCell id="Xd-HmOacOvw8z0aFnBpH-94" edge="1" parent="1" source="Xd-HmOacOvw8z0aFnBpH-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.57;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;" target="bIoHIWMJjeqJypoc2qHC-12" value="yes">
+        <mxCell id="Xd-HmOacOvw8z0aFnBpH-94" edge="1" parent="1" source="Xd-HmOacOvw8z0aFnBpH-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.556;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" target="bIoHIWMJjeqJypoc2qHC-12" value="yes">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="4540" y="3880" as="targetPoint" />
           </mxGeometry>
@@ -1329,7 +1329,7 @@
           <mxGeometry height="40" width="200" x="3910" y="3440" as="geometry" />
         </mxCell>
         <mxCell id="Xd-HmOacOvw8z0aFnBpH-106" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=15;align=left;" value="&lt;p class=&quot;Alt2&quot; style=&quot;margin-left:0cm;text-indent:0cm;mso-list:none;tab-stops:&amp;lt;br/&amp;gt;40.0pt&quot;&gt;&lt;span lang=&quot;X-NONE&quot; style=&quot;font-family:&amp;quot;맑은 고딕&amp;quot;;mso-fareast-language:KO&quot;&gt;&amp;nbsp;~/etc/ini/MSSM/srmm.ut&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;Alt2&quot; style=&quot;margin-left:0cm;text-indent:0cm;mso-list:none;tab-stops:&amp;lt;br/&amp;gt;40.0pt&quot;&gt;&lt;span lang=&quot;X-NONE&quot; style=&quot;font-family:&amp;quot;맑은 고딕&amp;quot;;mso-fareast-language:KO&quot;&gt;&lt;span style=&quot;font-size: 13.3333px;&quot;&gt;# AKAv1-MD5 , AKAv2-SHA-256&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; text-indent: 0cm; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;default_aka_algorithm&amp;nbsp;= AKAv1-MD5&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 13.3333px;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="100" width="250" x="4560" y="3580" as="geometry" />
+          <mxGeometry height="100" width="250" x="4564" y="3664" as="geometry" />
         </mxCell>
         <mxCell id="Xd-HmOacOvw8z0aFnBpH-107" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="RegReq-&amp;gt;Algorithm == AKAv2-SHA-256" vertex="1">
           <mxGeometry height="40" width="200" x="3598" y="3600" as="geometry" />
