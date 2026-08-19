@@ -1417,18 +1417,6 @@
         <mxCell id="bIoHIWMJjeqJypoc2qHC-28" edge="1" parent="1" source="bIoHIWMJjeqJypoc2qHC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.449;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="bIoHIWMJjeqJypoc2qHC-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="86TDAjy11vCoqdDimXb1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1st REGISTER 수신" vertex="1">
-          <mxGeometry height="40" width="120" x="5083.5" y="2573" as="geometry" />
-        </mxCell>
-        <mxCell id="86TDAjy11vCoqdDimXb1-2" edge="1" parent="1" source="86TDAjy11vCoqdDimXb1-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="86TDAjy11vCoqdDimXb1-3" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="5178" y="2690" as="sourcePoint" />
-            <mxPoint x="5148" y="2680" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="86TDAjy11vCoqdDimXb1-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DBAuthItem-&amp;gt;AuthScheme&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;==&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Digest-AKAv1-MD5&lt;/span&gt;" vertex="1">
-          <mxGeometry height="80" width="270" x="5037" y="2680" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
