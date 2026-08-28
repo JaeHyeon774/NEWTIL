@@ -1100,7 +1100,7 @@
         <mxCell id="HmMlBtC1VpsIKsDMtqAf-36" edge="1" parent="1" source="HmMlBtC1VpsIKsDMtqAf-22" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HmMlBtC1VpsIKsDMtqAf-34" value="NO">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HmMlBtC1VpsIKsDMtqAf-22" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="algorithm ==&amp;nbsp;AKAv1-MD5" vertex="1">
+        <mxCell id="HmMlBtC1VpsIKsDMtqAf-22" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Scheme (AKAv1 || Only AKA) &amp;amp;&amp;amp; algorithm AKAv1" vertex="1">
           <mxGeometry height="60" width="360" x="2909" y="545" as="geometry" />
         </mxCell>
         <mxCell id="HmMlBtC1VpsIKsDMtqAf-23" edge="1" parent="1" source="HmMlBtC1VpsIKsDMtqAf-24" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HmMlBtC1VpsIKsDMtqAf-22" value="...">
@@ -1148,7 +1148,7 @@
         <mxCell id="HmMlBtC1VpsIKsDMtqAf-39" edge="1" parent="1" source="HmMlBtC1VpsIKsDMtqAf-34" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HmMlBtC1VpsIKsDMtqAf-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HmMlBtC1VpsIKsDMtqAf-34" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="algorithm ==&amp;nbsp;AKAv2-SHA-256" vertex="1">
+        <mxCell id="HmMlBtC1VpsIKsDMtqAf-34" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Scheme (AKAv1 || Only AKA) &amp;amp;&amp;amp; algorithm AKAv2" vertex="1">
           <mxGeometry height="60" width="360" x="3353" y="545" as="geometry" />
         </mxCell>
         <mxCell id="HmMlBtC1VpsIKsDMtqAf-40" edge="1" parent="1" source="HmMlBtC1VpsIKsDMtqAf-38" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HmMlBtC1VpsIKsDMtqAf-33">
