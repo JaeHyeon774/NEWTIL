@@ -1364,10 +1364,10 @@
         <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-149" edge="1" parent="1" source="Ulhlj-FGAZ5WsYbvZ_q9-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ulhlj-FGAZ5WsYbvZ_q9-151" value="no">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-150" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" value="&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Scheme ==&amp;nbsp;Digest-AKAv1-MD5&lt;b&gt; &lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;&lt;b&gt;|| AKA&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-150" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" value="&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Scheme AKAv1&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 0, 0));&quot;&gt;&lt;b&gt;|| AKA&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="200" x="1868" y="702" as="geometry" />
         </mxCell>
-        <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-151" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=0;" value="Scheme== &lt;br&gt;SIP Digest" vertex="1">
+        <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-151" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=0;" value="Scheme SIP Digest" vertex="1">
           <mxGeometry height="40" width="200" x="1868" y="782" as="geometry" />
         </mxCell>
         <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-152" edge="1" parent="1" source="Ulhlj-FGAZ5WsYbvZ_q9-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ulhlj-FGAZ5WsYbvZ_q9-161">
