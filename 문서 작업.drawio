@@ -1035,7 +1035,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_I-Le-KXJEqOLWPJb5xi" name="페이지-2">
-    <mxGraphModel dx="1557" dy="1295" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1545" dy="874" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1158,41 +1158,41 @@
           <mxGeometry height="30" width="192" x="3437" y="671" as="geometry" />
         </mxCell>
         <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-97" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1st REGISTER 수신" vertex="1">
-          <mxGeometry height="40" width="120" x="968" y="572" as="geometry" />
+          <mxGeometry height="40" width="120" x="670" y="542" as="geometry" />
         </mxCell>
         <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-98" edge="1" parent="1" source="Ulhlj-FGAZ5WsYbvZ_q9-97" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ulhlj-FGAZ5WsYbvZ_q9-101" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1058" y="702" as="sourcePoint" />
-            <mxPoint x="1028" y="692" as="targetPoint" />
+            <mxPoint x="760" y="672" as="sourcePoint" />
+            <mxPoint x="730" y="662" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-99" edge="1" parent="1" source="Ulhlj-FGAZ5WsYbvZ_q9-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ulhlj-FGAZ5WsYbvZ_q9-105" value="YES">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1028.1724137931037" y="852" as="targetPoint" />
+            <mxPoint x="730.1724137931037" y="822" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-100" edge="1" parent="1" source="Ulhlj-FGAZ5WsYbvZ_q9-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ulhlj-FGAZ5WsYbvZ_q9-103" value="NO">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1288" y="852" as="targetPoint" />
+            <mxPoint x="990" y="822" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-101" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;algorithm == AKAv1-MD5 &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;||&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;algorithm == AKAv2-SHA-256&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="290" x="883" y="702" as="geometry" />
+          <mxGeometry height="80" width="290" x="585" y="672" as="geometry" />
         </mxCell>
         <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-102" edge="1" parent="1" source="Ulhlj-FGAZ5WsYbvZ_q9-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ulhlj-FGAZ5WsYbvZ_q9-106">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-103" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="기존 로직" vertex="1">
-          <mxGeometry height="40" width="120" x="1228" y="852" as="geometry" />
+          <mxGeometry height="40" width="120" x="930" y="822" as="geometry" />
         </mxCell>
         <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-104" edge="1" parent="1" source="Ulhlj-FGAZ5WsYbvZ_q9-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ulhlj-FGAZ5WsYbvZ_q9-106">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-105" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MAR 메시지의 Authenticate-Scheme 값 Digest-AKAv1-MD5 로 설정" vertex="1">
-          <mxGeometry height="40" width="240" x="908" y="852" as="geometry" />
+          <mxGeometry height="40" width="240" x="610" y="822" as="geometry" />
         </mxCell>
         <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-106" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Send to HSS" vertex="1">
-          <mxGeometry height="40" width="80" x="988" y="982" as="geometry" />
+          <mxGeometry height="40" width="80" x="690" y="952" as="geometry" />
         </mxCell>
         <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-107" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MAA 수신" vertex="1">
           <mxGeometry height="40" width="120" x="1548" y="62" as="geometry" />
@@ -1457,8 +1457,11 @@
         <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-169" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=15;align=left;rounded=0;" value="&lt;p class=&quot;Alt2&quot; style=&quot;margin-left:0cm;text-indent:0cm;mso-list:none;tab-stops:&amp;lt;br/&amp;gt;40.0pt&quot;&gt;&lt;span lang=&quot;X-NONE&quot; style=&quot;font-family:&amp;quot;맑은 고딕&amp;quot;;mso-fareast-language:KO&quot;&gt;&amp;nbsp;~/etc/ini/MSSM/srmm.ut&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;Alt2&quot; style=&quot;margin-left:0cm;text-indent:0cm;mso-list:none;tab-stops:&amp;lt;br/&amp;gt;40.0pt&quot;&gt;&lt;span lang=&quot;X-NONE&quot; style=&quot;font-family:&amp;quot;맑은 고딕&amp;quot;;mso-fareast-language:KO&quot;&gt;&lt;span style=&quot;font-size: 13.3333px;&quot;&gt;# AKAv1-MD5 , AKAv2-SHA-256&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; text-indent: 0cm; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;default_aka_algorithm&amp;nbsp;= AKAv1-MD5&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 13.3333px;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="100" width="250" x="2594" y="1166" as="geometry" />
         </mxCell>
+        <mxCell id="fOWSotruzneALFKRiHZk-3" edge="1" parent="1" source="Ulhlj-FGAZ5WsYbvZ_q9-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fOWSotruzneALFKRiHZk-1" value="NO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-170" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=0;" value="RegReq-&amp;gt;Algorithm == AKAv2-SHA-256" vertex="1">
-          <mxGeometry height="40" width="200" x="1628" y="1102" as="geometry" />
+          <mxGeometry height="40" width="200" x="1380" y="1105" as="geometry" />
         </mxCell>
         <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-171" edge="1" parent="1" source="Ulhlj-FGAZ5WsYbvZ_q9-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.527;entryY=-0.001;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;entryPerimeter=0;" target="Ulhlj-FGAZ5WsYbvZ_q9-184">
           <mxGeometry relative="1" as="geometry">
@@ -1538,10 +1541,27 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-189" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=0;" value="RegReq-&amp;gt;Algorithm == AKAv1-MD5" vertex="1">
-          <mxGeometry height="40" width="200" x="1390" y="1102" as="geometry" />
+          <mxGeometry height="40" width="200" x="1134" y="1105" as="geometry" />
         </mxCell>
         <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-190" edge="1" parent="1" source="Ulhlj-FGAZ5WsYbvZ_q9-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.449;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="Ulhlj-FGAZ5WsYbvZ_q9-182">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOWSotruzneALFKRiHZk-4" edge="1" parent="1" source="fOWSotruzneALFKRiHZk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="fOWSotruzneALFKRiHZk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOWSotruzneALFKRiHZk-1" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=0;" value="RegReq-&amp;gt;Algorithm == NULL" vertex="1">
+          <mxGeometry height="40" width="200" x="1637" y="1105" as="geometry" />
+        </mxCell>
+        <mxCell id="fOWSotruzneALFKRiHZk-5" edge="1" parent="1" source="fOWSotruzneALFKRiHZk-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" target="Ulhlj-FGAZ5WsYbvZ_q9-182">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOWSotruzneALFKRiHZk-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;" value="get algorithm info from Configuration" vertex="1">
+          <mxGeometry height="40" width="215" x="1629" y="1195" as="geometry" />
+        </mxCell>
+        <mxCell id="fOWSotruzneALFKRiHZk-6" edge="1" parent="1" source="fOWSotruzneALFKRiHZk-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;entryX=0.479;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" target="Ulhlj-FGAZ5WsYbvZ_q9-184">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2088.76" y="1370" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
