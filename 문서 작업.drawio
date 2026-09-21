@@ -1650,7 +1650,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sGd1eyspzEqJ40B0Pzno" name="페이지-4">
-    <mxGraphModel dx="691" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2806" dy="1237" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1810,8 +1810,8 @@
             <mxPoint x="210" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KiUSJikOmznZWS--cdo8-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1st REGISTER가 IPSEC REGISTER,&lt;br&gt;state 가 REG_AUTH,&lt;br&gt;Request Port가 Normal port 일때" vertex="1">
-          <mxGeometry height="70" width="230" x="90" y="810" as="geometry" />
+        <mxCell id="KiUSJikOmznZWS--cdo8-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Security-Verify 없음,&lt;/div&gt;1st REGISTER가 IPSEC REGISTER,&lt;br&gt;state 가 REG_AUTH,&lt;br&gt;Request Port가 Normal port 일때" vertex="1">
+          <mxGeometry height="80" width="260" x="80" y="800" as="geometry" />
         </mxCell>
         <mxCell id="KiUSJikOmznZWS--cdo8-23" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="rMwnaLUduwd4Ahztp4cb-8" value="Delete Binding Info">
           <mxGeometry height="50" relative="1" width="50" x="-0.7574" y="-10" as="geometry">
@@ -1832,6 +1832,215 @@
         <mxCell id="KiUSJikOmznZWS--cdo8-25" connectable="0" parent="KiUSJikOmznZWS--cdo8-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="INSERT&lt;div&gt;Binding Info&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.38" y="-2" as="geometry">
             <mxPoint x="19" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="406 Not&amp;nbsp; Acceptable">
+          <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="210" y="1040" as="sourcePoint" />
+            <mxPoint x="10" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ARDF&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="-420" y="39" as="geometry" />
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ABSF&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="-700" y="39" as="geometry" />
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ARC" vertex="1">
+          <mxGeometry height="20" width="40" x="-670" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-30" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="KiUSJikOmznZWS--cdo8-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-650" y="1129" as="sourcePoint" />
+            <mxPoint x="-470" y="159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CSCF" vertex="1">
+          <mxGeometry height="40" width="100" x="-140" y="39" as="geometry" />
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-32" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="KiUSJikOmznZWS--cdo8-31" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-90" y="1129" as="sourcePoint" />
+            <mxPoint x="-87" y="79" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="IPSEC&lt;br&gt;1st REGISTER">
+          <mxGeometry height="50" relative="1" width="50" x="-0.1" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-850" y="199" as="sourcePoint" />
+            <mxPoint x="-650" y="199" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AREG" vertex="1">
+          <mxGeometry height="20" width="40" x="-390" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-35" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="KiUSJikOmznZWS--cdo8-34" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-370.1400000000001" y="1129.06" as="sourcePoint" />
+            <mxPoint x="-370" y="79" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-36" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-650" y="360" as="sourcePoint" />
+            <mxPoint x="-90" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-37" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="401 Unauthorized">
+          <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-380" y="400" />
+            </Array>
+            <mxPoint x="-90" y="400" as="sourcePoint" />
+            <mxPoint x="-650" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-38" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Regi Create Req">
+          <mxGeometry height="50" relative="1" width="50" y="9" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-650" y="440" as="sourcePoint" />
+            <mxPoint x="-370" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Regi Create Resp SUCC">
+          <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-370" y="521" as="sourcePoint" />
+            <mxPoint x="-650" y="521" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-40" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="401 Unauthorized">
+          <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-650" y="560" as="sourcePoint" />
+            <mxPoint x="-850" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-41" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="Normal&lt;br&gt;2nd REGISTER">
+          <mxGeometry height="50" relative="1" width="50" x="-0.1" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-850" y="640" as="sourcePoint" />
+            <mxPoint x="-650" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-42" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Regi Search Req">
+          <mxGeometry height="50" relative="1" width="50" y="9" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-650" y="240" as="sourcePoint" />
+            <mxPoint x="-370" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-43" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Regi Search Resp No REGI">
+          <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-370" y="320" as="sourcePoint" />
+            <mxPoint x="-650" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-44" edge="1" parent="1" source="KiUSJikOmznZWS--cdo8-46" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="Select Binding Info">
+          <mxGeometry height="50" relative="1" width="50" x="0.558" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-220" y="280" />
+            </Array>
+            <mxPoint x="-340" y="440" as="sourcePoint" />
+            <mxPoint x="-370" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-45" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="-270" y="453" as="geometry" />
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-46" parent="KiUSJikOmznZWS--cdo8-45" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="REGI_BINDING" vertex="1">
+          <mxGeometry height="80" width="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-47" parent="KiUSJikOmznZWS--cdo8-45" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ARDF" vertex="1">
+          <mxGeometry height="10" width="60" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-48" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Regi Search Req">
+          <mxGeometry height="50" relative="1" width="50" y="9" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-650" y="680" as="sourcePoint" />
+            <mxPoint x="-370" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-49" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Regi Search Resp SUCC">
+          <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-370" y="760" as="sourcePoint" />
+            <mxPoint x="-650" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-50" edge="1" parent="1" source="KiUSJikOmznZWS--cdo8-46" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;" value="Select Binding Info">
+          <mxGeometry height="50" relative="1" width="50" x="0.1759" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-300" y="505.5" />
+              <mxPoint x="-300" y="720" />
+            </Array>
+            <mxPoint x="-220" y="972" as="sourcePoint" />
+            <mxPoint x="-370" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-51" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="&amp;nbsp;Regi Delete Req">
+          <mxGeometry height="50" relative="1" width="50" y="9" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-650" y="920" as="sourcePoint" />
+            <mxPoint x="-370" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-52" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Regi Delete Resp">
+          <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-370" y="1000" as="sourcePoint" />
+            <mxPoint x="-650" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-54" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="KiUSJikOmznZWS--cdo8-46" value="Delete Binding Info">
+          <mxGeometry height="50" relative="1" width="50" x="-0.7574" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-220" y="960" />
+            </Array>
+            <mxPoint x="-370" y="960" as="sourcePoint" />
+            <mxPoint x="-310" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-55" edge="1" parent="1" source="KiUSJikOmznZWS--cdo8-46" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=27.5;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-420" y="660" as="sourcePoint" />
+            <mxPoint x="-370" y="480.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-56" connectable="0" parent="KiUSJikOmznZWS--cdo8-55" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="INSERT&lt;div&gt;Binding Info&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.38" y="-2" as="geometry">
+            <mxPoint x="19" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-57" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="200 Response">
+          <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-650" y="1100" as="sourcePoint" />
+            <mxPoint x="-850" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="None IPSec REGISTER,&lt;div&gt;1st REGISTER가 IPSEC REGISTER,&lt;/div&gt;&lt;div&gt;1st Normal Port REGISTER 가 들어왔다고 판단&lt;/div&gt;&lt;div&gt;&amp;nbsp;Binding Info 삭제 및 이후 로직 수행&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="300" x="-800" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-59" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-650" y="1040" as="sourcePoint" />
+            <mxPoint x="-90" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Authroization&amp;nbsp; 헤더에 response 값을 포함한 Non-IPSec Register 수행." vertex="1">
+          <mxGeometry height="20" width="400" x="-560" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-63" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="&amp;nbsp;200 OK&amp;nbsp;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-90" y="1080" as="sourcePoint" />
+            <mxPoint x="-650" y="1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
