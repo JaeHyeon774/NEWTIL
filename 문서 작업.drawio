@@ -1650,10 +1650,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sGd1eyspzEqJ40B0Pzno" name="페이지-4">
-    <mxGraphModel dx="1152" dy="1237" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="691" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KiUSJikOmznZWS--cdo8-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ARDF&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="440" y="39" as="geometry" />
+        </mxCell>
         <mxCell id="rMwnaLUduwd4Ahztp4cb-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ABSF&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="100" x="160" y="39" as="geometry" />
         </mxCell>
@@ -1666,13 +1669,13 @@
             <mxPoint x="390" y="159" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMwnaLUduwd4Ahztp4cb-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SCSF" vertex="1">
-          <mxGeometry height="40" width="100" x="530" y="39" as="geometry" />
+        <mxCell id="rMwnaLUduwd4Ahztp4cb-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CSCF" vertex="1">
+          <mxGeometry height="40" width="100" x="720" y="39" as="geometry" />
         </mxCell>
         <mxCell id="rMwnaLUduwd4Ahztp4cb-5" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="rMwnaLUduwd4Ahztp4cb-4" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="580" y="1129" as="sourcePoint" />
-            <mxPoint x="583" y="79" as="targetPoint" />
+            <mxPoint x="770" y="1129" as="sourcePoint" />
+            <mxPoint x="773" y="79" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rMwnaLUduwd4Ahztp4cb-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="IPSEC&lt;br&gt;1st REGISTER">
@@ -1682,19 +1685,122 @@
             <mxPoint x="210" y="199" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMwnaLUduwd4Ahztp4cb-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="213" y="479" as="sourcePoint" />
-            <mxPoint x="580" y="479" as="targetPoint" />
+        <mxCell id="Jd-F7uGbnUuq04LMlL1E-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=27.5;entryPerimeter=0;" target="rMwnaLUduwd4Ahztp4cb-8" value="INSERT&lt;div&gt;Binding Info&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.0769" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="490" y="481" as="sourcePoint" />
+            <mxPoint x="630" y="451" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMwnaLUduwd4Ahztp4cb-8" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="REGI_BINDING" vertex="1">
-          <mxGeometry height="80" width="100" x="350" y="209" as="geometry" />
+        <mxCell id="KiUSJikOmznZWS--cdo8-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AREG" vertex="1">
+          <mxGeometry height="20" width="40" x="470" y="59" as="geometry" />
         </mxCell>
-        <mxCell id="Jd-F7uGbnUuq04LMlL1E-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="rMwnaLUduwd4Ahztp4cb-8" value="INSERT Binding Info">
+        <mxCell id="KiUSJikOmznZWS--cdo8-2" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="KiUSJikOmznZWS--cdo8-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="210" y="249" as="sourcePoint" />
-            <mxPoint x="350" y="219" as="targetPoint" />
+            <mxPoint x="489.8599999999999" y="1129.06" as="sourcePoint" />
+            <mxPoint x="490" y="79" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="210" y="360" as="sourcePoint" />
+            <mxPoint x="770" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="401 Unauthorized">
+          <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="480" y="400" />
+            </Array>
+            <mxPoint x="770" y="400" as="sourcePoint" />
+            <mxPoint x="210" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Regi Create Req">
+          <mxGeometry height="50" relative="1" width="50" y="9" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="210" y="440" as="sourcePoint" />
+            <mxPoint x="490" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Regi Create Resp SUCC">
+          <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="490" y="521" as="sourcePoint" />
+            <mxPoint x="210" y="521" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="401 Unauthorized">
+          <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="210" y="560" as="sourcePoint" />
+            <mxPoint x="10" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="Normal&lt;br&gt;2nd REGISTER">
+          <mxGeometry height="50" relative="1" width="50" x="-0.1" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="10" y="640" as="sourcePoint" />
+            <mxPoint x="210" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Regi Search Req">
+          <mxGeometry height="50" relative="1" width="50" y="9" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="210" y="240" as="sourcePoint" />
+            <mxPoint x="490" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Regi Search Resp No REGI">
+          <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="490" y="320" as="sourcePoint" />
+            <mxPoint x="210" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-14" edge="1" parent="1" source="rMwnaLUduwd4Ahztp4cb-8" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="Select Binding Info">
+          <mxGeometry height="50" relative="1" width="50" x="0.558" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="640" y="280" />
+            </Array>
+            <mxPoint x="520" y="440" as="sourcePoint" />
+            <mxPoint x="490" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-15" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="590" y="453" as="geometry" />
+        </mxCell>
+        <mxCell id="rMwnaLUduwd4Ahztp4cb-8" parent="KiUSJikOmznZWS--cdo8-15" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="REGI_BINDING" vertex="1">
+          <mxGeometry height="80" width="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-5" parent="KiUSJikOmznZWS--cdo8-15" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ARDF" vertex="1">
+          <mxGeometry height="10" width="60" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Regi Search Req">
+          <mxGeometry height="50" relative="1" width="50" y="9" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="210" y="680" as="sourcePoint" />
+            <mxPoint x="490" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Regi Search Resp SUCC">
+          <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="490" y="760" as="sourcePoint" />
+            <mxPoint x="210" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-18" edge="1" parent="1" source="rMwnaLUduwd4Ahztp4cb-8" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;" value="Select Binding Info">
+          <mxGeometry height="50" relative="1" width="50" x="0.1759" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="560" y="505.5" />
+              <mxPoint x="560" y="720" />
+            </Array>
+            <mxPoint x="640" y="972" as="sourcePoint" />
+            <mxPoint x="490" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
