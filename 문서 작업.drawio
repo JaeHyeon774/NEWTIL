@@ -1685,13 +1685,6 @@
             <mxPoint x="210" y="199" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jd-F7uGbnUuq04LMlL1E-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=27.5;entryPerimeter=0;" target="rMwnaLUduwd4Ahztp4cb-8" value="INSERT&lt;div&gt;Binding Info&lt;/div&gt;">
-          <mxGeometry height="50" relative="1" width="50" x="0.0769" y="20" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="490" y="481" as="sourcePoint" />
-            <mxPoint x="630" y="451" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="KiUSJikOmznZWS--cdo8-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AREG" vertex="1">
           <mxGeometry height="20" width="40" x="470" y="59" as="geometry" />
         </mxCell>
@@ -1801,6 +1794,44 @@
             </Array>
             <mxPoint x="640" y="972" as="sourcePoint" />
             <mxPoint x="490" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="&amp;nbsp;Regi Delete Req">
+          <mxGeometry height="50" relative="1" width="50" y="9" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="210" y="920" as="sourcePoint" />
+            <mxPoint x="490" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Regi Delete Resp">
+          <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="490" y="1000" as="sourcePoint" />
+            <mxPoint x="210" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1st REGISTER가 IPSEC REGISTER,&lt;br&gt;state 가 REG_AUTH,&lt;br&gt;Request Port가 Normal port 일때" vertex="1">
+          <mxGeometry height="70" width="230" x="90" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-23" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="rMwnaLUduwd4Ahztp4cb-8" value="Delete Binding Info">
+          <mxGeometry height="50" relative="1" width="50" x="-0.7574" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="640" y="960" />
+            </Array>
+            <mxPoint x="490" y="960" as="sourcePoint" />
+            <mxPoint x="550" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-24" edge="1" parent="1" source="rMwnaLUduwd4Ahztp4cb-8" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=27.5;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="660" as="sourcePoint" />
+            <mxPoint x="490" y="480.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KiUSJikOmznZWS--cdo8-25" connectable="0" parent="KiUSJikOmznZWS--cdo8-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="INSERT&lt;div&gt;Binding Info&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.38" y="-2" as="geometry">
+            <mxPoint x="19" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
