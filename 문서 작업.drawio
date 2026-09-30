@@ -1035,7 +1035,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_I-Le-KXJEqOLWPJb5xi" name="페이지-2">
-    <mxGraphModel dx="778" dy="619" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1014" dy="743" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1238,7 +1238,7 @@
             <mxPoint x="990" y="324" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-112" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;algorithm == AKAv1-MD5&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-112" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;algorithm == AKAv1-MD5&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="290" x="585" y="164" as="geometry" />
         </mxCell>
         <mxCell id="Ulhlj-FGAZ5WsYbvZ_q9-113" edge="1" parent="1" source="Ulhlj-FGAZ5WsYbvZ_q9-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Ulhlj-FGAZ5WsYbvZ_q9-117">
@@ -2343,7 +2343,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Gwp4p5Q7bvwFIahDz9bS" name="페이지-6">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2390,8 +2390,8 @@
         </mxCell>
         <mxCell id="We0T_e_CU-gVjlBmLtMs-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="380" y="280" as="sourcePoint" />
-            <mxPoint x="660" y="280" as="targetPoint" />
+            <mxPoint x="380" y="240" as="sourcePoint" />
+            <mxPoint x="660" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="We0T_e_CU-gVjlBmLtMs-15" connectable="0" parent="We0T_e_CU-gVjlBmLtMs-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="MAR" vertex="1">
@@ -2402,21 +2402,21 @@
         <mxCell id="We0T_e_CU-gVjlBmLtMs-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="MAA">
           <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="660" y="320" as="sourcePoint" />
-            <mxPoint x="380" y="320" as="targetPoint" />
+            <mxPoint x="660" y="280" as="sourcePoint" />
+            <mxPoint x="380" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="We0T_e_CU-gVjlBmLtMs-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="401 Challenge">
           <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="380" y="480" as="sourcePoint" />
-            <mxPoint x="100" y="480" as="targetPoint" />
+            <mxPoint x="380" y="400" as="sourcePoint" />
+            <mxPoint x="100" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="We0T_e_CU-gVjlBmLtMs-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="100" y="560" as="sourcePoint" />
-            <mxPoint x="380" y="560" as="targetPoint" />
+            <mxPoint x="100" y="440" as="sourcePoint" />
+            <mxPoint x="380" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="We0T_e_CU-gVjlBmLtMs-20" connectable="0" parent="We0T_e_CU-gVjlBmLtMs-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2nd REGISTER" vertex="1">
@@ -2424,20 +2424,41 @@
             <mxPoint x="-72" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="We0T_e_CU-gVjlBmLtMs-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Calc Response" vertex="1">
-          <mxGeometry height="40" width="100" x="330" y="580" as="geometry" />
+        <mxCell id="We0T_e_CU-gVjlBmLtMs-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Auth Info 조회 및&lt;div&gt;Auth 정보 기반 Response 계산&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="180" x="290" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="We0T_e_CU-gVjlBmLtMs-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Set MAR Scheme&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AKAv1-MD5: &lt;b&gt;Digest-AKAv1--MD5&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;MD5: &lt;b&gt;SIP Digest&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="190" x="285" y="190" as="geometry" />
+        <mxCell id="We0T_e_CU-gVjlBmLtMs-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div style=&quot;&quot;&gt;MAR 메시지 구성&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="320" y="190" as="geometry" />
         </mxCell>
         <mxCell id="We0T_e_CU-gVjlBmLtMs-26" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="60" width="100" x="470" y="360" as="geometry" />
+          <mxGeometry height="60" width="100" x="530" y="310" as="geometry" />
         </mxCell>
         <mxCell id="We0T_e_CU-gVjlBmLtMs-24" parent="We0T_e_CU-gVjlBmLtMs-26" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="AUTHINFO" vertex="1">
           <mxGeometry height="60" width="100" as="geometry" />
         </mxCell>
         <mxCell id="We0T_e_CU-gVjlBmLtMs-25" parent="We0T_e_CU-gVjlBmLtMs-26" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="DB" vertex="1">
           <mxGeometry height="30" width="60" x="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSBCQMqn08KEMUHfwDzE-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Auth Info&amp;nbsp; 저장 및 401 Challenge 생성" vertex="1">
+          <mxGeometry height="40" width="120" x="320" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSBCQMqn08KEMUHfwDzE-5" edge="1" parent="1" source="ZSBCQMqn08KEMUHfwDzE-3" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="We0T_e_CU-gVjlBmLtMs-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="470" as="sourcePoint" />
+            <mxPoint x="540" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSBCQMqn08KEMUHfwDzE-6" edge="1" parent="1" source="We0T_e_CU-gVjlBmLtMs-21" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="We0T_e_CU-gVjlBmLtMs-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="490" />
+            </Array>
+            <mxPoint x="490" y="390" as="sourcePoint" />
+            <mxPoint x="580" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSBCQMqn08KEMUHfwDzE-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="이후 로직 수행" vertex="1">
+          <mxGeometry height="30" width="100" x="330" y="530" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
