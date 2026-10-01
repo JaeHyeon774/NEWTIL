@@ -1035,7 +1035,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_I-Le-KXJEqOLWPJb5xi" name="페이지-2">
-    <mxGraphModel dx="1014" dy="743" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2359,122 +2359,201 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Gwp4p5Q7bvwFIahDz9bS" name="페이지-6">
-    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="975" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="We0T_e_CU-gVjlBmLtMs-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SRDF&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="120" x="320" y="40" as="geometry" />
+          <mxGeometry height="50" width="120" x="360" y="40" as="geometry" />
         </mxCell>
         <mxCell id="We0T_e_CU-gVjlBmLtMs-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MREGR" vertex="1">
-          <mxGeometry height="20" width="60" x="350" y="70" as="geometry" />
+          <mxGeometry height="20" width="60" x="390" y="70" as="geometry" />
         </mxCell>
         <mxCell id="We0T_e_CU-gVjlBmLtMs-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="UE" vertex="1">
           <mxGeometry height="50" width="120" x="40" y="40" as="geometry" />
         </mxCell>
         <mxCell id="We0T_e_CU-gVjlBmLtMs-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HSS" vertex="1">
-          <mxGeometry height="50" width="120" x="600" y="40" as="geometry" />
+          <mxGeometry height="50" width="120" x="680" y="40" as="geometry" />
         </mxCell>
         <mxCell id="We0T_e_CU-gVjlBmLtMs-9" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="We0T_e_CU-gVjlBmLtMs-7" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="100" y="1050" as="sourcePoint" />
+            <mxPoint x="100" y="880" as="sourcePoint" />
             <mxPoint x="150" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="We0T_e_CU-gVjlBmLtMs-10" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="We0T_e_CU-gVjlBmLtMs-6" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="380" y="1050" as="sourcePoint" />
-            <mxPoint x="380" y="90" as="targetPoint" />
+            <mxPoint x="420" y="880" as="sourcePoint" />
+            <mxPoint x="420" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="We0T_e_CU-gVjlBmLtMs-11" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="We0T_e_CU-gVjlBmLtMs-8" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="659.83" y="1050" as="sourcePoint" />
-            <mxPoint x="659.83" y="90" as="targetPoint" />
+            <mxPoint x="740" y="880" as="sourcePoint" />
+            <mxPoint x="739.83" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="We0T_e_CU-gVjlBmLtMs-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="100" y="160" as="sourcePoint" />
-            <mxPoint x="380" y="160" as="targetPoint" />
+            <mxPoint x="420" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="We0T_e_CU-gVjlBmLtMs-13" connectable="0" parent="We0T_e_CU-gVjlBmLtMs-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1st REGISTER" vertex="1">
+        <mxCell id="We0T_e_CU-gVjlBmLtMs-13" connectable="0" parent="We0T_e_CU-gVjlBmLtMs-12" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="1st REGISTER&lt;div&gt;(Authorization: algorithm=AKAv1-MD5)&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.5135" y="1" as="geometry">
-            <mxPoint x="-72" y="-9" as="offset" />
+            <mxPoint x="-233" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="We0T_e_CU-gVjlBmLtMs-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="380" y="240" as="sourcePoint" />
-            <mxPoint x="660" y="240" as="targetPoint" />
+            <mxPoint x="420" y="299.31" as="sourcePoint" />
+            <mxPoint x="740" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="We0T_e_CU-gVjlBmLtMs-15" connectable="0" parent="We0T_e_CU-gVjlBmLtMs-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="MAR" vertex="1">
+        <mxCell id="We0T_e_CU-gVjlBmLtMs-15" connectable="0" parent="We0T_e_CU-gVjlBmLtMs-14" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="Cx-MAR&lt;br&gt;(SIP-Authentication-Scheme: Digest-AKAv1-MD5)" vertex="1">
           <mxGeometry relative="1" x="0.2475" y="1" as="geometry">
-            <mxPoint x="-34" y="-9" as="offset" />
+            <mxPoint x="-190" y="-19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="We0T_e_CU-gVjlBmLtMs-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="MAA">
-          <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
+        <mxCell id="We0T_e_CU-gVjlBmLtMs-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;align=left;" value="Cx-MAA&lt;br&gt;(Authentication-Data: AKA Vector)">
+          <mxGeometry height="50" relative="1" width="50" x="0.9286" y="-20" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="660" y="280" as="sourcePoint" />
-            <mxPoint x="380" y="280" as="targetPoint" />
+            <mxPoint x="740" y="410.69" as="sourcePoint" />
+            <mxPoint x="420" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="We0T_e_CU-gVjlBmLtMs-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="401 Challenge">
-          <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="380" y="400" as="sourcePoint" />
-            <mxPoint x="100" y="400" as="targetPoint" />
+        <mxCell id="We0T_e_CU-gVjlBmLtMs-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;align=left;" value="SIP 401 Unauthorized&lt;br&gt;&lt;div&gt;(WWW-Authenticate: algorithm=AKAv1-MD5, nonce, ...)&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.9286" y="-20" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <mxPoint x="420" y="550" as="sourcePoint" />
+            <mxPoint x="100" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="We0T_e_CU-gVjlBmLtMs-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="100" y="440" as="sourcePoint" />
-            <mxPoint x="380" y="440" as="targetPoint" />
+            <mxPoint x="100" y="630" as="sourcePoint" />
+            <mxPoint x="420" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="We0T_e_CU-gVjlBmLtMs-20" connectable="0" parent="We0T_e_CU-gVjlBmLtMs-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2nd REGISTER" vertex="1">
+        <mxCell id="We0T_e_CU-gVjlBmLtMs-20" connectable="0" parent="We0T_e_CU-gVjlBmLtMs-19" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="2nd REGISTER&lt;div&gt;(Authorization: algorithm=AKAv1-MD5, response=&quot;...&quot;)&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.5135" y="1" as="geometry">
-            <mxPoint x="-72" y="-9" as="offset" />
+            <mxPoint x="-233" y="-19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="We0T_e_CU-gVjlBmLtMs-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Auth Info 조회 및&lt;div&gt;Auth 정보 기반 Response 계산&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="180" x="290" y="470" as="geometry" />
+        <mxCell id="We0T_e_CU-gVjlBmLtMs-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" value="AKAv1-MD5&amp;nbsp; 에 대한&amp;nbsp; response 계산&lt;div&gt;Requset 의 response 와 계산한 response 비교&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="270" x="285" y="670" as="geometry" />
         </mxCell>
-        <mxCell id="We0T_e_CU-gVjlBmLtMs-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div style=&quot;&quot;&gt;MAR 메시지 구성&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="120" x="320" y="190" as="geometry" />
+        <mxCell id="We0T_e_CU-gVjlBmLtMs-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div style=&quot;&quot;&gt;algorithm 값이 AKAv1-MD5 일 때,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;MAR SIP-Authentication-Scheme 값을&lt;br&gt;Digest-AKAv1-MD5 로 설정&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="310" y="190" as="geometry" />
         </mxCell>
-        <mxCell id="We0T_e_CU-gVjlBmLtMs-26" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="60" width="100" x="530" y="310" as="geometry" />
+        <mxCell id="ZSBCQMqn08KEMUHfwDzE-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" value="AKA Vector의&amp;nbsp; Scheme 값 확인&lt;div&gt;Digest-AKAv1-MD5&amp;nbsp; 일 때, &lt;br&gt;Challenge Response의 Algorithm: AKAv1-MD5 로 결정&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="310" x="265" y="440.69" as="geometry" />
         </mxCell>
-        <mxCell id="We0T_e_CU-gVjlBmLtMs-24" parent="We0T_e_CU-gVjlBmLtMs-26" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="AUTHINFO" vertex="1">
-          <mxGeometry height="60" width="100" as="geometry" />
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AKA Vector 생성" vertex="1">
+          <mxGeometry height="30" width="120" x="680" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="We0T_e_CU-gVjlBmLtMs-25" parent="We0T_e_CU-gVjlBmLtMs-26" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="DB" vertex="1">
-          <mxGeometry height="30" width="60" x="20" as="geometry" />
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-41" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="200OK">
+          <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="420" y="760" as="sourcePoint" />
+            <mxPoint x="100" y="760" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ZSBCQMqn08KEMUHfwDzE-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Auth Info&amp;nbsp; 저장 및 401 Challenge 생성" vertex="1">
-          <mxGeometry height="40" width="120" x="320" y="320" as="geometry" />
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SRDF&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="1360" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZSBCQMqn08KEMUHfwDzE-5" edge="1" parent="1" source="ZSBCQMqn08KEMUHfwDzE-3" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="We0T_e_CU-gVjlBmLtMs-24" value="">
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MREGR" vertex="1">
+          <mxGeometry height="20" width="60" x="1390" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="UE" vertex="1">
+          <mxGeometry height="50" width="120" x="1040" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HSS" vertex="1">
+          <mxGeometry height="50" width="120" x="1680" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-66" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="YCQdSBtirDnNSD1xeoEf-64" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="490" y="470" as="sourcePoint" />
-            <mxPoint x="540" y="420" as="targetPoint" />
+            <mxPoint x="1100" y="880" as="sourcePoint" />
+            <mxPoint x="1150" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZSBCQMqn08KEMUHfwDzE-6" edge="1" parent="1" source="We0T_e_CU-gVjlBmLtMs-21" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="We0T_e_CU-gVjlBmLtMs-24" value="">
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-67" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="YCQdSBtirDnNSD1xeoEf-63" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="580" y="490" />
-            </Array>
-            <mxPoint x="490" y="390" as="sourcePoint" />
-            <mxPoint x="580" y="390" as="targetPoint" />
+            <mxPoint x="1420" y="880" as="sourcePoint" />
+            <mxPoint x="1420" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZSBCQMqn08KEMUHfwDzE-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="이후 로직 수행" vertex="1">
-          <mxGeometry height="30" width="100" x="330" y="530" as="geometry" />
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-68" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="YCQdSBtirDnNSD1xeoEf-65" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1740" y="880" as="sourcePoint" />
+            <mxPoint x="1739.83" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-69" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1100" y="160" as="sourcePoint" />
+            <mxPoint x="1420" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-70" connectable="0" parent="YCQdSBtirDnNSD1xeoEf-69" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="1st REGISTER&lt;div&gt;(Authorization: algorithm=AKAv2-SHA-256)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5135" y="1" as="geometry">
+            <mxPoint x="-233" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-71" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1420" y="299.31" as="sourcePoint" />
+            <mxPoint x="1740" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-72" connectable="0" parent="YCQdSBtirDnNSD1xeoEf-71" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="Cx-MAR&lt;br&gt;(SIP-Authentication-Scheme: Digest-AKAv1-MD5)" vertex="1">
+          <mxGeometry relative="1" x="0.2475" y="1" as="geometry">
+            <mxPoint x="-190" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-73" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;align=left;" value="Cx-MAA&lt;br&gt;(Authentication-Data: AKA Vector)">
+          <mxGeometry height="50" relative="1" width="50" x="0.9286" y="-20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1740" y="410.69" as="sourcePoint" />
+            <mxPoint x="1420" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-74" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;align=left;" value="SIP 401 Unauthorized&lt;br&gt;&lt;div&gt;(WWW-Authenticate: algorithm=AKAv2-SHA-256, nonce, ...)&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" x="0.9286" y="-20" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <mxPoint x="1420" y="610" as="sourcePoint" />
+            <mxPoint x="1100" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-75" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1100" y="690" as="sourcePoint" />
+            <mxPoint x="1420" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-76" connectable="0" parent="YCQdSBtirDnNSD1xeoEf-75" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="2nd REGISTER&lt;div&gt;(Authorization: algorithm=AKAv2-SHA-256, response=&quot;...&quot;)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5135" y="1" as="geometry">
+            <mxPoint x="-233" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" value="AKAv2-SHA-256 에 대한&amp;nbsp; response 계산&lt;div&gt;Requset 의 response 와 계산한 response 비교&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="270" x="1285" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div style=&quot;&quot;&gt;algorithm 값이 AKAv1-SHA-256 일 때,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;MAR SIP-Authentication-Scheme 값을&lt;br&gt;Digest-AKAv1-MD5 로 설정&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="1310" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" value="AKA Vector의&amp;nbsp; Scheme 값 확인&lt;div&gt;Digest-AKAv1-MD5&amp;nbsp; 일 때,&lt;/div&gt;&lt;div&gt;Request 의 algorithm 값 확인하여&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Challenge Response 값 결정&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- AKAv1-MD5: AKAv1-MD5 로 결정&lt;/div&gt;&lt;div&gt;&amp;nbsp;- AKAv2-SHA-256: AKAv2-SHA-256 으로 결정&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- NULL: 설정의 default_aka_algorithm 값으로 결정&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="345" x="1247.5" y="440.69" as="geometry" />
+        </mxCell>
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-80" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AKA Vector 생성" vertex="1">
+          <mxGeometry height="30" width="120" x="1680" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="YCQdSBtirDnNSD1xeoEf-81" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="200OK">
+          <mxGeometry height="50" relative="1" width="50" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1420" y="820" as="sourcePoint" />
+            <mxPoint x="1100" y="820" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
