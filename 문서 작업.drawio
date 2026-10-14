@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="6">
+<mxfile host="app.diagrams.net" pages="7">
   <diagram name="페이지-1" id="INAla1IkwKiJg4I5cdml">
     <mxGraphModel dx="813" dy="873" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2548,6 +2548,57 @@
             <mxPoint as="offset" />
             <mxPoint x="2558" y="807" as="sourcePoint" />
             <mxPoint x="2238" y="807" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rckKGYu-xoTAHmRmnlSw" name="페이지-7">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w3N6x_1yuA4qPIZkN9Ws-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="UE" vertex="1">
+          <mxGeometry height="40" width="80" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w3N6x_1yuA4qPIZkN9Ws-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MPSIPX" vertex="1">
+          <mxGeometry height="40" width="80" x="480" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w3N6x_1yuA4qPIZkN9Ws-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="240" as="sourcePoint" />
+            <mxPoint x="520" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w3N6x_1yuA4qPIZkN9Ws-4" connectable="0" parent="w3N6x_1yuA4qPIZkN9Ws-3" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="REGISTER sip:registrar.lte-lguplus.co.kr SIP/2.0&lt;div&gt;...&lt;/div&gt;&lt;div&gt;Authorization: Digest username=&quot;...&quot;, realm=&quot;...&quot;, nonce=&quot;&quot;, uri=&quot;...&quot;&lt;/div&gt;&lt;div&gt;User-Agent: TTA-VoLTE/2.0 ...&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1543" y="3" as="geometry">
+            <mxPoint x="-159" y="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w3N6x_1yuA4qPIZkN9Ws-5" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="w3N6x_1yuA4qPIZkN9Ws-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="410" as="sourcePoint" />
+            <mxPoint x="290" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w3N6x_1yuA4qPIZkN9Ws-6" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="w3N6x_1yuA4qPIZkN9Ws-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="519.71" y="410" as="sourcePoint" />
+            <mxPoint x="519.71" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w3N6x_1yuA4qPIZkN9Ws-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" value="&amp;nbsp;process_sbc_ipsec 설정 값 OFF Check&lt;div&gt;REGISTER 메시지 User-Agent TTA Check&lt;/div&gt;&lt;div&gt;Authorization 헤더 algorithm 파라미터 부재 Check&lt;/div&gt;&lt;div&gt;process_add_algorithm 설정 ON Check&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="270" x="385" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="w3N6x_1yuA4qPIZkN9Ws-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="400" as="sourcePoint" />
+            <mxPoint x="640" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w3N6x_1yuA4qPIZkN9Ws-9" connectable="0" parent="w3N6x_1yuA4qPIZkN9Ws-8" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="REGISTER sip:registrar.lte-lguplus.co.kr SIP/2.0&lt;div&gt;...&lt;/div&gt;&lt;div&gt;Authorization: Digest username=&quot;...&quot;, realm=&quot;...&quot;, nonce=&quot;&quot;, uri=&quot;...&quot;, &lt;b style=&quot;color: rgb(255, 0, 0);&quot;&gt;algorithm=&quot;AKAV1-MD5&quot;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;User-Agent: TTA-VoLTE/2.0 ...&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1543" y="3" as="geometry">
+            <mxPoint x="-41" y="-27" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
